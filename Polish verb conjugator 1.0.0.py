@@ -33,11 +33,20 @@ def zebrac(word):
     print(conjugated_form)
 
 #stać category
-stac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
+stac_suffix = ["oję", "oisz", "oi", "oimy", "oicie", "oją"]
 
 def stac(word):
-  stem = word[:-1]
+  stem = word[:-2]
   for suffix in stac_suffix:
+    conjugated_form = stem + suffix
+    print(conjugated_form)
+
+#stanąć category
+stanac_suffix = ["ę", "iesz", "ie", "iemy", "iecie", "ą"]
+
+def stanac(word):
+  stem = word[:-2]
+  for suffix in stanac_suffix:
     conjugated_form = stem + suffix
     print(conjugated_form)
 
@@ -241,6 +250,25 @@ def byc(word):
   for form in byc_forms:
     print(form)
 
+#iść/-jść category
+
+isc_suffix = ["dę", "dziesz", "dzie", "dziemy", "dziecie", "dą"]
+
+def isc(word):
+  stem = word[:-2]
+  for suffix in isc_suffix:
+    conjugated_form = stem + suffix
+    print(conjugated_form)
+
+#jeździć exception
+jezdzic_suffix = ["żdżę", "ździsz", "ździ", "ździmy", "ździcie", "żdżą"]
+
+def jezdzic(word):
+  stem = word[:-5]
+  for suffix in jezdzic_suffix:
+    conjugated_form = stem + suffix
+    print(conjugated_form)
+
 #<< verb categories end here >>
 
 #input form
@@ -248,70 +276,78 @@ word = input("Enter a Polish verb here (no 'się' necessary): ")
 
 #<< checker starts here >>
 
-if word.endswith("ać") or word.endswith("ac"):
+if word.endswith("ać") or word.endswith("ac") or word.endswith("ąć") or word.endswith("ąc") or word.endswith("ać"):
   if word.endswith("ować") or word.endswith("owac") or word.endswith("iwać") or word.endswith("iwac") or word.endswith("ywać") or word.endswith("ywac"):
-    pracowac(word)  #pracować, pracuję
+    pracowac(word) #pracować, pracuję
   elif word.endswith("ebrać") or word.endswith("ebrac"):
-    zebrac(word)  #zebrać, zbiorę
+    zebrac(word) #zebrać, zbiorę
   elif word.endswith("brać") or word.endswith("brac"):
-    brac(word)  #brać, biorę
+    brac(word) #brać, biorę
   elif word.endswith("stać") or word.endswith("stac"):
-    stac(word)  #stać, stanę
+    stac(word) #stać, stoję
+  elif word.endswith("stanąć") or word.endswith("stanąc") or word.endswith("stanać") or word.endswith("stanac"):
+    stanac(word) #stanąć, stanę
   elif word.endswith("isać") or word.endswith("isac"):
     pisac(word) #pisać, piszę
   elif word.endswith("amać") or word.endswith("amac"):
     klamac(word) #kłamać, kłamię
   elif word.endswith("jechać") or word.endswith("jechac"):
-    jechac(word)  #jechać, jadę, jedziesz
+    jechac(word) #jechać, jadę, jedziesz
   else:
-    czytac(word)  #czytać, czytam
+    czytac(word) #czytać, czytam
 elif word.endswith("eć") or word.endswith("ec") or word.endswith(
     "eść") or word.endswith("esc") or word.endswith(
     "eźć") or word.endswith("ezc"):
   if word.endswith("mrzeć") or word.endswith("mrzec"):
-    umrzec(word)  #umrzeć, umrę
+    umrzec(word) #umrzeć, umrę
   elif word.endswith("wiedzieć") or word.endswith("wiedziec"):
-    wiedziec(word)  #powiedzieć, powiem
+    wiedziec(word) #powiedzieć, powiem
   elif word.endswith("jeść") or word.endswith("jesc"):
-    jesc(word)  #jeść, jem
+    jesc(word) #jeść, jem
   elif word.endswith("czeć") or word.endswith("czec") or word.endswith(
-      "rzeć") or word.endswith("rzec"):
-    patrzec(word)  #patrzeć, patrzę
+"rzeć") or word.endswith("rzec"):
+    patrzec(word) #patrzeć, patrzę
   elif word.endswith("umieć") or word.endswith("umiec"):
-    rozumiec(word)  #rozumieć, rozumiem
+    rozumiec(word) #rozumieć, rozumiem
   elif word.endswith("wieść") or word.endswith("wiesc"):
-    wiesc(word)  #wieść, wiodę
+    wiesc(word) #wieść, wiodę
   elif word.endswith("wieźć") or word.endswith("wiezc"):
-    wiezc(word)  #wieźć, wiozę
+    wiezc(word) #wieźć, wiozę
   elif word.endswith("nieść") or word.endswith("niesc"):
-    niesc(word)  #nieść, niosę
+    niesc(word) #nieść, niosę
   elif word.endswith("mnieć") or word.endswith("mniec"):
-    zapomniec(word)
+    zapomniec(word) #zapomnieć, zapomnę
   elif word.endswith(("leć")) or word.endswith("lec"):
-    myslec(word)
+    myslec(word) #myśleć, myślę
   elif word == "chcieć" or word == "chciec":
-    chciec(word)
+    chciec(word) #chcieć, chcę
   elif word == "mieć" or word == "miec":
     miec(word)  #mieć, mam
   elif word == "wiedzieć" or word == "wiedziec":
     wiedziec(word)  #wiedzieć, wiem
   else:
     chciec(word)  #chcieć, chcę
-elif word.endswith("ić") or word.endswith("ic") or word.endswith("yć") or word.endswith("yc"):
+elif word.endswith("ić") or word.endswith("ic") or word.endswith("yć") or word.endswith("yc") or word.endswith("iść") or word.endswith("isc") or word.endswith("iśc") or word.endswith("isć") or word.endswith("jść") or word.endswith("jsc") or word.endswith("jśc") or word.endswith("jsć"):
   if len(word) <= 3:
     if word.endswith("ić") or word.endswith("ic") or word.endswith("żyć") or word.endswith("zyc"):
-        pic(word)
+      pic(word) #pić, piję
+    elif word == "być" or word == "byc":
+      byc(word) #być, jestem
+    elif word.endswith("iść") or word.endswith("isc") or word.endswith("iśc") or word.endswith("isć"):
+      isc(word) #iść, idę
   else:
     if word.endswith("zyć") or word.endswith("zyc"):
-        tworzyc(word)
+      tworzyc(word) #żyć, żyję
     elif word.endswith("odzić") or word.endswith("odzic"):
-        chodzic(word)
+      chodzic(word) #chodzić, chodzę
+    elif word.endswith("ździć") or word.endswith("zdzic") or word.endswith("ździc") or word.endswith("zdzić"):
+      jezdzic(word)
     elif word.endswith("osić") or word.endswith("osic"):
-        nosic(word)
-    elif word == "być" or word == "byc":
-        byc(word)
+      nosic(word) #nosić, noszę
+    elif word.endswith("iść") or word.endswith("isc") or word.endswith("iśc") or word.endswith("isć") or word.endswith("jść") or word.endswith("jsc") or word.endswith("jśc") or word.endswith("jsć"):
+      isc(word) #iść, idę (pójść, pójdę)
     else:
-        robic(word)
+        robic(word) #robić, robię
 else:
   print("Try again.")
 
