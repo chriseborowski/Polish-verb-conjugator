@@ -187,12 +187,21 @@ def wiedziec(word):
     conjugated_form = stem + suffix
     print(conjugated_form)
 
-#nieść exception
+#nieść category
 niesc_suffix = ["osę", "esiesz", "esie", "esiemy", "esiecie", "osą"]
 
 def niesc(word):
   stem = word[:-3]
   for suffix in niesc_suffix:
+    conjugated_form = stem + suffix
+    print(conjugated_form)
+
+#pleść category
+plesc_suffix = ["otę", "eciesz", "ecie", "eciemy", "eciecie", "otą"]
+
+def plesc(word):
+  stem = word[:-3]
+  for suffix in plesc_suffix:
     conjugated_form = stem + suffix
     print(conjugated_form)
 
@@ -315,6 +324,8 @@ elif word.endswith("eć") or word.endswith("ec") or word.endswith(
     wiezc(word) #wieźć, wiozę
   elif word.endswith("nieść") or word.endswith("niesc"):
     niesc(word) #nieść, niosę
+  elif word.endswith("pleść") or word.endswith("plesc"):
+    plesc(word) #pleść, plotę
   elif word.endswith("mnieć") or word.endswith("mniec"):
     zapomniec(word) #zapomnieć, zapomnę
   elif word.endswith(("leć")) or word.endswith("lec"):
