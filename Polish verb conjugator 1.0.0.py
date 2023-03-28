@@ -285,7 +285,7 @@ if word.endswith("ać") or word.endswith("ac") or word.endswith("ąć") or word.
     brac(word) #brać, biorę
   elif word.endswith("stać") or word.endswith("stac"):
     stac(word) #stać, stoję
-  elif word.endswith("stanąć") or word.endswith("stanąc") or word.endswith("stanać") or word.endswith("stanac"):
+  elif word.endswith("nąć") or word.endswith("nąc") or word.endswith("nać") or word.endswith("nac"):
     stanac(word) #stanąć, stanę
   elif word.endswith("isać") or word.endswith("isac"):
     pisac(word) #pisać, piszę
