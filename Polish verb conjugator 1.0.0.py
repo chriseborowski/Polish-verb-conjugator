@@ -286,7 +286,9 @@ word = input("Enter a Polish verb here (no 'się' necessary): ")
 #<< checker starts here >>
 
 if word.endswith("ać") or word.endswith("ac") or word.endswith("ąć") or word.endswith("ąc") or word.endswith("ać"):
-  if word.endswith("ować") or word.endswith("owac") or word.endswith("iwać") or word.endswith("iwac") or word.endswith("ywać") or word.endswith("ywac"):
+  if word.endswith("żywać") or word.endswith("zywac") or word.endswith("żywac") or word.endswith("zywac"):
+    czytac(word)
+  elif word.endswith("ować") or word.endswith("owac") or word.endswith("iwać") or word.endswith("iwac") or word.endswith("ywać") or word.endswith("ywac"):
     pracowac(word) #pracować, pracuję
   elif word.endswith("ebrać") or word.endswith("ebrac"):
     zebrac(word) #zebrać, zbiorę
