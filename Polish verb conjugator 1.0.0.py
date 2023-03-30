@@ -250,6 +250,15 @@ def nosic(word):
     conjugated_form = stem + suffix
     print(conjugated_form)
 
+#mielić category
+mielic_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
+
+def mielic(word):
+  stem = word[:-2]
+  for suffix in mielic_suffix:
+    conjugated_form = stem + suffix
+    print(conjugated_form)
+
 #robić category
 robic_suffix = ["ę", "sz", "", "my", "cie", "ą"]
 
@@ -370,6 +379,8 @@ elif word.endswith("ić") or word.endswith("ic") or word.endswith("yć") or word
       nosic(word) #nosić, noszę
     elif word.endswith("iść") or word.endswith("isc") or word.endswith("iśc") or word.endswith("isć") or word.endswith("jść") or word.endswith("jsc") or word.endswith("jśc") or word.endswith("jsć"):
       isc(word) #iść, idę (pójść, pójdę)
+    elif word.endswith("elić") or word.endswith("elic"):
+      mielic(word)
     else:
         robic(word) #robić, robię
 else:
