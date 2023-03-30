@@ -161,13 +161,11 @@ def myslec(word):
     print(conjugated_form)
 
 #mleć category
-mlec_suffix = ["ielę", "ielesz", "iele", "ielemy", "ielecie", "ielą"]
+mlec_forms = ["mielę", "mielesz", "miele", "mielemy", "mielecie", "mielą"]
 
 def mlec(word):
-  stem = word[:-3]
-  for suffix in mlec_suffix:
-    conjugated_form = stem + suffix
-    print(conjugated_form)
+  for form in mlec_forms:
+    print(form)
 
 #chcieć category
 chciec_suffix = ["ę", "esz", "e", "emy", "ecie", "ą"]
@@ -339,7 +337,7 @@ elif word.endswith("eć") or word.endswith("ec") or word.endswith(
     plesc(word) #pleść, plotę
   elif word.endswith("mnieć") or word.endswith("mniec"):
     zapomniec(word) #zapomnieć, zapomnę
-  elif word.endswith(("mleć")) or word.endswith("mlec"):
+  elif word == "mleć" or word == "mlec":
     mlec(word) #mleć, mielę
   elif word.endswith(("leć")) or word.endswith("lec"):
     myslec(word) #myśleć, myślę
