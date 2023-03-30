@@ -14,6 +14,15 @@ def pracowac(word):
     conjugated_form = stem + suffix
     print(conjugated_form)
 
+#stawać category
+stawac_suffix = ["ję", "jesz", "je", "jemy", "jecie", "ją"]
+
+def stawac(word):
+  stem = word[:-3]
+  for suffix in stawac_suffix:
+    conjugated_form = stem + suffix
+    print(conjugated_form)
+
 #brać category
 brac_suffix = ["iorę", "ierzesz", "ierze", "ierzemy", "ierzecie", "iorą"]
 
@@ -324,6 +333,8 @@ if word.endswith("ać") or word.endswith("ac") or word.endswith("ąć") or word.
     czytac(word)
   elif word.endswith("ować") or word.endswith("owac") or word.endswith("iwać") or word.endswith("iwac") or word.endswith("ywać") or word.endswith("ywac"):
     pracowac(word) #pracować, pracuję
+  elif word.endswith("awać") or word.endswith("awac"):
+    stawac(word) #stawać, staję
   elif word.endswith("akać") or word.endswith("akac"):
     plakac(word) #płakać, płaczę
   elif word.endswith("ebrać") or word.endswith("ebrac"):
