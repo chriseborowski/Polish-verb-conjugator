@@ -77,6 +77,15 @@ def jechac(word):
     conjugated_form = stem + suffix
     print(conjugated_form)
 
+#płakać category
+plakac_suffix = ["czę", "czesz", "cze", "czemy", "czecie", "czą"]
+
+def plakac(word):
+  stem = word[:-3]
+  for suffix in plakac_suffix:
+    conjugated_form = stem + suffix
+    print(conjugated_form)
+
 #czytać category
 czytac_suffix = ["m", "sz", "", "my", "cie", "ją"]
 
@@ -315,6 +324,8 @@ if word.endswith("ać") or word.endswith("ac") or word.endswith("ąć") or word.
     czytac(word)
   elif word.endswith("ować") or word.endswith("owac") or word.endswith("iwać") or word.endswith("iwac") or word.endswith("ywać") or word.endswith("ywac"):
     pracowac(word) #pracować, pracuję
+  elif word.endswith("akać") or word.endswith("akac"):
+    plakac(word) #płakać, płaczę
   elif word.endswith("ebrać") or word.endswith("ebrac"):
     zebrac(word) #zebrać, zbiorę
   elif word.endswith("brać") or word.endswith("brac"):
