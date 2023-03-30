@@ -212,6 +212,15 @@ def plesc(word):
     conjugated_form = stem + suffix
     print(conjugated_form)
 
+#wleźć category
+wlezc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
+
+def wlezc(word):
+  stem = word[:-2]
+  for suffix in wlezc_suffix:
+    conjugated_form = stem + suffix
+    print(conjugated_form)
+
 #<< -I-/-Y- category starts here >>
 
 #tworzyć category
@@ -356,6 +365,8 @@ elif word.endswith("eć") or word.endswith("ec") or word.endswith(
     miec(word)  #mieć, mam
   elif word == "wiedzieć" or word == "wiedziec":
     wiedziec(word)  #wiedzieć, wiem
+  elif word == "wleźć" or word == "wlezc":
+    wlezc(word) #wleźć, wlezę
   else:
     chciec(word)  #chcieć, chcę
 elif word.endswith("ić") or word.endswith("ic") or word.endswith("yć") or word.endswith("yc") or word.endswith("iść") or word.endswith("isc") or word.endswith("iśc") or word.endswith("isć") or word.endswith("jść") or word.endswith("jsc") or word.endswith("jśc") or word.endswith("jsć"):
