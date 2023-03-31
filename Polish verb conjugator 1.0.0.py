@@ -346,6 +346,8 @@ if word.endswith("ać") or word.endswith("ac") or word.endswith("ąć") or word.
     plakac(word) #płakać, płaczę
   elif word == "żebrać" or word == "żebrac":
     zebrac_1(word) #żebrać, żebrzę
+  elif word.endswith("abrać") or word.endswith("abrac"):
+    pisac(word) #babrać, babrzę
   elif word.endswith("ebrać") or word.endswith("ebrac"):
     zebrac(word) #zebrać, zbiorę
   elif word.endswith("brać") or word.endswith("brac"):
