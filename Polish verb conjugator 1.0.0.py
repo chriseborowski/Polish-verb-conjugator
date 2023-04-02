@@ -48,6 +48,15 @@ def zebrac(word):
     conjugated_form = stem + suffix
     print(conjugated_form)
 
+#wezbrać category
+wezbrac_suffix = ["zbiorę", "zbierzesz", "zbierze", "zbierzemy", "zbierzecie", "zbiorą"]
+
+def wezbrac(word):
+  stem = word[:-6]
+  for suffix in wezbrac_suffix:
+    conjugated_form = stem + suffix
+    print(conjugated_form)
+
 #żebrać forms
 zebrac_forms = ["żebrzę", "żebrzesz", "żebrze", "żebrzemy", "żebrzecie", "żebrzą"]
 
@@ -359,6 +368,8 @@ if word.endswith("ać") or word.endswith("ac") or word.endswith("ąć") or word.
     pisac(word) #babrać, babrzę
   elif word.endswith("ebrać") or word.endswith("ebrac"):
     zebrac(word) #zebrać, zbiorę
+  elif word.endswith("ezbrać") or word.endswith("ezbrac"):
+    wezbrac(word) #wezbrać, wzbiorę
   elif word.endswith("brać") or word.endswith("brac"):
     brac(word) #brać, biorę
   elif word.endswith("stać") or word.endswith("stac"):
