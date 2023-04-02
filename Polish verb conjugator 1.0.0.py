@@ -364,6 +364,8 @@ if word.endswith("ać") or word.endswith("ac") or word.endswith("ąć") or word.
     przebrac(word)
   elif word == "żebrać" or word == "żebrac":
     zebrac_1(word) #żebrać, żebrzę
+  elif word.endswith("zabrać") or word.endswith("zabrac"):
+    brac(word)
   elif word.endswith("abrać") or word.endswith("abrac"):
     pisac(word) #babrać, babrzę
   elif word.endswith("ebrać") or word.endswith("ebrac"):
