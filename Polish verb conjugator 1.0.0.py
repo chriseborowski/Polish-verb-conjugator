@@ -32,6 +32,13 @@ def brac(word):
     conjugated_form = stem + suffix
     print(conjugated_form)
 
+#przebrać forms
+przebrac_forms = ["przebiorę", "przebierzesz", "przebierze", "przebierzemy", "przebierzecie", "przebiorą"]
+
+def przebrac(word):
+  for form in przebrac_forms:
+    print(form)
+
 #zebrać category
 zebrac_suffix = ["biorę", "bierzesz", "bierze", "bierzemy", "bierzecie", "biorą"]
 
@@ -344,6 +351,8 @@ if word.endswith("ać") or word.endswith("ac") or word.endswith("ąć") or word.
     stawac(word) #stawać, staję
   elif word.endswith("akać") or word.endswith("akac"):
     plakac(word) #płakać, płaczę
+  elif word == "przebrać" or word == "przebrac":
+    przebrac(word)
   elif word == "żebrać" or word == "żebrac":
     zebrac_1(word) #żebrać, żebrzę
   elif word.endswith("abrać") or word.endswith("abrac"):
