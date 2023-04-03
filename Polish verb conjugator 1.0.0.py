@@ -1,5 +1,5 @@
 #personal pronouns
-pronouns = ["ja", "ty", "on/ona/ono", "my", "wy", "oni/one"]
+pronouns = ["(ja)", "(ty)", "(on/ona/ono)", "(my)", "(wy)", "(oni/one)"]
 
 #<< verb categories start here >>
 
