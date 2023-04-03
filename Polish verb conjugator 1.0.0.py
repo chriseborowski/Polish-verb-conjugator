@@ -158,7 +158,7 @@ def patrzec(word):
     conjugated_form = stem + suffix
     print(pronouns[pronoun] + " " + conjugated_form)
 
-#patrzeć category
+#rozumieć category
 rozumiec_suffix = ["m", "sz", "", "my", "cie", "ją"]
 
 def rozumiec(word):
@@ -450,7 +450,7 @@ elif word.endswith("ić") or word.endswith("ic") or word.endswith("yć") or word
     elif word.endswith("elić") or word.endswith("elic"):
       mielic(word)
     else:
-        robic(word) #robić, robię
+      robic(word) #robić, robię
 else:
   print("Try again.")
 
