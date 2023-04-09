@@ -353,6 +353,7 @@ word = input("Enter a Polish verb here (no 'się' necessary): ")
 
 #<< checker starts here >>
 
+# This code conjugates verbs that end in -ać or -ąć
 if word.endswith("ać") or word.endswith("ac") or word.endswith("ąć") or word.endswith("ąc") or word.endswith("ać"):
   if word.endswith("żywać") or word.endswith("zywac") or word.endswith("żywac") or word.endswith("zywac"):
     czytac(word)
@@ -388,6 +389,8 @@ if word.endswith("ać") or word.endswith("ac") or word.endswith("ąć") or word.
     jechac(word) #jechać, jadę, jedziesz
   else:
     czytac(word) #czytać, czytam
+
+# This code conjugates verbs that end in -eć
 elif word.endswith("eć") or word.endswith("ec") or word.endswith(
     "eść") or word.endswith("esc") or word.endswith(
     "eźć") or word.endswith("ezc"):
@@ -426,6 +429,8 @@ elif word.endswith("eć") or word.endswith("ec") or word.endswith(
     wlezc(word) #wleźć, wlezę
   else:
     chciec(word)  #chcieć, chcę
+
+# This code conjugates verbs that end in -ić or -yć
 elif word.endswith("ić") or word.endswith("ic") or word.endswith("yć") or word.endswith("yc") or word.endswith("iść") or word.endswith("isc") or word.endswith("iśc") or word.endswith("isć") or word.endswith("jść") or word.endswith("jsc") or word.endswith("jśc") or word.endswith("jsć"):
   if len(word) <= 3:
     if word.endswith("ić") or word.endswith("ic") or word.endswith("żyć") or word.endswith("zyc"):
