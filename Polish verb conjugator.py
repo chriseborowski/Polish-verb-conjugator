@@ -585,6 +585,9 @@ elif (
             or word.endswith("isć")
         ):
             isc(word)  # iść, idę
+    elif len(word) <= 4:
+        if word.endswith("szyć") or word.endswith("szyc"):
+            pic(word)  # szyć, szyję
     else:
         if word.endswith("żyć"):
             pic(word)  # żyć, żyję
