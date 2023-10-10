@@ -439,11 +439,13 @@ elif word.endswith("ić") or word.endswith("ic") or word.endswith("yć") or word
       byc(word) #być, jestem
     elif word.endswith("iść") or word.endswith("isc") or word.endswith("iśc") or word.endswith("isć"):
       isc(word) #iść, idę
+    elif word.endswith("myć") or word.endswith("myc"):
+      pic(word) #myć, myję
   else:
     if word.endswith("żyć"):
-      pic(word)
+      pic(word) #żyć, żyję
     elif word.endswith("rzyć") or word.endswith("rzyc"):
-      tworzyc(word) #żyć, żyję
+      tworzyc(word)
     elif word.endswith("odzić") or word.endswith("odzic"):
       chodzic(word) #chodzić, chodzę
     elif word.endswith("ździć") or word.endswith("zdzic") or word.endswith("ździc") or word.endswith("zdzić"):
