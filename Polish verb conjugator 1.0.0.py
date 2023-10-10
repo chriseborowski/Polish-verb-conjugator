@@ -433,14 +433,13 @@ elif word.endswith("eć") or word.endswith("ec") or word.endswith(
 # This code conjugates verbs that end in -ić or -yć
 elif word.endswith("ić") or word.endswith("ic") or word.endswith("yć") or word.endswith("yc") or word.endswith("iść") or word.endswith("isc") or word.endswith("iśc") or word.endswith("isć") or word.endswith("jść") or word.endswith("jsc") or word.endswith("jśc") or word.endswith("jsć"):
   if len(word) <= 3:
-    if word.endswith("ić") or word.endswith("ic") or word.endswith("żyć") or word.endswith("zyc"):
+    if word.endswith("ić") or word.endswith("ic") or word.endswith("żyć") or word.endswith("zyc") or word.endswith(
+            "myć") or word.endswith("myc") or word.endswith("ryć") or word.endswith("ryc") or word.endswith("tyc") or word.endswith("tyć") or word.endswith("wyć") or word.endswith("wyc"):
       pic(word) #pić, piję
     elif word == "być" or word == "byc":
       byc(word) #być, jestem
     elif word.endswith("iść") or word.endswith("isc") or word.endswith("iśc") or word.endswith("isć"):
       isc(word) #iść, idę
-    elif word.endswith("myć") or word.endswith("myc"):
-      pic(word) #myć, myję
   else:
     if word.endswith("żyć"):
       pic(word) #żyć, żyję
