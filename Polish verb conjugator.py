@@ -406,6 +406,15 @@ def byc(word):
         print(pronouns[pronoun] + " " + form)
 
 
+# spać exception
+spac_forms = ["śpię", "śpisz", "śpi", "śpimy", "śpicie", "śpią"]
+
+
+def spac(word):
+    for pronoun, form in enumerate(spac_forms):
+        print(pronouns[pronoun] + " " + form)
+
+
 # iść/-jść category
 
 isc_suffix = ["dę", "dziesz", "dzie", "dziemy", "dziecie", "dą"]
@@ -446,6 +455,8 @@ if (
 ):
     if word == "bać" or word == "bac":
         stac(word)  # bać (się), boję (się)
+    elif word == "spać" or word == "spac":
+        spac(word)  # spać, śpię
     elif (
         word.endswith("azywać")
         or word.endswith("azywac")
