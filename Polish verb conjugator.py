@@ -457,6 +457,8 @@ if (
         stac(word)  # bać (się), boję (się)
     elif word == "spać" or word == "spac":
         spac(word)  # spać, śpię
+    elif word == "orać" or word == "orac":
+        zebrac_1(word)  # orać, orzę
     elif (
         word.endswith("azywać")
         or word.endswith("azywac")
