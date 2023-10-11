@@ -444,7 +444,24 @@ if (
     or word.endswith("ąc")
     or word.endswith("ać")
 ):
-    if word.endswith("żywać") or word.endswith("żywac"):
+    if (
+        word.endswith("azywać")
+        or word.endswith("azywac")
+        or word.endswith("bywać")
+        or word.endswith("bywac")
+        or word.endswith("czywać")
+        or word.endswith("czywac")
+        or word.endswith("dzywać")
+        or word.endswith("dzywac")
+        or word.endswith("rywać")
+        or word.endswith("rywac")
+        or word.endswith("szywać")
+        or word.endswith("szywac")
+        or word.endswith("yzywać")
+        or word.endswith("yzywac")
+        or word.endswith("żywać")
+        or word.endswith("żywac")
+    ):
         czytac(word)
     elif (
         word.endswith("ować")
