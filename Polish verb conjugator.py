@@ -445,7 +445,7 @@ if (
     or word.endswith("ać")
 ):
     if word == "bać" or word == "bac":
-        stac(word)
+        stac(word)  # bać (się), boję (się)
     elif (
         word.endswith("azywać")
         or word.endswith("azywac")
