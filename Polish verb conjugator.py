@@ -309,6 +309,15 @@ def nosic(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+# musieć category
+musiec_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
+
+def musiec(word):
+    stem = word[:-3]
+    for pronoun, suffix in enumerate(musiec_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
 # mielić category
 mielic_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
 
@@ -329,7 +338,6 @@ def robic(word):
 
 # być exception
 byc_forms = ["jestem", "jesteś", "jest", "jesteśmy", "jesteście", "są"]
-
 
 def byc(word):
     for pronoun, form in enumerate(byc_forms):
@@ -473,6 +481,8 @@ elif (
         wiedziec(word)  # powiedzieć, powiem
     elif word.endswith("jeść") or word.endswith("jesc"):
         jesc(word)  # jeść, jem
+    elif word.endswith("musieć") or word.endswith("musiec") or word.endswith("isieć") or word.endswith("isiec"):
+        musiec(word)  # musieć, muszę / wisieć, wiszę
     elif (
         word.endswith("czeć")
         or word.endswith("czec")
