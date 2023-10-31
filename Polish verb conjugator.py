@@ -583,6 +583,8 @@ elif (
             jezdzic(word)
         elif word.endswith("osić") or word.endswith("osic"):
             nosic(word)  # nosić, noszę
+        elif word.endswith("isić") or word.endswith("isic"):
+            nosic(word)  # kisić, kiszę
         elif (
             word.endswith("iść")
             or word.endswith("isc")
