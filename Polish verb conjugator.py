@@ -413,12 +413,10 @@ spac_forms = ["śpię", "śpisz", "śpi", "śpimy", "śpicie", "śpią"]
 def spac(word):
     for pronoun, form in enumerate(spac_forms):
         print(pronouns[pronoun] + " " + form)
-
-
+    
 # iść/-jść category
 
 isc_suffix = ["dę", "dziesz", "dzie", "dziemy", "dziecie", "dą"]
-
 
 def isc(word):
     stem = word[:-2]
@@ -430,13 +428,19 @@ def isc(word):
 # jeździć exception
 jezdzic_suffix = ["żdżę", "ździsz", "ździ", "ździmy", "ździcie", "żdżą"]
 
-
 def jezdzic(word):
     stem = word[:-5]
     for pronoun, suffix in enumerate(jezdzic_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+wstac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
+
+def wstac(word):
+    stem = word[:-1]
+    for pronoun, suffix in enumerate(wstac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 # << verb categories end here >>
 
@@ -507,6 +511,8 @@ if (
         wezbrac(word)  # wezbrać, wzbiorę
     elif word.endswith("brać") or word.endswith("brac"):
         brac(word)  # brać, biorę
+    elif word.endswith("wstać") or word.endswith("wstac") or word.endswith("astać") or word.endswith("astac"):
+        wstac(word)  #wstać, wstanę / zastać, zastanę
     elif word.endswith("stać") or word.endswith("stac"):
         stac(word)  # stać, stoję
     elif (
