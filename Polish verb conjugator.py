@@ -487,7 +487,7 @@ elif (
         word.endswith("czeć")
         or word.endswith("czec")
         or word.endswith("rzeć")
-        or word.endswith("rzec")
+        or word.endswith("rzec") or word.endswith("szeć") or word.endswith("szec")
     ):
         patrzec(word)  # patrzeć, patrzę
     elif word.endswith("umieć") or word.endswith("umiec"):
