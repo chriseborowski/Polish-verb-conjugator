@@ -327,6 +327,15 @@ def mielic(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+# czyścić category
+czyscic_suffix = ["szczę", "ścisz", "ści", "ścimy", "ścicie", "szczą"]
+
+def czyscic(word):
+    stem = word[:-4]
+    for pronoun, suffix in enumerate(czyscic_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
 # robić category
 robic_suffix = ["ę", "sz", "", "my", "cie", "ą"]
 
@@ -585,6 +594,8 @@ elif (
             nosic(word)  # nosić, noszę
         elif word.endswith("isić") or word.endswith("isic"):
             nosic(word)  # kisić, kiszę
+        elif word.endswith("ścić") or word.endswith("scic"):
+            czyscic(word)  # czyścić, czyszczę
         elif (
             word.endswith("iść")
             or word.endswith("isc")
