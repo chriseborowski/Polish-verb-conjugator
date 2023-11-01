@@ -448,6 +448,8 @@ if (
         pracowac(word)  # pracować, pracuję
     elif word.endswith("awać") or word.endswith("awac"):
         stawac(word)  # stawać, staję
+    elif word.endswith("rwać") or word.endswith("rwac"):
+        stanac(word)  # urwać, urwę
     elif word.endswith("akać") or word.endswith("akac"):
         plakac(word)  # płakać, płaczę
     elif word == "przebrać" or word == "przebrac":
