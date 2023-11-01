@@ -352,6 +352,15 @@ def byc(word):
     for pronoun, form in enumerate(byc_forms):
         print(pronouns[pronoun] + " " + form)
 
+# -być exception
+bede_forms = ["ędę", "ędziesz", "ędzie", "ędziemy", "ędziecie", "ędą"]
+
+def bede(word):
+    stem = word[:-2]
+    for pronoun, suffix in enumerate(bede_forms):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
 # spać exception
 spac_forms = ["śpię", "śpisz", "śpi", "śpimy", "śpicie", "śpią"]
 
@@ -572,6 +581,8 @@ elif (
     else:
         if word.endswith("żyć"):
             pic(word)  # żyć, żyję
+        elif word.endswith("być") or word.endswith("byc"):
+            bede(word)  # zdobyć, zdobędę
         elif (
             word.endswith("rzyć")
             or word.endswith("rzyc")
