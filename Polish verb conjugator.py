@@ -466,7 +466,7 @@ if (
         wezbrac(word)  # wezbrać, wzbiorę
     elif word.endswith("brać") or word.endswith("brac"):
         brac(word)  # brać, biorę
-    elif word.endswith("wstać") or word.endswith("wstac") or word.endswith("astać") or word.endswith("astac"):
+    elif word.endswith("wstać") or word.endswith("wstac") or word.endswith("astać") or word.endswith("astac") or word.endswith("dostać") or word.endswith("dostac") or word.endswith("zostać") or word.endswith("zostac"):
         wstac(word)  #wstać, wstanę / zastać, zastanę
     elif word.endswith("stać") or word.endswith("stac"):
         stac(word)  # stać, stoję
