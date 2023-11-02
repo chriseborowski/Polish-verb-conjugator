@@ -120,6 +120,17 @@ def pisac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# kazać category
+kazac_suffix = ["żę", "żesz", "że", "żemy", "żecie", "żą"]
+
+
+def kazac(word):
+    stem = word[:-3]
+    for pronoun, suffix in enumerate(kazac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # kłamać category
 klamac_suffix = ["ię", "iesz", "ie", "iemy", "iecie", "ą"]
 
@@ -534,6 +545,8 @@ if (
         pracowac(word)  # pracować, pracuję
     elif word.endswith("awać") or word.endswith("awac"):
         stawac(word)  # stawać, staję
+    elif word.endswith("azać") or word.endswith("azac"):
+        kazac(word)
     elif word.endswith("rwać") or word.endswith("rwac"):
         stanac(word)  # urwać, urwę
     elif word.endswith("akać") or word.endswith("akac"):
