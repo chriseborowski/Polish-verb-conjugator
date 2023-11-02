@@ -724,6 +724,8 @@ elif (
             isc(word)  # iść, idę (pójść, pójdę)
         elif word.endswith("elić") or word.endswith("elic"):
             mielic(word)
+        elif word.endswith("czcić") or word.endswith("czcic"):
+            nosic(word)  # czcić, czczę
         elif (
             word.endswith("cić")
             or word.endswith("cic")
