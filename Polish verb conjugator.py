@@ -8,14 +8,17 @@ pronouns = ["(ja)", "(ty)", "(on/ona/ono)", "(my)", "(wy)", "(oni/one)"]
 # pracować category
 pracowac_suffix = ["uję", "ujesz", "uje", "ujemy", "ujecie", "ują"]
 
+
 def pracowac(word):
     stem = word[:-4]
     for pronoun, suffix in enumerate(pracowac_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # stawać category
 stawac_suffix = ["ję", "jesz", "je", "jemy", "jecie", "ją"]
+
 
 def stawac(word):
     stem = word[:-3]
@@ -23,14 +26,17 @@ def stawac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # brać category
 brac_suffix = ["iorę", "ierzesz", "ierze", "ierzemy", "ierzecie", "iorą"]
+
 
 def brac(word):
     stem = word[:-3]
     for pronoun, suffix in enumerate(brac_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
+
 
 # przebrać forms
 przebrac_forms = [
@@ -42,12 +48,15 @@ przebrac_forms = [
     "przebiorą",
 ]
 
+
 def przebrac(word):
     for pronoun, form in enumerate(przebrac_forms):
         print(pronouns[pronoun] + " " + form)
 
+
 # zebrać category
 zebrac_suffix = ["biorę", "bierzesz", "bierze", "bierzemy", "bierzecie", "biorą"]
+
 
 def zebrac(word):
     stem = word[:-5]
@@ -55,8 +64,10 @@ def zebrac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # wezbrać category
 wezbrac_suffix = ["zbiorę", "zbierzesz", "zbierze", "zbierzemy", "zbierzecie", "zbiorą"]
+
 
 def wezbrac(word):
     stem = word[:-6]
@@ -64,8 +75,10 @@ def wezbrac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # żebrać category
 zebrac_1_suffix = ["zę", "zesz", "ze", "zemy", "zecie", "zą"]
+
 
 def zebrac_1(word):
     stem = word[:-2]
@@ -73,8 +86,10 @@ def zebrac_1(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # stać category
 stac_suffix = ["oję", "oisz", "oi", "oimy", "oicie", "oją"]
+
 
 def stac(word):
     stem = word[:-2]
@@ -82,8 +97,10 @@ def stac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # stanąć category
 stanac_suffix = ["ę", "iesz", "ie", "iemy", "iecie", "ą"]
+
 
 def stanac(word):
     stem = word[:-2]
@@ -91,8 +108,10 @@ def stanac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # pisać category
 pisac_suffix = ["zę", "zesz", "ze", "zemy", "zecie", "zą"]
+
 
 def pisac(word):
     stem = word[:-2]
@@ -100,8 +119,10 @@ def pisac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # kłamać category
 klamac_suffix = ["ię", "iesz", "ie", "iemy", "iecie", "ą"]
+
 
 def klamac(word):
     stem = word[:-2]
@@ -109,8 +130,10 @@ def klamac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # jechać category
 jechac_suffix = ["adę", "edziesz", "edzie", "edziemy", "edziecie", "adą"]
+
 
 def jechac(word):
     stem = word[:-5]
@@ -118,8 +141,10 @@ def jechac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # płakać category
 plakac_suffix = ["czę", "czesz", "cze", "czemy", "czecie", "czą"]
+
 
 def plakac(word):
     stem = word[:-3]
@@ -127,8 +152,10 @@ def plakac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # czytać category
 czytac_suffix = ["m", "sz", "", "my", "cie", "ją"]
+
 
 def czytac(word):
     stem = word[:-1]
@@ -136,10 +163,12 @@ def czytac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # << -E- verbs category starts here >>
 
 # umrzeć category
 umrzec_suffix = ["ę", "zesz", "ze", "zemy", "zecie", "ą"]
+
 
 def umrzec(word):
     stem = word[:-3]
@@ -147,8 +176,10 @@ def umrzec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # jeść category
 jesc_suffix = ["m", "sz", "", "my", "cie", "dzą"]
+
 
 def jesc(word):
     stem = word[:-2]
@@ -156,8 +187,10 @@ def jesc(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # patrzeć category
 patrzec_suffix = ["ę", "ysz", "y", "ymy", "ycie", "ą"]
+
 
 def patrzec(word):
     stem = word[:-2]
@@ -165,8 +198,10 @@ def patrzec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # rozumieć category
 rozumiec_suffix = ["m", "sz", "", "my", "cie", "ją"]
+
 
 def rozumiec(word):
     stem = word[:-1]
@@ -174,8 +209,10 @@ def rozumiec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # wieść category
 wiesc_suffix = ["odę", "edziesz", "edzie", "edziemy", "edziecie", "odą"]
+
 
 def wiesc(word):
     stem = word[:-3]
@@ -183,8 +220,10 @@ def wiesc(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # wieźć category
 wiezc_suffix = ["ozę", "eziesz", "ezie", "eziemy", "eziecie", "ozą"]
+
 
 def wiezc(word):
     stem = word[:-3]
@@ -192,8 +231,10 @@ def wiezc(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # zapomnieć category
 zapomniec_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
+
 
 def zapomniec(word):
     stem = word[:-3]
@@ -201,8 +242,10 @@ def zapomniec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # myśleć category
 myslec_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
+
 
 def myslec(word):
     stem = word[:-2]
@@ -210,15 +253,19 @@ def myslec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # mleć category
 mlec_forms = ["mielę", "mielesz", "miele", "mielemy", "mielecie", "mielą"]
+
 
 def mlec(word):
     for pronoun, form in enumerate(mlec_forms):
         print(pronouns[pronoun] + " " + form)
 
+
 # chcieć category
 chciec_suffix = ["ę", "esz", "e", "emy", "ecie", "ą"]
+
 
 def chciec(word):
     stem = word[:-3]
@@ -226,8 +273,10 @@ def chciec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # mieć exception
 miec_suffix = ["am", "asz", "a", "amy", "acie", "ają"]
+
 
 def miec(word):
     stem = word[:-3]
@@ -235,8 +284,10 @@ def miec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # wiedzieć exception
 wiedziec_suffix = ["m", "sz", "", "my", "cie", "dzą"]
+
 
 def wiedziec(word):
     stem = word[:-5]
@@ -244,8 +295,10 @@ def wiedziec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # nieść category
 niesc_suffix = ["osę", "esiesz", "esie", "esiemy", "esiecie", "osą"]
+
 
 def niesc(word):
     stem = word[:-3]
@@ -253,8 +306,10 @@ def niesc(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # pleść category
 plesc_suffix = ["otę", "eciesz", "ecie", "eciemy", "eciecie", "otą"]
+
 
 def plesc(word):
     stem = word[:-3]
@@ -262,8 +317,10 @@ def plesc(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # wleźć category
 wlezc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
+
 
 def wlezc(word):
     stem = word[:-2]
@@ -271,10 +328,12 @@ def wlezc(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # << -I-/-Y- category starts here >>
 
 # tworzyć category
 tworzyc_suffix = ["ę", "ysz", "y", "ymy", "ycie", "ą"]
+
 
 def tworzyc(word):
     stem = word[:-2]
@@ -282,8 +341,10 @@ def tworzyc(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # pić category
 pic_suffix = ["ję", "jesz", "je", "jemy", "jecie", "ją"]
+
 
 def pic(word):
     stem = word[:-1]
@@ -291,8 +352,10 @@ def pic(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # chodzić category
 chodzic_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
+
 
 def chodzic(word):
     stem = word[:-2]
@@ -300,8 +363,10 @@ def chodzic(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # nosić category
 nosic_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
+
 
 def nosic(word):
     stem = word[:-2]
@@ -309,8 +374,10 @@ def nosic(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # musieć category
 musiec_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
+
 
 def musiec(word):
     stem = word[:-3]
@@ -318,8 +385,10 @@ def musiec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # mielić category
 mielic_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
+
 
 def mielic(word):
     stem = word[:-2]
@@ -327,8 +396,10 @@ def mielic(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # czyścić category
 czyscic_suffix = ["szczę", "ścisz", "ści", "ścimy", "ścicie", "szczą"]
+
 
 def czyscic(word):
     stem = word[:-4]
@@ -336,8 +407,10 @@ def czyscic(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # robić category
 robic_suffix = ["ę", "sz", "", "my", "cie", "ą"]
+
 
 def robic(word):
     stem = word[:-1]
@@ -345,15 +418,19 @@ def robic(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # być exception
 byc_forms = ["jestem", "jesteś", "jest", "jesteśmy", "jesteście", "są"]
+
 
 def byc(word):
     for pronoun, form in enumerate(byc_forms):
         print(pronouns[pronoun] + " " + form)
 
+
 # -być exception
 bede_forms = ["ędę", "ędziesz", "ędzie", "ędziemy", "ędziecie", "ędą"]
+
 
 def bede(word):
     stem = word[:-2]
@@ -361,16 +438,20 @@ def bede(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # spać exception
 spac_forms = ["śpię", "śpisz", "śpi", "śpimy", "śpicie", "śpią"]
+
 
 def spac(word):
     for pronoun, form in enumerate(spac_forms):
         print(pronouns[pronoun] + " " + form)
-    
+
+
 # iść/-jść category
 
 isc_suffix = ["dę", "dziesz", "dzie", "dziemy", "dziecie", "dą"]
+
 
 def isc(word):
     stem = word[:-2]
@@ -378,8 +459,10 @@ def isc(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # jeździć exception
 jezdzic_suffix = ["żdżę", "ździsz", "ździ", "ździmy", "ździcie", "żdżą"]
+
 
 def jezdzic(word):
     stem = word[:-5]
@@ -387,13 +470,16 @@ def jezdzic(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 wstac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
+
 
 def wstac(word):
     stem = word[:-1]
     for pronoun, suffix in enumerate(wstac_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
+
 
 # << verb categories end here >>
 
@@ -466,8 +552,17 @@ if (
         wezbrac(word)  # wezbrać, wzbiorę
     elif word.endswith("brać") or word.endswith("brac"):
         brac(word)  # brać, biorę
-    elif word.endswith("wstać") or word.endswith("wstac") or word.endswith("astać") or word.endswith("astac") or word.endswith("dostać") or word.endswith("dostac") or word.endswith("zostać") or word.endswith("zostac"):
-        wstac(word)  #wstać, wstanę / zastać, zastanę
+    elif (
+        word.endswith("wstać")
+        or word.endswith("wstac")
+        or word.endswith("astać")
+        or word.endswith("astac")
+        or word.endswith("dostać")
+        or word.endswith("dostac")
+        or word.endswith("zostać")
+        or word.endswith("zostac")
+    ):
+        wstac(word)  # wstać, wstanę / zastać, zastanę
     elif word.endswith("stać") or word.endswith("stac"):
         stac(word)  # stać, stoję
     elif (
@@ -501,13 +596,20 @@ elif (
         wiedziec(word)  # powiedzieć, powiem
     elif word.endswith("jeść") or word.endswith("jesc"):
         jesc(word)  # jeść, jem
-    elif word.endswith("musieć") or word.endswith("musiec") or word.endswith("isieć") or word.endswith("isiec"):
+    elif (
+        word.endswith("musieć")
+        or word.endswith("musiec")
+        or word.endswith("isieć")
+        or word.endswith("isiec")
+    ):
         musiec(word)  # musieć, muszę / wisieć, wiszę
     elif (
         word.endswith("czeć")
         or word.endswith("czec")
         or word.endswith("rzeć")
-        or word.endswith("rzec") or word.endswith("szeć") or word.endswith("szec")
+        or word.endswith("rzec")
+        or word.endswith("szeć")
+        or word.endswith("szec")
     ):
         patrzec(word)  # patrzeć, patrzę
     elif word.endswith("umieć") or word.endswith("umiec"):
@@ -622,6 +724,13 @@ elif (
             isc(word)  # iść, idę (pójść, pójdę)
         elif word.endswith("elić") or word.endswith("elic"):
             mielic(word)
+        elif (
+            word.endswith("cić")
+            or word.endswith("cic")
+            or word.endswith("dzić")
+            or word.endswith("dzic")
+        ):
+            myslec(word)
         else:
             robic(word)  # robić, robię
 else:
