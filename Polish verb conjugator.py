@@ -730,7 +730,7 @@ elif (
             or word.endswith("dzić")
             or word.endswith("dzic")
         ):
-            myslec(word)
+            myslec(word)  # płacić, płacę / budzić, budzę
         else:
             robic(word)  # robić, robię
 else:
