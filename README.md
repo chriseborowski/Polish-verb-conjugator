@@ -17,6 +17,9 @@ The latest version supports the following functionalities:
 - [x] Support for the most typical, regular -A- verbs of the type: _czytać (czytam, czytasz, czyta...)_
 - [x] Support for the most typical, regular -E- verbs of the type: _chcieć (chcę, chcesz, chce...)_
 - [x] Support for the most typical, regular -I- verbs of the type: _robić (robię, robisz, robi...)_
+- [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
+- [x] Support for the _-iwać_ verbs of the type: _podskakiwać (podskakuję, podskakujesz, podskakuje...)_
+- [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_
 
 ## License
 
