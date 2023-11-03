@@ -285,6 +285,17 @@ def chciec(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# kraść category
+krasc_suffix = ["dnę", "dniesz", "dnie", "dniemy", "dniecie", "dną"]
+
+
+def krasc(word):
+    stem = word[:-2]
+    for pronoun, suffix in enumerate(krasc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # mieć exception
 miec_suffix = ["am", "asz", "a", "amy", "acie", "ają"]
 
@@ -595,6 +606,10 @@ if (
         jechac(word)  # jechać, jadę, jedziesz
     else:
         czytac(word)  # czytać, czytam
+
+# This code conjugates verbs that end in -aść
+elif word.endswith("aść") or word.endswith("asc"):
+    krasc(word)
 
 # This code conjugates verbs that end in -eć
 elif (
