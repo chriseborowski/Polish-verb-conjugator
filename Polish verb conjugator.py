@@ -537,6 +537,17 @@ def wstac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# gryźć category
+gryzc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
+
+
+def gryzc(word):
+    stem = word[:-2]
+    for pronoun, suffix in enumerate(gryzc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # << verb categories end here >>
 
 # input form
@@ -811,6 +822,7 @@ elif (
             pic(word)  # ukryć, ukryję
         else:
             robic(word)  # robić, robię
+
 else:
     print("Try again.")
 
