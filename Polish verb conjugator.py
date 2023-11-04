@@ -823,6 +823,10 @@ elif (
         else:
             robic(word)  # robić, robię
 
+# This code conjugates verbs that end in -yźć
+elif word.endswith("gryźć") or word.endswith("gryzc"):
+    gryzc(word)  # gryźć, gryzę
+
 else:
     print("Try again.")
 
