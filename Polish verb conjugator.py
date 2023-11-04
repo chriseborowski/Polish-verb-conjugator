@@ -758,6 +758,8 @@ elif (
             pic(word)  # żyć, żyję
         elif word.endswith("być") or word.endswith("byc"):
             bede(word)  # zdobyć, zdobędę
+        elif word.endswith("esić") or word.endswith("esic"):
+            nosic(word)  # biesić, bieszę
         elif (
             word.endswith("rzyć")
             or word.endswith("rzyc")
