@@ -373,6 +373,17 @@ def piec(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# móc category
+moc_suffix = ["ogę", "ożesz", "oże", "ożemy", "ożecie", "ogą"]
+
+
+def moc(word):
+    stem = word[:-2]
+    for pronoun, suffix in enumerate(moc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # << -I-/-Y- category starts here >>
 
 # tworzyć category
@@ -694,6 +705,10 @@ elif (
         wlezc(word)  # wleźć, wlezę
     else:
         chciec(word)  # chcieć, chcę
+
+# This code conjugates verbs that end in -óc
+elif word.endswith("moc") or word.endswith("móc"):
+    moc(word)  # móc, mogę
 
 # This code conjugates verbs that end in -ić or -yć
 elif (
