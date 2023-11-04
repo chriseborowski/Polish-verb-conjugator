@@ -526,6 +526,7 @@ def jezdzic(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# wstać exception
 wstac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
 
 
