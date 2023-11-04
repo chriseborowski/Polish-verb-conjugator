@@ -384,6 +384,17 @@ def moc(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# strzyc category
+strzyc_suffix = ["gę", "żesz", "że", "żemy", "żecie", "gą"]
+
+
+def strzyc(word):
+    stem = word[:-1]
+    for pronoun, suffix in enumerate(strzyc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # << -I-/-Y- category starts here >>
 
 # tworzyć category
@@ -772,6 +783,8 @@ elif (
             bede(word)  # zdobyć, zdobędę
         elif word.endswith("esić") or word.endswith("esic"):
             nosic(word)  # biesić, bieszę
+        elif word.endswith("strzyc"):
+            strzyc(word)  # strzyc, strzygę
         elif (
             word.endswith("rzyć")
             or word.endswith("rzyc")
