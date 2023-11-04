@@ -351,6 +351,17 @@ def wlezc(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# biec category
+biec_suffix = ["gnę", "gniesz", "gnie", "gniemy", "gniecie", "gną"]
+
+
+def biec(word):
+    stem = word[:-1]
+    for pronoun, suffix in enumerate(biec_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # << -I-/-Y- category starts here >>
 
 # tworzyć category
@@ -626,6 +637,8 @@ elif (
         wiedziec(word)  # powiedzieć, powiem
     elif word.endswith("jeść") or word.endswith("jesc"):
         jesc(word)  # jeść, jem
+    elif word.endswith("biec"):
+        biec(word)  # biec, biegnę
     elif (
         word.endswith("musieć")
         or word.endswith("musiec")
