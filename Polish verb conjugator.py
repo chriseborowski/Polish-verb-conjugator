@@ -693,6 +693,8 @@ elif (
         or word.endswith("isiec")
     ):
         musiec(word)  # musieć, muszę / wisieć, wiszę
+    elif word.endswith("strzec"):
+        strzyc(word)  # ustrzec, ustrzegę
     elif (
         word.endswith("czeć")
         or word.endswith("czec")
