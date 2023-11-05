@@ -779,7 +779,17 @@ elif (
         if word.endswith("szyć") or word.endswith("szyc"):
             pic(word)  # szyć, szyję
     else:
-        if word.endswith("żyć"):
+        if (
+            word.endswith("ążyć")
+            or word.endswith("azyc")
+            or word.endswith("azyć")
+            or word.endswith("ązyc")
+            or word.endswith("ązyć")
+            or word.endswith("ażyć")
+            or word.endswith("ażyc")
+        ):
+            patrzec(word)  # dążyć, dążę
+        elif word.endswith("żyć"):
             pic(word)  # żyć, żyję
         elif word.endswith("być") or word.endswith("byc"):
             bede(word)  # zdobyć, zdobędę
