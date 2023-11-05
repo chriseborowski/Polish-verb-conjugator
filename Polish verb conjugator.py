@@ -868,6 +868,13 @@ elif (
 
 elif word.endswith("łuc"):
     piec(word)  # tłuc, tłukę
+elif (
+    word.endswith("żuć")
+    or word.endswith("żuc")
+    or word.endswith("zuć")
+    or word.endswith("zuc")
+):
+    pic(word)  # żuć, żuję
 
 # This code conjugates verbs that end in -yźć
 elif word.endswith("gryźć") or word.endswith("gryzc"):
