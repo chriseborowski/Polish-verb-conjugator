@@ -866,6 +866,9 @@ elif (
         else:
             robic(word)  # robić, robię
 
+elif word.endswith("łuc"):
+    piec(word)  # tłuc, tłukę
+
 # This code conjugates verbs that end in -yźć
 elif word.endswith("gryźć") or word.endswith("gryzc"):
     gryzc(word)  # gryźć, gryzę
