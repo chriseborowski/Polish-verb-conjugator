@@ -548,6 +548,17 @@ def wstac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# zacząć category
+zaczac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
+
+
+def zaczac(word):
+    stem = word[:-2]
+    for pronoun, suffix in enumerate(zaczac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # gryźć category
 gryzc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
 
@@ -632,6 +643,13 @@ if (
         wezbrac(word)  # wezbrać, wzbiorę
     elif word.endswith("brać") or word.endswith("brac"):
         brac(word)  # brać, biorę
+    elif (
+        word.endswith("cząć")
+        or word.endswith("cząc")
+        or word.endswith("czac")
+        or word.endswith("czać")
+    ):
+        zaczac(word)  # zacząć, zacznę
     elif (
         word.endswith("wstać")
         or word.endswith("wstac")
