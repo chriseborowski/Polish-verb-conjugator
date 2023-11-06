@@ -682,6 +682,8 @@ if (
         klamac(word)  # kłamać, kłamię
     elif word.endswith("jechać") or word.endswith("jechac"):
         jechac(word)  # jechać, jadę, jedziesz
+    elif word == "gać" or word == "mać" or word == "nać":
+        print("You entered a noun. Please enter a verb.")
     else:
         czytac(word)  # czytać, czytam
 
@@ -706,6 +708,8 @@ elif (
         jesc(word)  # jeść, jem
     elif word.endswith("biec"):
         biec(word)  # biec, biegnę
+    elif word == "kupiec":
+        print("You entered a noun. Please enter a verb.")
     elif word.endswith("piec"):
         piec(word)  # piec, piekę
     elif (
