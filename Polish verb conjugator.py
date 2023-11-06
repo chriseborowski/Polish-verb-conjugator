@@ -676,6 +676,8 @@ if (
         stanac(word)  # ssać, ssę
     elif word.endswith("isać") or word.endswith("isac"):
         pisac(word)  # pisać, piszę
+    elif word.endswith("szamać") or word.endswith("szamac"):
+        czytac(word)  # szamać, szamam
     elif word.endswith("amać") or word.endswith("amac"):
         klamac(word)  # kłamać, kłamię
     elif word.endswith("jechać") or word.endswith("jechac"):
