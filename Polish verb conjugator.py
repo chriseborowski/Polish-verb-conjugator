@@ -199,6 +199,15 @@ def jesc(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# zżąć exception
+zzac_suffix = ["zeżnę", "zeżniesz", "zeżnie", "zeżniemy", "zeżniecie", "zeżną"]
+
+
+def zzac(word):
+    for pronoun, form in enumerate(zzac_suffix):
+        print(pronouns[pronoun] + " " + form)
+
+
 # patrzeć category
 patrzec_suffix = ["ę", "ysz", "y", "ymy", "ycie", "ą"]
 
@@ -682,6 +691,15 @@ if (
         klamac(word)  # kłamać, kłamię
     elif word.endswith("jechać") or word.endswith("jechac"):
         jechac(word)  # jechać, jadę, jedziesz
+    elif (
+        word.endswith("zżąć")
+        or word.endswith("zżać")
+        or word.endswith("zżąc")
+        or word.endswith("zzac")
+        or word.endswith("zząc")
+        or word.endswith("zzać")
+    ):
+        zzac(word)  # zżąć, zeżnę
     elif word == "gać" or word == "mać" or word == "nać":
         print("You entered a noun. Please enter a verb.")
     else:
