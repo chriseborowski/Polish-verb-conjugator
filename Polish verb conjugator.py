@@ -199,6 +199,17 @@ def jesc(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# wziąć category
+wziac_suffix = ["ezmę", "eźmiesz", "eźmie", "eźmiemy", "eźmiecie", "ezmą"]
+
+
+def wziac(word):
+    stem = word[:-4]
+    for pronoun, suffix in enumerate(wziac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # zżąć exception
 zzac_suffix = ["zeżnę", "zeżniesz", "zeżnie", "zeżniemy", "zeżniecie", "zeżną"]
 
@@ -652,6 +663,13 @@ if (
         wezbrac(word)  # wezbrać, wzbiorę
     elif word.endswith("brać") or word.endswith("brac"):
         brac(word)  # brać, biorę
+    elif (
+        word.endswith("ziąć")
+        or word.endswith("ziąc")
+        or word.endswith("ziac")
+        or word.endswith("ziać")
+    ):
+        wziac(word)  # wziąć, wezmę
     elif (
         word.endswith("cząć")
         or word.endswith("cząc")
