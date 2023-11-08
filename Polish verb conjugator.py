@@ -899,6 +899,8 @@ elif (
             or word.endswith("elic")
             or word.endswith("ulić")
             or word.endswith("ulic")
+            or word.endswith("alić")
+            or word.endswith("alic")
         ):
             mielic(word)
         elif word.endswith("czcić") or word.endswith("czcic"):
