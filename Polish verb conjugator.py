@@ -349,6 +349,17 @@ def niesc(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# trząść exception
+trzasc_suffix = ["ęsę", "ęsiesz", "ęsie", "ęsiemy", "ęsiecie", "ąsą"]
+
+
+def trzasc(word):
+    stem = word[:-3]
+    for pronoun, suffix in enumerate(trzasc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # pleść category
 plesc_suffix = ["otę", "eciesz", "ecie", "eciemy", "eciecie", "otą"]
 
@@ -732,6 +743,10 @@ if (
 # This code conjugates verbs that end in -aść
 elif word.endswith("aść") or word.endswith("asc"):
     krasc(word)
+
+# This code conjugates verbs that end in -ąść
+elif word.endswith("ąść") or word.endswith("ąśc") or word.endswith("ąsc"):
+    trzasc(word)  # trząść, trzęsę
 
 # This code conjugates verbs that end in -eć
 elif (
