@@ -745,6 +745,14 @@ elif word.endswith("aść") or word.endswith("asc"):
     krasc(word)  # kraść, kradnę
 
 # This code conjugates verbs that end in -ąść
+elif (
+    word.endswith("siąść")
+    or word.endswith("siasc")
+    or word.endswith("siąsc")
+    or word.endswith("siąśc")
+    or word.endswith("siąsć")
+):
+    isc(word)  # posiąść, posiądę
 elif word.endswith("ąść") or word.endswith("ąśc") or word.endswith("ąsc"):
     trzasc(word)  # trząść, trzęsę
 
