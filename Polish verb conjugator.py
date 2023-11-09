@@ -846,6 +846,8 @@ elif (
             or word.endswith("ażyc")
         ):
             patrzec(word)  # dążyć, dążę
+        elif word.endswith("asić") or word.endswith("asic"):
+            nosic(word)  # grymasić, grymaszę
         elif (
             word.endswith("łożyć")
             or word.endswith("łożyc")
