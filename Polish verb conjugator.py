@@ -904,7 +904,9 @@ elif (
             or word.endswith("olić")
             or word.endswith("olic")
         ):
-            mielic(word)
+            mielic(
+                word
+            )  # dzielić, dzielę / tulić, tulę / chwalić, chwalę / solić, solę
         elif word.endswith("czcić") or word.endswith("czcic"):
             nosic(word)  # czcić, czczę
         elif (
