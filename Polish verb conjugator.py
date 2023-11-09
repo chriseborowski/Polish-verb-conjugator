@@ -742,7 +742,7 @@ if (
 
 # This code conjugates verbs that end in -aść
 elif word.endswith("aść") or word.endswith("asc"):
-    krasc(word)
+    krasc(word)  # kraść, kradnę
 
 # This code conjugates verbs that end in -ąść
 elif word.endswith("ąść") or word.endswith("ąśc") or word.endswith("ąsc"):
