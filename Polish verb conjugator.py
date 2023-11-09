@@ -796,6 +796,8 @@ elif (
         wiedziec(word)  # wiedzieć, wiem
     elif word == "wleźć" or word == "wlezc":
         wlezc(word)  # wleźć, wlezę
+    elif word.endswith("ecieć") or word.endswith("eciec"):
+        zapomniec(word)  # lecieć, lecę
     else:
         chciec(word)  # chcieć, chcę
 
