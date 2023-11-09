@@ -614,6 +614,13 @@ if (
     elif word == "orać" or word == "orac":
         zebrac_1(word)  # orać, orzę
     elif (
+        word.endswith("kazywać")
+        or word.endswith("kazywac")
+        or word.endswith("mazywać")
+        or word.endswith("mazywac")
+    ):
+        pracowac(word)  # pokazywać, pokazuję
+    elif (
         word.endswith("azywać")
         or word.endswith("azywac")
         or word.endswith("bywać")
