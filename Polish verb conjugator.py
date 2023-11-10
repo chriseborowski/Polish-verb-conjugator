@@ -350,7 +350,7 @@ def niesc(word):
 
 
 # trząść exception
-trzasc_suffix = ["ęsę", "ęsiesz", "ęsie", "ęsiemy", "ęsiecie", "ąsą"]
+trzasc_suffix = ["ęsę", "ęsiesz", "ęsie", "ęsiemy", "ęsiecie", "ęsą"]
 
 
 def trzasc(word):
