@@ -17,12 +17,15 @@ The latest version supports the following functionalities:
 - [x] Support for the most typical, regular -A- verbs of the type: _czytać (czytam, czytasz, czyta...)_
 - [x] Support for the most typical, regular -E- verbs of the type: _chcieć (chcę, chcesz, chce...)_
 - [x] Support for the most typical, regular -I- verbs of the type: _robić (robię, robisz, robi...)_
-- [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
 - [x] Support for the _-iwać_ verbs of the type: _podskakiwać (podskakuję, podskakujesz, podskakuje...)_
-- [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_
+- [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
+- [x] Support for the _-jechać_ verbs of the type: _-jechać (-jadę, -jedziesz, -jedzie...)_
+- [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_
+- [x] Support for the _-akać_ verbs of the type: _skakać (skaczę, skaczesz, skacze...)_
+- [x] Support for the _-amać_ verbs of the type: _kłamać (kłamię, kłamiesz, kłamie...)_
 - [x] Support for the _-awać_ verbs of the type: _stawać (staję, stajesz, staje...)_
 - [x] Support for the _-azać_ verbs of the type: _kazać (każę, każesz, każe...)_
-- [x] Support for the _-akać_ verbs of the type: _skakać (skaczę, skaczesz, skacze...)_
+- [x] Support for the _-azać_ verbs of the type: _kazać (każę, każesz, każe...)_
 
 ## License
 
