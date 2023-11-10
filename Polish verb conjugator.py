@@ -780,6 +780,7 @@ elif word.endswith("prząść"):
 elif word.endswith("ąść") or word.endswith("ąśc") or word.endswith("ąsc"):
     trzasc(word)  # trząść, trzęsę
 
+# This code conjugates verbs that end in -ąźć
 elif word.endswith("grząźć"):
     grzazc(word)  # grząźć, grzęzę
 
