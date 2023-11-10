@@ -536,6 +536,17 @@ def bede(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# prząść exception
+przasc_suffix = ["ędę", "ędziesz", "ędzie", "ędziemy", "ędziecie", "ędą"]
+
+
+def przasc(word):
+    stem = word[:-3]
+    for pronoun, suffix in enumerate(bede_forms):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # spać exception
 spac_forms = ["śpię", "śpisz", "śpi", "śpimy", "śpicie", "śpią"]
 
@@ -753,6 +764,8 @@ elif (
     or word.endswith("siąsć")
 ):
     isc(word)  # posiąść, posiądę
+elif word.endswith("prząść"):
+    przasc(word)  # prząść, przędę
 elif word.endswith("ąść") or word.endswith("ąśc") or word.endswith("ąsc"):
     trzasc(word)  # trząść, trzęsę
 
