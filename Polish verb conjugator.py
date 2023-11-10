@@ -382,6 +382,17 @@ def wlezc(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# grząźć exception
+grzazc_suffix = ["ęzę", "ęziesz", "ęzie", "ęziemy", "ęziecie", "ęzą"]
+
+
+def grzazc(word):
+    stem = word[:-3]
+    for pronoun, suffix in enumerate(grzazc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # biec category
 biec_suffix = ["gnę", "gniesz", "gnie", "gniemy", "gniecie", "gną"]
 
@@ -768,6 +779,9 @@ elif word.endswith("prząść"):
     przasc(word)  # prząść, przędę
 elif word.endswith("ąść") or word.endswith("ąśc") or word.endswith("ąsc"):
     trzasc(word)  # trząść, trzęsę
+
+elif word.endswith("grząźć"):
+    grzazc(word)  # grząźć, grzęzę
 
 # This code conjugates verbs that end in -eć
 elif (
