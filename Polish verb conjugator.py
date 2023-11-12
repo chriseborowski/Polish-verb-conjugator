@@ -623,6 +623,17 @@ def zaczac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# zapiąć category
+zapiac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
+
+
+def zapiac(word):
+    stem = word[:-3]
+    for pronoun, suffix in enumerate(zapiac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # gryźć category
 gryzc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
 
@@ -722,6 +733,8 @@ if (
         wezbrac(word)  # wezbrać, wzbiorę
     elif word.endswith("brać") or word.endswith("brac"):
         brac(word)  # brać, biorę
+    elif word.endswith("piąć") or word.endswith("piąc"):
+        zapiac(word)  # zapiąć, zapnę
     elif (
         word.endswith("ziąć")
         or word.endswith("ziąc")
