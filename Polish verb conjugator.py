@@ -981,6 +981,8 @@ elif (
             or word.endswith("jsć")
         ):
             isc(word)  # iść, idę (pójść, pójdę)
+        elif word.endswith("lić") or word.endswith("lic"):
+            myslec(word)  # modlić, modlę
         elif (
             word.endswith("elić")
             or word.endswith("elic")
