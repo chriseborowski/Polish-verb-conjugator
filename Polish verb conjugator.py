@@ -968,6 +968,13 @@ elif (
             or word.endswith("łozyć")
         ):
             patrzec(word)  # położyć, położę
+        elif (
+            word.endswith("dżyć")
+            or word.endswith("dzyć")
+            or word.endswith("dzyc")
+            or word.endswith("dżyc")
+        ):
+            patrzec(word)  # dżdżyć, dżdżę / miażdżyć, miażdżę
         elif word.endswith("żyć"):
             pic(word)  # żyć, żyję
         elif word.endswith("być") or word.endswith("byc"):
