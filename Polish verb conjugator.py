@@ -505,17 +505,6 @@ def musiec(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
-# mielić category
-mielic_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
-
-
-def mielic(word):
-    stem = word[:-2]
-    for pronoun, suffix in enumerate(mielic_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
 # czyścić category
 czyscic_suffix = ["szczę", "ścisz", "ści", "ścimy", "ścicie", "szczą"]
 
@@ -981,8 +970,6 @@ elif (
             or word.endswith("jsć")
         ):
             isc(word)  # iść, idę (pójść, pójdę)
-        elif word.endswith("lić") or word.endswith("lic"):
-            myslec(word)  # modlić, modlę
         elif (
             word.endswith("elić")
             or word.endswith("elic")
@@ -990,12 +977,14 @@ elif (
             or word.endswith("ulic")
             or word.endswith("alić")
             or word.endswith("alic")
+            or word.endswith("odlić")
+            or word.endswith("odlic")
             or word.endswith("olić")
             or word.endswith("olic")
         ):
-            mielic(
+            myslec(
                 word
-            )  # dzielić, dzielę / tulić, tulę / chwalić, chwalę / solić, solę
+            )  # dzielić, dzielę / tulić, tulę / chwalić, chwalę / solić, solę / modlić, modlę
         elif word.endswith("czcić") or word.endswith("czcic"):
             nosic(word)  # czcić, czczę
         elif (
