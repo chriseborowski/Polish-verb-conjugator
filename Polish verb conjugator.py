@@ -746,6 +746,8 @@ if (
         czytac(word)  # szamać, szamam
     elif word.endswith("amać") or word.endswith("amac"):
         klamac(word)  # kłamać, kłamię
+    elif word.endswith("epać") or word.endswith("epac"):
+        klamac(word)  # klepać, klepię
     elif word.endswith("jechać") or word.endswith("jechac"):
         jechac(word)  # jechać, jadę, jedziesz
     elif (
