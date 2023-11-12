@@ -132,7 +132,7 @@ def kazac(word):
 
 
 # kłamać category
-klamac_suffix = ["ię", "iesz", "ie", "iemy", "iecie", "ą"]
+klamac_suffix = ["ię", "iesz", "ie", "iemy", "iecie", "ią"]
 
 
 def klamac(word):
