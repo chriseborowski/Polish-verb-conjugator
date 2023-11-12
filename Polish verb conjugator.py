@@ -657,7 +657,9 @@ if (
         brac(word)  # prać, piorę
     elif word == "orać" or word == "orac":
         zebrac_1(word)  # orać, orzę
-    elif word == "piać" or word == "piac":
+    elif (
+        word == "piać" or word == "piac" or word.endswith("lać") or word.endswith("lac")
+    ):
         piac(word)  # piać, pieję
     elif (
         word.endswith("kazywać")
