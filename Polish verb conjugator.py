@@ -634,6 +634,17 @@ def zapiac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# -odpiąć category
+odpiac_suffix = ["epnę", "epniesz", "epnie", "epniemy", "epniecie", "epną"]
+
+
+def odpiac(word):
+    stem = word[:-4]
+    for pronoun, suffix in enumerate(odpiac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # gryźć category
 gryzc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
 
@@ -733,6 +744,8 @@ if (
         wezbrac(word)  # wezbrać, wzbiorę
     elif word.endswith("brać") or word.endswith("brac"):
         brac(word)  # brać, biorę
+    elif word.endswith("odpiąć") or word.endswith("odpiąc"):
+        odpiac(word)  # odpiąć, odepnę
     elif word.endswith("piąć") or word.endswith("piąc"):
         zapiac(word)  # zapiąć, zapnę
     elif (
