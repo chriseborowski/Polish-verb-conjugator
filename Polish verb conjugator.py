@@ -461,6 +461,17 @@ def pic(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# piać exception
+piac_suffix = ["eję", "ejesz", "eje", "ejemy", "ejecie", "eją"]
+
+
+def piac(word):
+    stem = word[:-2]
+    for pronoun, suffix in enumerate(piac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # chodzić category
 chodzic_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
 
@@ -646,6 +657,8 @@ if (
         brac(word)  # prać, piorę
     elif word == "orać" or word == "orac":
         zebrac_1(word)  # orać, orzę
+    elif word == "piać" or word == "piac":
+        piac(word)  # piać, pieję
     elif (
         word.endswith("kazywać")
         or word.endswith("kazywac")
