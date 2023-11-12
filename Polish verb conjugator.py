@@ -483,6 +483,17 @@ def chodzic(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# cierpieć exception
+cierpiec_suffix = ["ę", "sz", "", "my", "cie", "ą"]
+
+
+def cierpiec(word):
+    stem = word[:-2]
+    for pronoun, suffix in enumerate(cierpiec_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # nosić category
 nosic_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
 
@@ -803,6 +814,8 @@ elif (
         wiedziec(word)  # powiedzieć, powiem
     elif word.endswith("jeść") or word.endswith("jesc"):
         jesc(word)  # jeść, jem
+    elif word.endswith("rpieć") or word.endswith("rpiec"):
+        cierpiec(word)  # cierpieć, cierpię
     elif word.endswith("biec"):
         biec(word)  # biec, biegnę
     elif word == "kupiec":
