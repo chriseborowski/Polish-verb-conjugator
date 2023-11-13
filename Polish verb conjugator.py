@@ -836,8 +836,13 @@ elif (
     or word.endswith("eźć")
     or word.endswith("ezc")
 ):
-    if word.endswith("mrzeć") or word.endswith("mrzec"):
-        umrzec(word)  # umrzeć, umrę
+    if (
+        word.endswith("drzeć")
+        or word.endswith("drzec")
+        or word.endswith("mrzeć")
+        or word.endswith("mrzec")
+    ):
+        umrzec(word)  # umrzeć, umrę / podrzeć, podrę
     elif word.endswith("wiedzieć") or word.endswith("wiedziec"):
         wiedziec(word)  # powiedzieć, powiem
     elif word.endswith("jeść") or word.endswith("jesc"):
