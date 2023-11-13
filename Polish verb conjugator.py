@@ -951,6 +951,8 @@ elif (
     elif len(word) <= 4:
         if word.endswith("szyć") or word.endswith("szyc"):
             pic(word)  # szyć, szyję
+        elif word == "tlić" or word == "tlic":
+            myslec(word)  # tlić, tlę
     else:
         if (
             word.endswith("ążyć")
@@ -1036,6 +1038,8 @@ elif (
             or word.endswith("odlic")
             or word.endswith("olić")
             or word.endswith("olic")
+            or word.endswith("tlić")
+            or word.endswith("tlic")
             or word.endswith("ylić")
             or word.endswith("ylic")
         ):
