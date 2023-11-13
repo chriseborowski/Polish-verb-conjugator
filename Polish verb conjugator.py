@@ -894,6 +894,13 @@ elif (
         wlezc(word)  # wleźć, wlezę
     elif word.endswith("ecieć") or word.endswith("eciec"):
         zapomniec(word)  # lecieć, lecę
+    elif (
+        word.endswith("żeć")
+        or word.endswith("żec")
+        or word.endswith("zeć")
+        or word.endswith("zec")
+    ):
+        patrzec(word)  # patrzeć, patrzę
     else:
         chciec(word)  # chcieć, chcę
 
