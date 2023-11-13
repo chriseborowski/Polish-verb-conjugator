@@ -1036,6 +1036,8 @@ elif (
             or word.endswith("odlic")
             or word.endswith("olić")
             or word.endswith("olic")
+            or word.endswith("ylić")
+            or word.endswith("ylic")
         ):
             myslec(
                 word
