@@ -899,6 +899,8 @@ elif (
         miec(word)  # mieć, mam
     elif word == "wiedzieć" or word == "wiedziec":
         wiedziec(word)  # wiedzieć, wiem
+    elif word.endswith("siedzieć") or word.endswith("siedziec"):
+        zapomniec(word)  # siedzieć, siedzę
     elif word == "wleźć" or word == "wlezc":
         wlezc(word)  # wleźć, wlezę
     elif word.endswith("ecieć") or word.endswith("eciec"):
