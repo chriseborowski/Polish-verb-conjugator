@@ -841,6 +841,8 @@ elif (
         or word.endswith("drzec")
         or word.endswith("mrzeć")
         or word.endswith("mrzec")
+        or word.endswith("przeć")
+        or word.endswith("przec")
         or word.endswith("trzeć")
         or word.endswith("trzec")
     ):
