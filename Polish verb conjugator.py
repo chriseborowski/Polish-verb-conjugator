@@ -210,6 +210,17 @@ def wziac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# -jąć category
+jac_suffix = ["mę", "miesz", "mie", "miemy", "miecie", "mą"]
+
+
+def jac(word):
+    stem = word[:-2]
+    for pronoun, suffix in enumerate(jac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # zżąć exception
 zzac_suffix = ["zeżnę", "zeżniesz", "zeżnie", "zeżniemy", "zeżniecie", "zeżną"]
 
@@ -800,6 +811,8 @@ if (
         or word.endswith("zzać")
     ):
         zzac(word)  # zżąć, zeżnę
+    elif word.endswith("jąć") or word.endswith("dąć") or word.endswith("żąć"):
+        jac(word)  # pojąć, pojmę
     elif word == "gać" or word == "mać" or word == "nać":
         print("You entered a noun. Please enter a verb.")
     else:
