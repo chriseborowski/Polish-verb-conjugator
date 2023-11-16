@@ -757,7 +757,14 @@ if (
         brac(word)  # brać, biorę
     elif word.endswith("odpiąć") or word.endswith("odpiąc"):
         odpiac(word)  # odpiąć, odepnę
-    elif word.endswith("piąć") or word.endswith("piąc"):
+    elif (
+        word.endswith("giąć")
+        or word.endswith("giac")
+        or word.endswith("miąć")
+        or word.endswith("miąc")
+        or word.endswith("piąć")
+        or word.endswith("piąc")
+    ):
         zapiac(word)  # zapiąć, zapnę
     elif (
         word.endswith("ziąć")
