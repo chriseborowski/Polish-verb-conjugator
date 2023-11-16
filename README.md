@@ -26,9 +26,12 @@ The latest version supports the following functionalities:
 - [x] Support for the _-awać_ verbs of the type: _stawać (staję, stajesz, staje...)_
 - [x] Support for the _-azać_ verbs of the type: _kazać (każę, każesz, każe...)_
 - [x] Support for the _-azać_ verbs of the type: _kazać (każę, każesz, każe...)_
+- [x] Support for the 3-letter _ąć_ verbs of the type: _dąć (dmę, dmiesz, dmie…)_
 - [x] Support for the _-jąć_ verbs of the type: _pojąć (pojmę, pojmiesz, pojmie...)_
 - [x] Support for the _-wziąć_ verbs of the type: _wziąć (wezmę, weźmiesz, weźmie...)_
+- [x] Support for the _-mieć_ verbs of the type: _rozumieć (rozumiem, rozumiesz, rozumie...)_
 - [x] Support for the _-rzeć_ verbs of the type: _umrzeć (umrzeć, umrę, umrze...)_
+- [x] Support for the _-rzeć_ verbs of the type: _patrzeć (patrzę, patrzysz, patrzy...)_
 
 ## License
 
