@@ -901,6 +901,8 @@ elif (
         wiesc(word)  # wieść, wiodę
     elif word.endswith("wieźć") or word.endswith("wiezc"):
         wiezc(word)  # wieźć, wiozę
+    elif word.endswith("gnieść") or word.endswith("gniesc"):
+        plesc(word)  # gnieść, gniotę
     elif word.endswith("nieść") or word.endswith("niesc"):
         niesc(word)  # nieść, niosę
     elif word.endswith("pleść") or word.endswith("plesc"):
