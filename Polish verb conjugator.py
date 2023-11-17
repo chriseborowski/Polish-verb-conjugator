@@ -567,11 +567,24 @@ def czyscic(word):
 
 # robić category
 robic_suffix = ["ę", "sz", "", "my", "cie", "ą"]
+robic_past_suffix = [
+    "łem/-łam",
+    "łeś/-łaś",
+    "ł/-ła/-ło",
+    "liśmy/-łyśmy",
+    "liście/-łyście",
+    "li/-ły",
+]
 
 
 def robic(word):
     stem = word[:-1]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(robic_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(robic_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
