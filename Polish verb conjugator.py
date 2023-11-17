@@ -166,11 +166,24 @@ def plakac(word):
 
 # czytać category
 czytac_suffix = ["m", "sz", "", "my", "cie", "ją"]
+czytac_past_suffix = [
+    "łam/-łem",
+    "łaś/-łeś",
+    "ła/-ł/-ło",
+    "liśmy/-łyście",
+    "liście/-łyście",
+    "li/-ły",
+]
 
 
 def czytac(word):
     stem = word[:-1]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(czytac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense:\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
