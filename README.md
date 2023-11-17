@@ -32,6 +32,9 @@ The latest version supports the following functionalities:
 - [x] Support for the _-mieć_ verbs of the type: _rozumieć (rozumiem, rozumiesz, rozumie...)_
 - [x] Support for the _-rzeć_ verbs of the type: _umrzeć (umrzeć, umrę, umrze...)_
 - [x] Support for the _-rzeć_ verbs of the type: _patrzeć (patrzę, patrzysz, patrzy...)_
+- [x] Support for the past-tense forms of the most typical, regular -A- verbs of the type: _czytać (czytam, czytasz, czyta...)_
+- [x] Support for the past-tense forms of most typical, regular -E- verbs of the type: _chcieć (chcę, chcesz, chce...)_
+- [x] Support for the past-tense forms of the most typical, regular -I- verbs of the type: _robić (robię, robisz, robi...)_
 
 ## License
 
