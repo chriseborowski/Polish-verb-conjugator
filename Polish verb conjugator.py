@@ -320,11 +320,25 @@ def mlec(word):
 
 # chcieć category
 chciec_suffix = ["ę", "esz", "e", "emy", "ecie", "ą"]
+chciec_past_suffix = [
+    "ałem/-ałam",
+    "ałeś/-ałaś",
+    "ał/-ała/-o",
+    "eliśmy/-ałyśmy",
+    "eliście/-ałyście",
+    "eli/-ały",
+]
 
 
 def chciec(word):
-    stem = word[:-3]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(chciec_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(chciec_past_suffix):
+        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
