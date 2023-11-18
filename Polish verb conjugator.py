@@ -44,8 +44,14 @@ brac_suffix = ["iorę", "ierzesz", "ierze", "ierzemy", "ierzecie", "iorą"]
 
 
 def brac(word):
-    stem = word[:-3]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(brac_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
@@ -62,8 +68,14 @@ przebrac_forms = [
 
 
 def przebrac(word):
+    print("Present tense:\n")
     for pronoun, form in enumerate(przebrac_forms):
         print(pronouns[pronoun] + " " + form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 
 # zebrać category
@@ -71,8 +83,14 @@ zebrac_suffix = ["biorę", "bierzesz", "bierze", "bierzemy", "bierzecie", "bior�
 
 
 def zebrac(word):
-    stem = word[:-5]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(zebrac_suffix):
+        stem = word[:-5]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
@@ -82,8 +100,14 @@ wezbrac_suffix = ["zbiorę", "zbierzesz", "zbierze", "zbierzemy", "zbierzecie", 
 
 
 def wezbrac(word):
-    stem = word[:-6]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(wezbrac_suffix):
+        stem = word[:-6]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
