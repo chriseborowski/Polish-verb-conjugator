@@ -10,8 +10,14 @@ pracowac_suffix = ["uję", "ujesz", "uje", "ujemy", "ujecie", "ują"]
 
 
 def pracowac(word):
-    stem = word[:-4]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(pracowac_suffix):
+        stem = word[:-4]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
