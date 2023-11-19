@@ -245,8 +245,14 @@ plakac_suffix = ["czę", "czesz", "cze", "czemy", "czecie", "czą"]
 
 
 def plakac(word):
-    stem = word[:-3]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(plakac_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
