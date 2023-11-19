@@ -38,6 +38,8 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of the _-ować_ verbs of the type: _pracować (pracowałem/-łam, pracowałem/-łam, pracował/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _-awać_ verbs of the type: _stawać (stawałem/-łam, stawałeś/-łaś, stawał/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _-brać_ verbs of the type: _brać (brałem/-łam, brałeś/-łaś, brał/-ła/-ło...)_
+- [x] Support for the past-tense forms of the _-nąć_ verbs of the type: _stanąć (stanąłem/stanęłam, stanąłeś/stanęłam, stanął/stanęła/stanęło...)_
+- [x] Support for the past-tense forms of irregular verbs _pisać, \_kazać, \_kłamać: \_pisać (pisałem/-łam, pisałeś/-łaś, pisał/-ła/-ło...)_
 
 ## License
 
