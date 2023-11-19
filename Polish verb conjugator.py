@@ -228,8 +228,14 @@ jechac_suffix = ["adę", "edziesz", "edzie", "edziemy", "edziecie", "adą"]
 
 
 def jechac(word):
-    stem = word[:-5]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(jechac_suffix):
+        stem = word[:-5]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
