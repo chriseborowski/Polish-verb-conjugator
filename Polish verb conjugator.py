@@ -148,6 +148,7 @@ def stac(word):
 
 # stanąć category
 stanac_suffix = ["ę", "iesz", "ie", "iemy", "iecie", "ą"]
+# this set of suffixes supports the ą:ę variation in the past tense
 stanac_past_suffix = [
     "ąłem/-ęłam",
     "ąłeś/-ęłaś",
