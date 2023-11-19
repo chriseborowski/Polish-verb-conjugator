@@ -117,8 +117,14 @@ zebrac_1_suffix = ["zę", "zesz", "ze", "zemy", "zecie", "zą"]
 
 
 def zebrac_1(word):
-    stem = word[:-2]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(zebrac_1_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
