@@ -285,11 +285,25 @@ def czytac(word):
 
 # umrzeć category
 umrzec_suffix = ["ę", "zesz", "ze", "zemy", "zecie", "ą"]
+umrzec_past_suffix = [
+    "arłem/-arłam",
+    "arłeś/-arłaś",
+    "arł/-arła/-arło",
+    "arliśmy/-arłyśmy",
+    "arliście/-arłyście",
+    "arli/-arły",
+]
 
 
 def umrzec(word):
-    stem = word[:-3]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(umrzec_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(umrzec_past_suffix):
+        stem = word[:-4]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
