@@ -153,7 +153,7 @@ stanac_past_suffix = [
     "ąłem/-ęłam",
     "ąłeś/-ęłaś",
     "ął/-ęła/-ęło",
-    "ęliśmy/-ęłyście",
+    "ęliśmy/-ęłyśmy",
     "ęliście/-ęłyście",
     "ęli/-ęły",
 ]
@@ -251,7 +251,7 @@ czytac_past_suffix = [
     "łem/-łam",
     "łeś/-łaś",
     "ł/-ła/-ło",
-    "liśmy/-łyście",
+    "liśmy/-łyśmy",
     "liście/-łyście",
     "li/-ły",
 ]
