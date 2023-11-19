@@ -148,11 +148,25 @@ def stac(word):
 
 # stanąć category
 stanac_suffix = ["ę", "iesz", "ie", "iemy", "iecie", "ą"]
+stanac_past_suffix = [
+    "ąłem/-ęłam",
+    "ąłeś/-ęłaś",
+    "ął/-ęła/-ęło",
+    "ęliśmy/-ęłyście",
+    "ęliście/-ęłyście",
+    "ęli/-ęły",
+]
 
 
 def stanac(word):
-    stem = word[:-2]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(stanac_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
