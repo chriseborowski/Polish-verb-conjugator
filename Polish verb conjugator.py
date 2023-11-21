@@ -1062,10 +1062,10 @@ elif (
         or word.endswith("mrzec")
         or word.endswith("przeć")
         or word.endswith("przec")
-        or word.endswith("trzeć")
-        or word.endswith("trzec")
     ):
         umrzec(word)  # umrzeć, umrę / podrzeć, podrę
+    elif word.endswith("trzeć") or word.endswith("trzec"):
+        patrzec(word)  # patrzeć, patrzę
     elif word.endswith("wiedzieć") or word.endswith("wiedziec"):
         wiedziec(word)  # powiedzieć, powiem
     elif word.endswith("jeść") or word.endswith("jesc"):
