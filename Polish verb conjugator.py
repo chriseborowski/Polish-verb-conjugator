@@ -384,11 +384,26 @@ def zzac(word):
 
 # patrzeć category
 patrzec_suffix = ["ę", "ysz", "y", "ymy", "ycie", "ą"]
+# this set of suffixes supports the -y- conjugation in the past tense
+patrzec_past_suffix = [
+    "yłem/-łam",
+    "yłeś/-łaś",
+    "ył/-ła/-ło",
+    "yliśmy/-łyśmy",
+    "yliście/-łyście",
+    "yli/-yły",
+]
 
 
 def patrzec(word):
-    stem = word[:-2]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(patrzec_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(patrzec_past_suffix):
+        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
