@@ -338,8 +338,14 @@ wziac_suffix = ["ezmę", "eźmiesz", "eźmie", "eźmiemy", "eźmiecie", "ezmą"]
 
 
 def wziac(word):
-    stem = word[:-4]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(wziac_suffix):
+        stem = word[:-4]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
