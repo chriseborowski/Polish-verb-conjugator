@@ -372,8 +372,14 @@ zzac_suffix = ["zeżnę", "zeżniesz", "zeżnie", "zeżniemy", "zeżniecie", "ze
 
 
 def zzac(word):
+    print("Present tense:\n")
     for pronoun, form in enumerate(zzac_suffix):
         print(pronouns[pronoun] + " " + form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 
 # patrzeć category
