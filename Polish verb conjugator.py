@@ -427,11 +427,25 @@ def rozumiec(word):
 
 # wieść category
 wiesc_suffix = ["odę", "edziesz", "edzie", "edziemy", "edziecie", "odą"]
+# this set of suffixes supports the -eść verb category in the past tense
+wiesc_past_suffix = [
+    "odłem/-łam",
+    "odłeś/-łaś",
+    "ódł/-odła/-odło",
+    "edliśmy/-edłyśmy",
+    "edliście/-edłyście",
+    "edli/-edły",
+]
 
 
 def wiesc(word):
     stem = word[:-3]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(wiesc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(wiesc_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
