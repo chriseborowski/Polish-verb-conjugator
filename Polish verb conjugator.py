@@ -419,7 +419,7 @@ def rozumiec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
+    for pronoun, suffix in enumerate(miec_past_suffix):
         stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
