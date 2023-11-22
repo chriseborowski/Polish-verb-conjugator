@@ -413,8 +413,14 @@ rozumiec_suffix = ["m", "sz", "", "my", "cie", "ją"]
 
 
 def rozumiec(word):
-    stem = word[:-1]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(rozumiec_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
@@ -510,11 +516,26 @@ def krasc(word):
 
 # mieć exception
 miec_suffix = ["am", "asz", "a", "amy", "acie", "ają"]
+# this set of suffixes supports the -E- verb category in the past tense
+miec_past_suffix = [
+    "ałem/-łam",
+    "ałeś/-łaś",
+    "ał/-ła/-ło",
+    "eliśmy/-ałyśmy",
+    "eliście/-ałyście",
+    "eli/-ały",
+]
 
 
 def miec(word):
-    stem = word[:-3]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(miec_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(miec_past_suffix):
+        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
