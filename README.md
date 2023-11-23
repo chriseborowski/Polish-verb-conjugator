@@ -44,8 +44,11 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of the _-wziąć_ verbs of the type: _wziąć (wziąłem/wzięłam, wziąłeś/wzięłaś, wziął/wzięła/wzięło...)_
 - [x] Support for the past-tense forms of the _-zżąć_ verbs of the type: _zżąć (zżąłem/zżęłam, zżąłeś/zżęłaś, zżął/zżęła/zżęło...)_
 - [x] Support for the past-tense forms of the _-mieć_ verbs of the type: _mieć (miałem/miałam, miałeś/miałaś, miał/miała/miało...)_
+- [x] Support for the past-tense forms of the _-leć_ verbs of the type: _myśleć (myślałem/myślałam, myślałeś/myślałaś, myślał/myślała/myślało...)_
+- [x] Support for the past-tense forms of the _-pomnieć_ verbs of the type: _zapomnieć (zapomniałem/zapomniałam, zapomniałeś/zapomniałaś, zapomniał/zapomniała/zapomniało...)_
 - [x] Support for the past-tense forms of the _-trzeć_ verbs of the type: _patrzeć (patrzyłem/-łam, patrzyłeś/-łaś, patrzył/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _wieść_ verbs of the type: _wieść (wiodłem/wiodłam, wiodłeś/wiodłaś, wiódł/wiodła/wiodło...)_
+- [x] Support for the past-tense forms of the _wieźć_ verbs of the type: _wieźć (wiozłem/wiozłam, wiozłeś/wiozłaś, wiózł/wiozła/wiozło...)_
 
 ## License
 
