@@ -497,7 +497,12 @@ myslec_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
 
 def myslec(word):
     stem = word[:-2]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(myslec_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(chciec_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
