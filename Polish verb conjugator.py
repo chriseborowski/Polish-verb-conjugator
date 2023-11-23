@@ -514,9 +514,9 @@ def mlec(word):
 # chcieć category
 chciec_suffix = ["ę", "esz", "e", "emy", "ecie", "ą"]
 chciec_past_suffix = [
-    "ałem/-ałam",
-    "ałeś/-ałaś",
-    "ał/-ała/-o",
+    "ałem/-łam",
+    "ałeś/-łaś",
+    "ał/-ła/-ło",
     "eliśmy/-ałyśmy",
     "eliście/-ałyście",
     "eli/-ały",
