@@ -452,11 +452,24 @@ def wiesc(word):
 
 # wieźć category
 wiezc_suffix = ["ozę", "eziesz", "ezie", "eziemy", "eziecie", "ozą"]
+wiezc_past_suffix = [
+    "ozłem/-łam",
+    "ozłeś/-łaś",
+    "ózł/-ozła/-ozło",
+    "eźliśmy/-ozłyśmy",
+    "eźliście/-ozłyście",
+    "eźli/-ozły",
+]
 
 
 def wiezc(word):
     stem = word[:-3]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(wiezc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(wiezc_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
