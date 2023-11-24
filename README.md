@@ -20,7 +20,7 @@ The latest version supports the following functionalities:
 - [x] Support for the _-iwać_ verbs of the type: _podskakiwać (podskakuję, podskakujesz, podskakuje...)_
 - [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
 - [x] Support for the _-jechać_ verbs of the type: _-jechać (-jadę, -jedziesz, -jedzie...)_
-- [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_
+- [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_, _mleć_
 - [x] Support for the _-akać_ verbs of the type: _skakać (skaczę, skaczesz, skacze...)_
 - [x] Support for the _-amać_ verbs of the type: _kłamać (kłamię, kłamiesz, kłamie...)_
 - [x] Support for the _-awać_ verbs of the type: _stawać (staję, stajesz, staje...)_
@@ -47,6 +47,9 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of the _-leć_ verbs of the type: _myśleć (myślałem/myślałam, myślałeś/myślałaś, myślał/myślała/myślało...)_
 - [x] Support for the past-tense forms of the _-pomnieć_ verbs of the type: _zapomnieć (zapomniałem/zapomniałam, zapomniałeś/zapomniałaś, zapomniał/zapomniała/zapomniało...)_
 - [x] Support for the past-tense forms of the _-trzeć_ verbs of the type: _patrzeć (patrzyłem/-łam, patrzyłeś/-łaś, patrzył/-ła/-ło...)_
+- [x] Support for the past-tense forms of the _-aść_ verbs of the type: _kraść (kradłem/kradłam, kradłeś/kradłaś, kradł/kradła/kradło...)_
+- [x] Support for the past-tense forms of the _wiedzieć_ verbs of the type: _wiedzieć (wiedziałem/wiedziałam, wiedziałeś/wiedziałaś, wiedział/wiedziała/wiedziało...)_
+- [x] Support for the past-tense forms of the _-eść_ verbs of the type: _nieść (niosłem/niosłam, niosłeś/niosłaś, niósł/niosła/niosło...)_
 - [x] Support for the past-tense forms of the _wieść_ verbs of the type: _wieść (wiodłem/wiodłam, wiodłeś/wiodłaś, wiódł/wiodła/wiodło...)_
 - [x] Support for the past-tense forms of the _wieźć_ verbs of the type: _wieźć (wiozłem/wiozłam, wiozłeś/wiozłaś, wiózł/wiozła/wiozło...)_
 
