@@ -555,11 +555,24 @@ def chciec(word):
 
 # kraść category
 krasc_suffix = ["dnę", "dniesz", "dnie", "dniemy", "dniecie", "dną"]
+krasc_past_suffix = [
+    "dłem/-łam",
+    "dłeś/-łaś",
+    "dł/-a/-o",
+    "dliśmy/-łyśmy",
+    "dliście/-łyście",
+    "dli/-ły",
+]
 
 
 def krasc(word):
     stem = word[:-2]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(krasc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(krasc_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
