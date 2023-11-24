@@ -509,10 +509,22 @@ def myslec(word):
 
 # mleć category
 mlec_forms = ["mielę", "mielesz", "miele", "mielemy", "mielecie", "mielą"]
+mlec_past_forms = [
+    "mełłem/-am",
+    "mełłeś/-aś",
+    "mełł/-a/-o",
+    "mełliśmy/-łyśmy",
+    "mełliscie/-łyście",
+    "mełli/-ły",
+]
 
 
 def mlec(word):
+    print("Present tense:\n")
     for pronoun, form in enumerate(mlec_forms):
+        print(pronouns[pronoun] + " " + form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, form in enumerate(mlec_past_forms):
         print(pronouns[pronoun] + " " + form)
 
 
