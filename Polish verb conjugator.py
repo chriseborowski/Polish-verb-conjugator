@@ -622,11 +622,24 @@ def wiedziec(word):
 
 # nieść category
 niesc_suffix = ["osę", "esiesz", "esie", "esiemy", "esiecie", "osą"]
+niesc_past_suffix = [
+    "osłem/-łam",
+    "osłeś/-łaś",
+    "ósł/-osła/-osło",
+    "eśliśmy/-osłyśmy",
+    "eśliście/-osłyście",
+    "eśli/-osły",
+]
 
 
 def niesc(word):
     stem = word[:-3]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(niesc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(niesc_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
