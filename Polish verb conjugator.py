@@ -608,8 +608,14 @@ wiedziec_suffix = ["m", "sz", "", "my", "cie", "dzą"]
 
 
 def wiedziec(word):
-    stem = word[:-5]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(wiedziec_suffix):
+        stem = word[:-5]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(chciec_past_suffix):
+        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
