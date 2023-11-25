@@ -670,11 +670,24 @@ def trzasc(word):
 
 # pleść category
 plesc_suffix = ["otę", "eciesz", "ecie", "eciemy", "eciecie", "otą"]
+plesc_past_suffix = [
+    "otłem/-łam",
+    "otłeś/-łaś",
+    "ótł/-otła/-otło",
+    "etliśmy/-otłyśmy",
+    "etliście/-otłyście",
+    "etli/-otły",
+]
 
 
 def plesc(word):
     stem = word[:-3]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(plesc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(plesc_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
