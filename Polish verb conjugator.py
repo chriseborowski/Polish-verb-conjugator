@@ -657,8 +657,8 @@ trzasc_past_suffix = [
 
 
 def trzasc(word):
-    print("Present tense:\n")
     stem = word[:-3]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(trzasc_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
