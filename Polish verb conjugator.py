@@ -694,11 +694,25 @@ def plesc(word):
 
 # wleźć category
 wlezc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
+wlezc_past_suffix = [
+    "azłem/-łam",
+    "azłeś/-łaś",
+    "azł/-ła/-ło",
+    "eźliśmy/-azłyśmy",
+    "eźliście/-azłyście",
+    "eźli/-azły",
+]
 
 
 def wlezc(word):
-    stem = word[:-2]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(wlezc_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(wlezc_past_suffix):
+        stem = word[:-3]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
