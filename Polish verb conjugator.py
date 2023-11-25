@@ -646,11 +646,24 @@ def niesc(word):
 
 # trząść exception
 trzasc_suffix = ["ęsę", "ęsiesz", "ęsie", "ęsiemy", "ęsiecie", "ęsą"]
+trzasc_past_suffix = [
+    "ąsłem/-ęsłam",
+    "ąsłeś/-ęsłaś",
+    "ąsł/-ęsła/-ęsło",
+    "ęśliśmy/-słyśmy",
+    "ęśliście/-słyście",
+    "ęśli/-sły",
+]
 
 
 def trzasc(word):
+    print("Present tense:\n")
     stem = word[:-3]
     for pronoun, suffix in enumerate(trzasc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(trzasc_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
