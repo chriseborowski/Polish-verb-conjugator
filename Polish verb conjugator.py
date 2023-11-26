@@ -791,11 +791,24 @@ def piec(word):
 
 # móc category
 moc_suffix = ["ogę", "ożesz", "oże", "ożemy", "ożecie", "ogą"]
+moc_past_suffix = [
+    "ogłem/-łam",
+    "ogłeś/-łaś",
+    "ógł/-ogła/-ogło",
+    "ogliśmy/-łyśmy",
+    "ogliście/-łyście",
+    "ogli/-ły",
+]
 
 
 def moc(word):
     stem = word[:-2]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(moc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(moc_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
