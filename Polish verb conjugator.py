@@ -743,11 +743,24 @@ def grzazc(word):
 
 # biec category
 biec_suffix = ["gnę", "gniesz", "gnie", "gniemy", "gniecie", "gną"]
+biec_past_suffix = [
+    "głem/-am",
+    "głeś/-aś",
+    "gł/-a/-o",
+    "gliśmy/-łyśmy",
+    "gliście/-łyście",
+    "gli/-ły",
+]
 
 
 def biec(word):
     stem = word[:-1]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(biec_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(biec_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
