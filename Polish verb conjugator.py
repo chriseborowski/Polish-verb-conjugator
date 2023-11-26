@@ -719,11 +719,25 @@ def wlezc(word):
 
 # grząźć exception
 grzazc_suffix = ["ęzę", "ęziesz", "ęzie", "ęziemy", "ęziecie", "ęzą"]
+grzazc_past_suffix = [
+    "ązłem/-ęzłam",
+    "ązłeś/-ęzłaś",
+    "ązł/-ęzła/-ęzło",
+    "ęźliśmy/-ęzłyśmy",
+    "ęźliście/-ęzłyście",
+    "ęźli/-ęzły",
+]
 
 
 def grzazc(word):
     stem = word[:-3]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(grzazc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(grzazc_past_suffix):
+        stem = word[:-3]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
