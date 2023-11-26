@@ -767,11 +767,24 @@ def biec(word):
 
 # piec category
 piec_suffix = ["kę", "czesz", "cze", "czemy", "czecie", "ką"]
+piec_past_suffix = [
+    "kłem/-łam",
+    "kłeś/-łaś",
+    "kł/-ła/-ło",
+    "kliśmy/-łyśmy",
+    "kliście/-łyśmy",
+    "kli/-ły",
+]
 
 
 def piec(word):
     stem = word[:-1]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(piec_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(piec_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
