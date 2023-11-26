@@ -737,7 +737,6 @@ def grzazc(word):
         print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(grzazc_past_suffix):
-        stem = word[:-3]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
