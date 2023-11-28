@@ -886,8 +886,14 @@ chodzic_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
 
 
 def chodzic(word):
-    stem = word[:-2]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(chodzic_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(robic_past_suffix):
+        stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
@@ -898,7 +904,12 @@ cierpiec_suffix = ["ę", "sz", "", "my", "cie", "ą"]
 
 def cierpiec(word):
     stem = word[:-2]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(cierpiec_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(chciec_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
