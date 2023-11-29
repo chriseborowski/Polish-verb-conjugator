@@ -994,8 +994,14 @@ byc_forms = ["jestem", "jesteś", "jest", "jesteśmy", "jesteście", "są"]
 
 
 def byc(word):
+    print("Present tense:\n")
     for pronoun, form in enumerate(byc_forms):
         print(pronouns[pronoun] + " " + form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(robic_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 
 # -być exception
