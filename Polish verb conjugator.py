@@ -1037,8 +1037,14 @@ spac_forms = ["śpię", "śpisz", "śpi", "śpimy", "śpicie", "śpią"]
 
 
 def spac(word):
+    stem = word[:-1]
+    print("Present tense:\n")
     for pronoun, form in enumerate(spac_forms):
         print(pronouns[pronoun] + " " + form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(robic_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 
 # iść/-jść category
