@@ -34,7 +34,7 @@ The latest version supports the following functionalities:
 - [x] Support for the _-rzeć_ verbs of the type: _patrzeć (patrzę, patrzysz, patrzy...)_
 - [x] Support for the past-tense forms of the most typical, regular -A- verbs of the type: _czytać (czytam, czytasz, czyta...)_
 - [x] Support for the past-tense forms of most typical, regular -E- verbs of the type: _chcieć (chcę, chcesz, chce...)_
-- [x] Support for the past-tense forms of the most typical, regular -I- verbs of the type: _robić (robię, robisz, robi...)_
+- [x] Support for the past-tense forms of the most typical, regular -I- verbs of the type: _robić (robiłem/robiłam, robiłeś/robiłaś, robił/robiła/robiło...)_
 - [x] Support for the past-tense forms of irregular verbs such as: _być (byłem/byłam, byłeś/byłaś, był/była/było...)_
 - [x] Support for the past-tense forms of the _-ować_ verbs of the type: _pracować (pracowałem/-łam, pracowałem/-łam, pracował/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _-awać_ verbs of the type: _stawać (stawałem/-łam, stawałeś/-łaś, stawał/-ła/-ło...)_
