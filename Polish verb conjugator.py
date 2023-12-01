@@ -1130,19 +1130,38 @@ odpiac_suffix = ["epnę", "epniesz", "epnie", "epniemy", "epniecie", "epną"]
 
 
 def odpiac(word):
-    stem = word[:-4]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(odpiac_suffix):
+        stem = word[:-4]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
 # gryźć category
 gryzc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
+gryzc_past_suffix = [
+    "złem/-łam",
+    "złeś/-łaś",
+    "zł/-ła/-ło",
+    "źliśmy/-złyśmy",
+    "źliście/-złyście",
+    "źli/-zły",
+]
 
 
 def gryzc(word):
     stem = word[:-2]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(gryzc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(gryzc_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
