@@ -36,7 +36,8 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of most typical, regular -E- verbs of the type: _chcieć (chcę, chcesz, chce...)_
 - [x] Support for the past-tense forms of the most typical, regular -I- verbs of the type: _robić (robiłem/robiłam, robiłeś/robiłaś, robił/robiła/robiło...)_
 - [x] Support for the past-tense forms of the _(-)jeździć_ verbs of the type: _jeździć (jeździłem/jeździłam, jeździłeś/jeździłaś, jeździł/jeździła/jeździło...)_
-- [x] Support for the past-tense forms of irregular verbs such as: _być (byłem/byłam, byłeś/byłaś, był/była/było...)_
+- [x] Support for the past-tense forms of irregular verbs such as: _być (byłem/byłam, byłeś/byłaś, był/była/było...)_, _iść_, _gryźć_
+- [x] Support for the past-tense forms of irregular verbs such as: _iść_ and related verbs of the type: _pójść (poszedłem/poszłam, poszedłeś/poszłaś, poszedł/poszła/poszło...)_
 - [x] Support for the past-tense forms of the _-ować_ verbs of the type: _pracować (pracowałem/-łam, pracowałem/-łam, pracował/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _-awać_ verbs of the type: _stawać (stawałem/-łam, stawałeś/-łaś, stawał/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _-brać_ verbs of the type: _brać (brałem/-łam, brałeś/-łaś, brał/-ła/-ło...)_
@@ -47,6 +48,7 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of the _-cząć_ verbs of the type: _zacząć (zacząłem/zaczęłam, zacząłeś/zaczęłaś, zaczął/zaczęła/zaczęło...)_
 - [x] Support for the past-tense forms of irregular verbs _pisać, kazać, kłamać (pisałem/-łam, pisałeś/-łaś, pisał/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _-jąć_ verbs of the type: _zająć (zająłem/zajęłam, zająłeś/zajęłaś, zajął/zajęła/zajęło...)_
+- [x] Support for the past-tense forms of the _-piąć_ verbs of the type: _odpiąć (odpiąłem/odpięłam, odpiąłeś/odpięłaś, odpiął/odpięła/odpięło...)_
 - [x] Support for the past-tense forms of the _-wziąć_ verbs of the type: _wziąć (wziąłem/wzięłam, wziąłeś/wzięłaś, wziął/wzięła/wzięło...)_
 - [x] Support for the past-tense forms of the _-zżąć_ verbs of the type: _zżąć (zżąłem/zżęłam, zżąłeś/zżęłaś, zżął/zżęła/zżęło...)_
 - [x] Support for the past-tense forms of the _-mieć_ verbs of the type: _mieć (miałem/miałam, miałeś/miałaś, miał/miała/miało...)_
