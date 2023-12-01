@@ -1058,6 +1058,14 @@ isc_past_forms = [
     "szliście/szłyście",
     "szli/szły",
 ]
+isc_past_suffix = [
+    "szedłem/-szłam",
+    "szedłeś/-szłaś",
+    "szedł/-szła/-szło",
+    "szliśmy/-szłyśmy",
+    "szliście/-szłyście",
+    "szli/-szły",
+]
 
 
 def isc(word):
@@ -1067,9 +1075,23 @@ def isc(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(isc_past_forms):
-        conjugated_form = suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
+    stop_letter = "j"
+    pojsc_exception = "ój"
+    if stop_letter not in word:
+        for pronoun, form in enumerate(isc_past_forms):
+            print(pronouns[pronoun] + " " + form)
+    else:
+        for pronoun, suffix in enumerate(isc_past_suffix):
+            if pojsc_exception in word:
+                index_of_oj = word.index("ój")
+                prefix = word[:index_of_oj]
+                conjugated_form = prefix + "o" + suffix
+                print(pronouns[pronoun] + " " + conjugated_form)
+            else:
+                index_of_j = word.index("j")
+                prefix = word[:index_of_j]
+                conjugated_form = prefix + suffix
+                print(pronouns[pronoun] + " " + conjugated_form)
 
 
 # jeździć exception
