@@ -1050,12 +1050,25 @@ def spac(word):
 # iść/-jść category
 
 isc_suffix = ["dę", "dziesz", "dzie", "dziemy", "dziecie", "dą"]
+isc_past_forms = [
+    "szedłem/szłam",
+    "szedłeś/szłaś",
+    "szedł/szła/szło",
+    "szliśmy/szłyśmy",
+    "szliście/szłyście",
+    "szli/szły",
+]
 
 
 def isc(word):
-    stem = word[:-2]
+    print("Present tense:\n")
     for pronoun, suffix in enumerate(isc_suffix):
+        stem = word[:-2]
         conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(isc_past_forms):
+        conjugated_form = suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
