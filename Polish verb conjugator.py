@@ -1429,7 +1429,7 @@ elif (
         jesc(word)  # jeść, jem
     elif word.endswith("rpieć") or word.endswith("rpiec"):
         cierpiec(word)  # cierpieć, cierpię
-    elif word.endswith("biec"):
+    elif word.endswith("biec") or word.endswith("ulec"):
         biec(word)  # biec, biegnę
     elif word == "kupiec":
         print("You entered a noun. Please enter a verb.")
