@@ -1527,6 +1527,8 @@ elif (
             pic(word)  # gnić, gniję
         elif word == "tlić" or word == "tlic":
             myslec(word)  # tlić, tlę
+        elif word == "kpić" or word == "kpic":
+            robic(word)  # kpić, kpię
         elif word.endswith("pić") or word.endswith("pic"):
             pic(word)  # upić, upiję
     else:
