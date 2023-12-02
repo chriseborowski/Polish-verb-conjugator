@@ -20,7 +20,7 @@ The latest version supports the following functionalities:
 - [x] Support for the _-iwać_ verbs of the type: _podskakiwać (podskakuję, podskakujesz, podskakuje...)_
 - [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
 - [x] Support for the _-jechać_ verbs of the type: _-jechać (-jadę, -jedziesz, -jedzie...)_
-- [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_, _mleć_, _strzyc_, _piać_
+- [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_, _mleć_, _strzyc_, _piać_, _ciec_, _rzec_, _ulec_
 - [x] Support for the _-akać_ verbs of the type: _skakać (skaczę, skaczesz, skacze...)_
 - [x] Support for the _-amać_ verbs of the type: _kłamać (kłamię, kłamiesz, kłamie...)_
 - [x] Support for the _-awać_ verbs of the type: _stawać (staję, stajesz, staje...)_
@@ -36,7 +36,7 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of most typical, regular -E- verbs of the type: _chcieć (chcę, chcesz, chce...)_
 - [x] Support for the past-tense forms of the most typical, regular -I- verbs of the type: _robić (robiłem/robiłam, robiłeś/robiłaś, robił/robiła/robiło...)_
 - [x] Support for the past-tense forms of the _(-)jeździć_ verbs of the type: _jeździć (jeździłem/jeździłam, jeździłeś/jeździłaś, jeździł/jeździła/jeździło...)_
-- [x] Support for the past-tense forms of irregular verbs such as: _być (byłem/byłam, byłeś/byłaś, był/była/było...)_, _iść_, _gryźć_
+- [x] Support for the past-tense forms of irregular verbs such as: _być (byłem/byłam, byłeś/byłaś, był/była/było...)_, _iść_, _gryźć_, _ulec_, _ciec_, _rzec_
 - [x] Support for the past-tense forms of irregular verbs such as: _iść_ and related verbs of the type: _pójść (poszedłem/poszłam, poszedłeś/poszłaś, poszedł/poszła/poszło...)_, _wejść (wszedłem/weszłam, wszedłeś/weszłaś, wszedł/weszła/weszło...)_, _wyjść (wyszedłem/wyszłam, wyszedłeś/wyszłaś, wyszedł/wyszła/wyszło...)_
 - [x] Support for the past-tense forms of the _-ować_ verbs of the type: _pracować (pracowałem/-łam, pracowałem/-łam, pracował/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _-awać_ verbs of the type: _stawać (stawałem/-łam, stawałeś/-łaś, stawał/-ła/-ło...)_
