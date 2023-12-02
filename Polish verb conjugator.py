@@ -1433,7 +1433,7 @@ elif (
         biec(word)  # biec, biegnę
     elif word == "kupiec":
         print("You entered a noun. Please enter a verb.")
-    elif word.endswith("piec"):
+    elif word.endswith("piec") or word.endswith("rzec"):
         piec(word)  # piec, piekę
     elif (
         word.endswith("musieć")
