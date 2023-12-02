@@ -1527,8 +1527,31 @@ elif (
             pic(word)  # gnić, gniję
         elif word == "tlić" or word == "tlic":
             myslec(word)  # tlić, tlę
+        elif word.endswith("pić") or word.endswith("pic"):
+            pic(word)  # upić, upiję
     else:
         if (
+            word.endswith("apić")
+            or word.endswith("apic")
+            or word.endswith("dobić")
+            or word.endswith("dobic")
+            or word.endswith("epić")
+            or word.endswith("epic")
+            or word.endswith("odbić")
+            or word.endswith("odbic")
+            or word.endswith("opić")
+            or word.endswith("opic")
+            or word.endswith("pobić")
+            or word.endswith("pobic")
+            or word.endswith("upić")
+            or word.endswith("upic")
+            or word.endswith("ybić")
+            or word.endswith("ybic")
+            or word.endswith("ypić")
+            or word.endswith("ypic")
+        ):
+            pic(word)  # podbić, podbiję
+        elif (
             word.endswith("ążyć")
             or word.endswith("azyc")
             or word.endswith("azyć")
