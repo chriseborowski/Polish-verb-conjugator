@@ -1634,7 +1634,7 @@ elif (
         else:
             robic(word)  # robić, robię
 
-# This code conjugates verbs that end in -uć
+# This code conjugates verbs that end in -uc/-uć
 elif word.endswith("łuc"):
     piec(word)  # tłuc, tłukę
 elif (
