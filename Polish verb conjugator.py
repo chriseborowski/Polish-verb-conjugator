@@ -772,7 +772,7 @@ piec_past_suffix = [
     "kłeś/-łaś",
     "kł/-ła/-ło",
     "kliśmy/-łyśmy",
-    "kliście/-łyśmy",
+    "kliście/-łyście",
     "kli/-ły",
 ]
 
