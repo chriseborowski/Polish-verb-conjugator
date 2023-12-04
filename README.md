@@ -58,6 +58,8 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of the _-biec_ verbs of the type: _biec (biegłem/biegłam, biegłeś/biegłaś, biegł/biegła/biegło...)_
 - [x] Support for the past-tense forms of the _-pić_ verbs of the type: _wypić (wypiłem/wypiłam, wypiłeś/wypiłaś, wypił/wypiła/wypiło...)_
 - [x] Support for the past-tense forms of the _-piec_ verbs of the type: _piec (piekłem/piekłam, piekłeś/piekłaś, piekł/piekła/piekło...)_
+- [x] Support for the past-tense forms of the _-żeć_ verbs of the type: _leżeć (leżałem/leżałam, leżałeś/leżałaś, leżał/leżała/leżało...)_
+- [x] Support for the past-tense forms of the _-ciec_/_biec_/_wlec_, _rzec_ verbs of the type: _wyrzec (wyrzekłem/wyrzekłam, wyrzekłeś/wyrzekłaś, wyrzekł/wyrzekła/wyrzekło...)_
 - [x] Support for the past-tense forms of the _-aść_ verbs of the type: _kraść (kradłem/kradłam, kradłeś/kradłaś, kradł/kradła/kradło...)_
 - [x] Support for the past-tense forms of the _-ąść_ verbs of the type: _trząść (trząsłem/trzęsłam, trząsłeś/trzęsłaś, trząsł/trzęsła/trzęsło...)_
 - [x] Support for the past-tense forms of the _-ąźć_ verbs of the type: _grząźć (grzązłem/grzęzłam, grzązłeś/grzęzłaś, grzązł/grzęzła/grzęzło...)_
@@ -65,6 +67,7 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of the _-eść_ verbs of the type: _nieść (niosłem/niosłam, niosłeś/niosłaś, niósł/niosła/niosło...)_
 - [x] Support for the past-tense forms of the _-(l)eść_ verbs of the type: _pleść (plotłem/plotłam, plotłeś/plotłaś, plótł/plotła/plotło...)_
 - [x] Support for the past-tense forms of the _wieść_ verbs of the type: _wieść (wiodłem/wiodłam, wiodłeś/wiodłaś, wiódł/wiodła/wiodło...)_
+- [x] Support for the past-tense forms of the _-cić/-dzić_ verbs of the type: _budzić (budziłem/budziłam, budziłeś/budziłaś, budził/budziła/budziło...)_
 - [x] Support for the past-tense forms of the _wieźć_ verbs of the type: _wieźć (wiozłem/wiozłam, wiozłeś/wiozłaś, wiózł/wiozła/wiozło...)_
 - [x] Support for the past-tense forms of the _-(l)eźć_ verbs of the type: _wleźć (wlazłem/wlazłam, wlazłeś/wlazłaś, wlazł/wlazła/wlazłoc...)_
 - [x] Support for the past-tense forms of the _-móc_ verbs of the type: _pomóc (pomogłem/pomogłam, pomogłeś/pomogłaś, pomógł/pomogła/pomogło...)_
