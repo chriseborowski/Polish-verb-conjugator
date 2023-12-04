@@ -931,6 +931,28 @@ def nosic(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# zlecić category
+def zlecic(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(zapomniec_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(robic_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
+# elif (
+#             word.endswith("cić")
+#             or word.endswith("cic")
+#             or word.endswith("dzić")
+#             or word.endswith("dzic")
+#         ):
+#             myslec(word)  # płacić, płacę / budzić, budzę
+
 # musieć category
 musiec_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
 
@@ -1670,7 +1692,7 @@ elif (
             or word.endswith("dzić")
             or word.endswith("dzic")
         ):
-            myslec(word)  # płacić, płacę / budzić, budzę
+            zlecic(word)  # płacić, płacę / budzić, budzę
         elif word.endswith("yć") or word.endswith("yc"):
             pic(word)  # ukryć, ukryję
         else:
