@@ -1619,7 +1619,20 @@ elif (
             or word.endswith("dżyc")
         ):
             patrzec(word)  # dżdżyć, dżdżę / miażdżyć, miażdżę
-        elif word.endswith("żyć"):
+        elif (
+            word.endswith("ić")
+            or word.endswith("ic")
+            or word.endswith("żyć")
+            or word.endswith("zyc")
+            or word.endswith("myć")
+            or word.endswith("myc")
+            or word.endswith("ryć")
+            or word.endswith("ryc")
+            or word.endswith("tyc")
+            or word.endswith("tyć")
+            or word.endswith("wyć")
+            or word.endswith("wyc")
+        ):
             pic(word)  # żyć, żyję
         elif word.endswith("być") or word.endswith("byc"):
             bede(word)  # zdobyć, zdobędę
