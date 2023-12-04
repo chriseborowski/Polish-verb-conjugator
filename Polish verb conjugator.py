@@ -408,6 +408,21 @@ def patrzec(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# drżeć category
+
+
+def drzec(word):
+    stem = word[:-2]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(patrzec_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(chciec_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # rozumieć category
 rozumiec_suffix = ["m", "sz", "", "my", "cie", "ją"]
 
@@ -1101,6 +1116,7 @@ def isc(word):
     stop_letter = "j"
     pojsc_exception = "ój"
     wejsc_exception = "ej"
+    ujsc_exception = "uj"
     if stop_letter not in word:
         for pronoun, form in enumerate(isc_past_forms):
             print(pronouns[pronoun] + " " + form)
@@ -1508,7 +1524,7 @@ elif (
         or word.endswith("zeć")
         or word.endswith("zec")
     ):
-        patrzec(word)  # patrzeć, patrzę
+        drzec(word)  # drżę, drżysz
     else:
         chciec(word)  # chcieć, chcę
 
