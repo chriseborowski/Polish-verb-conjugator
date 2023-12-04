@@ -945,14 +945,6 @@ def zlecic(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
-# elif (
-#             word.endswith("cić")
-#             or word.endswith("cic")
-#             or word.endswith("dzić")
-#             or word.endswith("dzic")
-#         ):
-#             myslec(word)  # płacić, płacę / budzić, budzę
-
 # musieć category
 musiec_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
 
@@ -1455,7 +1447,12 @@ elif (
         biec(word)  # biec, biegnę
     elif word == "kupiec":
         print("You entered a noun. Please enter a verb.")
-    elif word.endswith("piec") or word.endswith("rzec") or word.endswith("ciec"):
+    elif (
+        word.endswith("piec")
+        or word.endswith("rzec")
+        or word.endswith("ciec")
+        or word.endswith("siec")
+    ):
         piec(word)  # piec, piekę
     elif (
         word.endswith("musieć")
