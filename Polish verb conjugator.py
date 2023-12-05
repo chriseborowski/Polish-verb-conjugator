@@ -804,6 +804,31 @@ def piec(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# piec category
+wlec_suffix = ["okę", "eczesz", "ecze", "eczemy", "eczecie", "oką"]
+wlec_past_suffix = [
+    "kłem/-łam",
+    "kłeś/-łaś",
+    "kł/-ła/-ło",
+    "kliśmy/-łyśmy",
+    "kliście/-łyście",
+    "kli/-ły",
+]
+
+
+def wlec(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(wlec_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(wlec_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # móc category
 moc_suffix = ["ogę", "ożesz", "oże", "ożemy", "ożecie", "ogą"]
 moc_past_suffix = [
@@ -1504,8 +1529,10 @@ elif (
         zapomniec(word)  # zapomnieć, zapomnę
     elif word == "mleć" or word == "mlec":
         mlec(word)  # mleć, mielę
-    elif word.endswith(("leć")) or word.endswith("lec"):
+    elif word.endswith("leć"):
         myslec(word)  # myśleć, myślę
+    elif word.endswith("lec"):
+        wlec(word)  # wlec, wlokę
     elif word == "chcieć" or word == "chciec":
         chciec(word)  # chcieć, chcę
     elif word == "mieć" or word == "miec":
