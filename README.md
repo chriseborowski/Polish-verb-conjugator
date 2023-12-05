@@ -40,13 +40,15 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of irregular verbs such as: _iść_ and related verbs of the type: _pójść (poszedłem/poszłam, poszedłeś/poszłaś, poszedł/poszła/poszło...)_, _wejść (wszedłem/weszłam, wszedłeś/weszłaś, wszedł/weszła/weszło...)_, _wyjść (wyszedłem/wyszłam, wyszedłeś/wyszłaś, wyszedł/wyszła/wyszło...)_
 - [x] Support for the past-tense forms of the _-ować_ verbs of the type: _pracować (pracowałem/-łam, pracowałem/-łam, pracował/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _-awać_ verbs of the type: _stawać (stawałem/-łam, stawałeś/-łaś, stawał/-ła/-ło...)_
+- [x] Support for the past-tense forms of the _-wić_ verbs of the type: _bawić (bawiłem/bawiłam, bawiłeś/bawiłaś, bawił/bawiła/bawiło...)_
 - [x] Support for the past-tense forms of the _-brać_ verbs of the type: _brać (brałem/-łam, brałeś/-łaś, brał/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _(-)wstać_ verbs of the type: _wstać (wstałem/wstałam, wstałeś/wstałaś, wstał/wstała/wstało...)_
 - [x] Support for the past-tense forms of the _-być_ verbs of the type: _być (byłem/byłam, byłeś/byłaś, był/była/było...)_
+- [x] Support for the past-tense forms of the _(-)opać_ verbs of the type: _kopać (kopałem/kopałam, kopałeś/kopałaś, kopał/kopała/kopało...)_
 - [x] Support for the past-tense forms of the _(-)spać_ verbs of the type: _spać (spałem/spałam, spałeś/spałeś, spał/spała/spało...)_
 - [x] Support for the past-tense forms of the _-nąć_ verbs of the type: _stanąć (stanąłem/stanęłam, stanąłeś/stanęłam, stanął/stanęła/stanęło...)_
 - [x] Support for the past-tense forms of the _-cząć_ verbs of the type: _zacząć (zacząłem/zaczęłam, zacząłeś/zaczęłaś, zaczął/zaczęła/zaczęło...)_
-- [x] Support for the past-tense forms of irregular verbs _pisać, kazać, kłamać (pisałem/-łam, pisałeś/-łaś, pisał/-ła/-ło...)_
+- [x] Support for the past-tense forms of irregular verbs _pisać, kazać, kłamać, wlec (pisałem/-łam, pisałeś/-łaś, pisał/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _-jąć_ verbs of the type: _zająć (zająłem/zajęłam, zająłeś/zajęłaś, zajął/zajęła/zajęło...)_
 - [x] Support for the past-tense forms of the _-piąć_ verbs of the type: _odpiąć (odpiąłem/odpięłam, odpiąłeś/odpięłaś, odpiął/odpięła/odpięło...)_
 - [x] Support for the past-tense forms of the _-wziąć_ verbs of the type: _wziąć (wziąłem/wzięłam, wziąłeś/wzięłaś, wziął/wzięła/wzięło...)_
