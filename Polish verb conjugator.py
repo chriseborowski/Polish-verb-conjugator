@@ -1415,6 +1415,8 @@ if (
         or word.endswith("ebac")
         or word.endswith("epać")
         or word.endswith("epac")
+        or word.endswith("opać")
+        or word.endswith("opac")
     ):
         klamac(word)  # klepać, klepię
     elif word.endswith("jechać") or word.endswith("jechac"):
