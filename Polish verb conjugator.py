@@ -1617,6 +1617,8 @@ elif (
             or word.endswith("chybic")
             or word.endswith("ubić")
             or word.endswith("ubic")
+            or word.endswith("rybić")
+            or word.endswith("rybic")
         ):
             robic(word)  # chybić, chybię
         elif (
