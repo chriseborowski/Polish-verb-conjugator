@@ -1670,6 +1670,8 @@ elif (
             or word.endswith("dżyc")
         ):
             patrzec(word)  # dżdżyć, dżdżę / miażdżyć, miażdżę
+        elif word.endswith("wić") or word.endswith("wic"):
+            robic(word)  # bawić, bawię
         elif (
             word.endswith("ić")
             or word.endswith("ic")
