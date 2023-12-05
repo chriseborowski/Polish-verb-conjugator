@@ -1611,7 +1611,9 @@ elif (
         elif word.endswith("pić") or word.endswith("pic"):
             pic(word)  # upić, upiję
     else:
-        if (
+        if word.endswith("chybić") or word.endswith("chybic"):
+            robic(word)  # chybić, chybię
+        elif (
             word.endswith("apić")
             or word.endswith("apic")
             or word.endswith("dobić")
