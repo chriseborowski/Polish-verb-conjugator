@@ -1673,9 +1673,7 @@ elif (
         elif word.endswith("wić") or word.endswith("wic"):
             robic(word)  # bawić, bawię
         elif (
-            word.endswith("ić")
-            or word.endswith("ic")
-            or word.endswith("żyć")
+            word.endswith("żyć")
             or word.endswith("zyc")
             or word.endswith("myć")
             or word.endswith("myc")
