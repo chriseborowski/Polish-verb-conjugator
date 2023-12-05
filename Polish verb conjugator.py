@@ -1605,6 +1605,8 @@ elif (
             or word.endswith("ypic")
         ):
             pic(word)  # podbić, podbiję
+        elif word == "zażyć":
+            pic(word)  # zażyć, zażyję
         elif (
             word.endswith("ążyć")
             or word.endswith("azyc")
