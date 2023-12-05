@@ -807,24 +807,23 @@ def piec(word):
 # piec category
 wlec_suffix = ["okę", "eczesz", "ecze", "eczemy", "eczecie", "oką"]
 wlec_past_suffix = [
-    "kłem/-łam",
-    "kłeś/-łaś",
-    "kł/-ła/-ło",
-    "kliśmy/-łyśmy",
-    "kliście/-łyście",
-    "kli/-ły",
+    "okłem/-łam",
+    "okłeś/-łaś",
+    "ókł/-okła/-okło",
+    "ekliśmy/-okłyśmy",
+    "ekliście/-okłyście",
+    "ekli/-okły",
 ]
 
 
 def wlec(word):
+    stem = word[:-2]
     print("Present tense:\n")
     for pronoun, suffix in enumerate(wlec_suffix):
-        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(wlec_past_suffix):
-        stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
