@@ -39,6 +39,19 @@ def stawac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# dać category
+def dac(word):
+    stem = word[:-1]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(jesc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # brać category
 brac_suffix = ["iorę", "ierzesz", "ierze", "ierzemy", "ierzecie", "iorą"]
 
@@ -1299,6 +1312,8 @@ if (
         word == "piać" or word == "piac" or word.endswith("lać") or word.endswith("lac")
     ):
         piac(word)  # piać, pieję
+    elif word.endswith("dać") or word.endswith("dac"):
+        dac(word)  # dać, dam
     elif (
         word.endswith("kazywać")
         or word.endswith("kazywac")
@@ -1618,6 +1633,10 @@ elif (
             pic(word)  # upić, upiję
         elif word.endswith("jść") or word.endswith("jśc") or word.endswith("jsc"):
             isc(word)  # ujść, ujdę
+        else:
+            pic(
+                word
+            )  # any 4-letter verbs not covered by the above category use this function
     else:
         if (
             word.endswith("chybić")
