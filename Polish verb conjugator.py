@@ -1624,6 +1624,8 @@ elif (
             myslec(word)  # tlić, tlę
         elif word == "kpić" or word == "kpic":
             robic(word)  # kpić, kpię
+        elif word.endswith("być") or word.endswith("byc"):
+            bede(word)  # ubyć, ubędę
         elif (
             word.endswith("pić")
             or word.endswith("pic")
