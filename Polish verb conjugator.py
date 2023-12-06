@@ -1616,6 +1616,8 @@ elif (
             or word.endswith("myc")
         ):
             pic(word)  # upić, upiję
+        elif word.endswith("jść") or word.endswith("jśc") or word.endswith("jsc"):
+            isc(word)  # ujść, ujdę
     else:
         if (
             word.endswith("chybić")
