@@ -1609,7 +1609,12 @@ elif (
             myslec(word)  # tlić, tlę
         elif word == "kpić" or word == "kpic":
             robic(word)  # kpić, kpię
-        elif word.endswith("pić") or word.endswith("pic"):
+        elif (
+            word.endswith("pić")
+            or word.endswith("pic")
+            or word.endswith("myć")
+            or word.endswith("myc")
+        ):
             pic(word)  # upić, upiję
     else:
         if (
