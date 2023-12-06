@@ -1647,6 +1647,8 @@ elif (
             or word.endswith("rybic")
         ):
             robic(word)  # chybić, chybię
+        elif word.endswith("szyć") or word.endswith("szyc"):
+            pic(word)  # szyć, szyję
         elif (
             word.endswith("apić")
             or word.endswith("apic")
