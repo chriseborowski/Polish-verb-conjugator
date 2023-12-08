@@ -1823,7 +1823,9 @@ elif (
 elif word.endswith("łuc"):
     piec(word)  # tłuc, tłukę
 elif (
-    word.endswith("nuć")
+    word.endswith("kuć")
+    or word.endswith("kuc")
+    or word.endswith("nuć")
     or word.endswith("nuc")
     or word.endswith("żuć")
     or word.endswith("żuc")
