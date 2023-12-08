@@ -380,19 +380,36 @@ def jac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
-# zżąć exception
-zzac_suffix = ["zeżnę", "zeżniesz", "zeżnie", "zeżniemy", "zeżniecie", "zeżną"]
+# -żąć category
+# zac_suffix = ["n"]
+
+# # zżąć exception
+# zzac_suffix = ["zeżnę", "zeżniesz", "zeżnie", "zeżniemy", "zeżniecie", "zeżną"]
 
 
-def zzac(word):
-    print("Present tense:\n")
-    for pronoun, form in enumerate(zzac_suffix):
-        print(pronouns[pronoun] + " " + form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(stanac_past_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
+def zac(word):
+    if word == "zżąć":
+        print("Present tense:\n")
+        for pronoun, suffix in enumerate(zaczac_suffix):
+            stem = word[:-2]
+            conjugated_form = stem[0] + "e" + stem[1] + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(stanac_past_suffix):
+            stem = word[:-2]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    else:
+        print("Present tense:\n")
+        for pronoun, suffix in enumerate(zaczac_suffix):
+            stem = word[:-2]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(stanac_past_suffix):
+            stem = word[:-2]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
 
 
 # patrzeć category
@@ -1478,14 +1495,14 @@ if (
     elif word.endswith("jechać") or word.endswith("jechac"):
         jechac(word)  # jechać, jadę, jedziesz
     elif (
-        word.endswith("zżąć")
-        or word.endswith("zżać")
-        or word.endswith("zżąc")
-        or word.endswith("zzac")
-        or word.endswith("zząc")
-        or word.endswith("zzać")
+        word.endswith("żąć")
+        or word.endswith("żać")
+        or word.endswith("żąc")
+        or word.endswith("zac")
+        or word.endswith("ząc")
+        or word.endswith("zać")
     ):
-        zzac(word)  # zżąć, zeżnę
+        zac(word)  # użąć, użnę
     elif word.endswith("jąć") or word.endswith("dąć") or word.endswith("żąć"):
         jac(word)  # pojąć, pojmę
     elif word == "gać" or word == "mać" or word == "nać":
