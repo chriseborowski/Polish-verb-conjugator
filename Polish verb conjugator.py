@@ -1261,6 +1261,30 @@ def odpiac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# uląc category
+ulac_suffix = ["ęknę", "ękniesz", "ęknie", "ękniemy", "ękniecie", "ękną"]
+ulac_past_suffix = [
+    "ąkłem/-ękłam",
+    "ąkłeś/-ękłaś",
+    "ąkł/-ękła/-ękło",
+    "ękliśmy/-łyśmy",
+    "ękliście/-łyśmy",
+    "ękli/-ły",
+]
+
+
+def ulac(word):
+    stem = word[:-2]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(ulac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(ulac_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # gryźć category
 gryzc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
 gryzc_past_suffix = [
@@ -1449,6 +1473,8 @@ if (
         jac(word)  # pojąć, pojmę
     elif word == "gać" or word == "mać" or word == "nać":
         print("You entered a noun. Please enter a verb.")
+    elif word.endswith("ąc"):
+        ulac(word)  # uląc, ulęknę
     else:
         czytac(word)  # czytać, czytam
 
