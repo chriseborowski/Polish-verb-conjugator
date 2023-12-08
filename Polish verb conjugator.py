@@ -1618,6 +1618,7 @@ elif (
 elif word.endswith("moc") or word.endswith("móc"):
     moc(word)  # móc, mogę
 
+# This code conjugates verbs that end in -óć
 elif word.endswith("łóć") or word.endswith("łóc"):
     kloc(word)  # kłóć, kolę
 
