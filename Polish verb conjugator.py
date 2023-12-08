@@ -1316,7 +1316,7 @@ word = input("Enter a Polish verb here (no 'się' necessary): ")
 
 # << checker starts here >>
 
-# This code conjugates verbs that end in -ać or -ąć
+# This code conjugates verbs that end in -ać or -ąc or -ąć
 if (
     word.endswith("ać")
     or word.endswith("ac")
