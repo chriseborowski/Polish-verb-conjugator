@@ -865,6 +865,23 @@ def moc(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# kłóć exception
+kloc_suffix = ["olę", "olesz", "ole", "olemy", "olecie", "olą"]
+
+
+def kloc(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(kloc_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # strzyc category
 strzyc_suffix = ["gę", "żesz", "że", "żemy", "żecie", "gą"]
 
@@ -1600,6 +1617,9 @@ elif (
 # This code conjugates verbs that end in -óc
 elif word.endswith("moc") or word.endswith("móc"):
     moc(word)  # móc, mogę
+
+elif word.endswith("łóć") or word.endswith("łóc"):
+    kloc(word)  # kłóć, kolę
 
 # This code conjugates verbs that end in -ić or -yć
 elif (
