@@ -1866,7 +1866,7 @@ elif (
     or word.endswith("luć")
     or word.endswith("luc")
     or word.endswith("nuć")
-    or word.endswith("nuc")
+    or word.endswith("nuc") or word.endswith("ruć") or word.endswith("ruc")
     or word.endswith("żuć")
     or word.endswith("żuc")
     or word.endswith("zuć")
