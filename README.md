@@ -46,7 +46,7 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of the _(-)wstać_ verbs of the type: _wstać (wstałem/wstałam, wstałeś/wstałaś, wstał/wstała/wstało...)_
 - [x] Support for the past-tense forms of the _-być_ verbs of the type: _być (byłem/byłam, byłeś/byłaś, był/była/było...)_
 - [x] Support for the past-tense forms of the _-dać_ verbs of the type: _podać (podałem/podałam, podałeś/podałaś, podał/podała/podało...)_
-- [x] Support for the past-tense forms of the _-kuć_ verbs of the type: _odkuć (odkułem/odkułam, odkułeś/odkułaś, odkuł/odkuła/odkuło...)_
+- [x] Support for the past-tense forms of the _-kuć_/_luć_/_ruć_/_suć_ verbs of the type: _odkuć (odkułem/odkułam, odkułeś/odkułaś, odkuł/odkuła/odkuło...)_
 - [x] Support for the past-tense forms of the _-szyć_ verbs of the type: _uszyć (uszyłem/uszyłam, uszyłeś/uszyłaś, uszył/uszyła/uszyło...)_
 - [x] Support for the past-tense forms of the _(-)opać_ verbs of the type: _kopać (kopałem/kopałam, kopałeś/kopałaś, kopał/kopała/kopało...)_
 - [x] Support for the past-tense forms of the _(-)spać_ verbs of the type: _spać (spałem/spałam, spałeś/spałeś, spał/spała/spało...)_
