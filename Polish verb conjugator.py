@@ -381,10 +381,6 @@ def jac(word):
 
 
 # -żąć category
-# zac_suffix = ["n"]
-
-# # zżąć exception
-# zzac_suffix = ["zeżnę", "zeżniesz", "zeżnie", "zeżniemy", "zeżniecie", "zeżną"]
 
 
 def zac(word):
