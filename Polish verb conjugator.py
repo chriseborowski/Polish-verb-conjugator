@@ -713,6 +713,22 @@ def trzasc(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# siąść category
+
+
+def siasc(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(isc_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(jesc_past_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # pleść category
 plesc_suffix = ["otę", "eciesz", "ecie", "eciemy", "eciecie", "otą"]
 plesc_past_suffix = [
@@ -1537,7 +1553,7 @@ elif (
     or word.endswith("siąśc")
     or word.endswith("siąsć")
 ):
-    isc(word)  # posiąść, posiądę
+    siasc(word)  # posiąść, posiądę
 elif word.endswith("prząść"):
     przasc(word)  # prząść, przędę
 elif word.endswith("ąść") or word.endswith("ąśc") or word.endswith("ąsc"):
