@@ -324,9 +324,9 @@ def umrzec(word):
 # jeść category
 jesc_suffix = ["m", "sz", "", "my", "cie", "dzą"]
 jesc_past_suffix = [
-    "adłem/-adłam",
-    "adłeś/-adłaś",
-    "adł/-adła/-adło",
+    "adłem/-łam",
+    "adłeś/-łaś",
+    "adł/-ła/-ło",
     "edliśmy/-adłyśmy",
     "edliście/-adłyście",
     "edli/-adły",
