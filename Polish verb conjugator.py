@@ -1885,4 +1885,4 @@ elif word.endswith("gryźć") or word.endswith("gryzc"):
 else:
     print("Try again.")
 
-# checker ends here
+# The conjugator ends here
