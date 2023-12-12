@@ -380,6 +380,22 @@ def jac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# -djąć category
+
+
+def zdjac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(jac_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + "ej" + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # -żąć category
 
 
@@ -1586,6 +1602,13 @@ if (
         or word.endswith("zać")
     ):
         zac(word)  # użąć, użnę
+    elif (
+        word.endswith("djąć")
+        or word.endswith("djać")
+        or word.endswith("djąc")
+        or word.endswith("djac")
+    ):
+        zdjac(word)  # zdjąć, zdejmę
     elif word.endswith("jąć") or word.endswith("dąć") or word.endswith("żąć"):
         jac(word)  # pojąć, pojmę
     elif word == "gać" or word == "mać" or word == "nać":
