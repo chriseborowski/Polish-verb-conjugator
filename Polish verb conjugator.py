@@ -979,6 +979,20 @@ def piac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# ciąć exception
+def ciac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(wstac_suffix):
+        stem = "t"
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # chodzić category
 chodzic_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
 
@@ -1484,6 +1498,8 @@ if (
         or word.endswith("piąc")
     ):
         zapiac(word)  # zapiąć, zapnę
+    elif word.endswith("ciąć") or word.endswith("ciąc") or word.endswith("ciać"):
+        ciac(word)  # ciąć, tnę
     elif (
         word.endswith("ziąć")
         or word.endswith("ziąc")
