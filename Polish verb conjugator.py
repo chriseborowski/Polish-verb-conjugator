@@ -1371,6 +1371,22 @@ def zapiac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# zgiąć category
+
+
+def zgiac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(zapiac_suffix):
+        stem = word[:-4]
+        conjugated_form = stem + "eg" + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # -odpiąć category
 odpiac_suffix = ["epnę", "epniesz", "epnie", "epniemy", "epniecie", "epną"]
 
@@ -1528,9 +1544,11 @@ if (
         brac(word)  # brać, biorę
     elif word.endswith("odpiąć") or word.endswith("odpiąc"):
         odpiac(word)  # odpiąć, odepnę
+    elif word.endswith("zgiąć") or word.endswith("zgiąc"):
+        zgiac(word)  # zgiąć, zegnę
     elif (
         word.endswith("giąć")
-        or word.endswith("giac")
+        or word.endswith("giąc")
         or word.endswith("miąć")
         or word.endswith("miąc")
         or word.endswith("piąć")
