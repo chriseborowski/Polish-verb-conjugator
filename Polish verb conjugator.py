@@ -798,6 +798,29 @@ def grzazc(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# zaprząc category
+zaprzac_past_suffix = [
+    "ągłem/-ęgłam",
+    "ągłeś/-ęgłaś",
+    "ągł/-ęgła/-ęgło",
+    "ęgliśmy/-łyśmy",
+    "ęgliście/-łyście",
+    "ęgli/-ły",
+]
+
+
+def zaprzac(word):
+    stem = word[:-2]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(strzyc_suffix):
+        conjugated_form = stem + "ę" + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(zaprzac_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # biec category
 biec_suffix = ["gnę", "gniesz", "gnie", "gniemy", "gniecie", "gną"]
 biec_past_suffix = [
@@ -1500,6 +1523,8 @@ if (
         zapiac(word)  # zapiąć, zapnę
     elif word.endswith("ciąć") or word.endswith("ciąc") or word.endswith("ciać"):
         ciac(word)  # ciąć, tnę
+    elif word.endswith("rząc") or word.endswith("rzac"):
+        zaprzac(word)  # zaprząc, zaprzęgę
     elif (
         word.endswith("ziąć")
         or word.endswith("ziąc")
