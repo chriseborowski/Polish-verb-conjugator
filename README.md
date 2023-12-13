@@ -57,7 +57,7 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of irregular verbs _pisać, kazać, kłamać, wlec (pisałem/-łam, pisałeś/-łaś, pisał/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _-(d)jąć_ verbs of the type: _zająć (zająłem/zajęłam, zająłeś/zajęłaś, zajął/zajęła/zajęło...)_
 - [x] Support for the past-tense forms of the _-giąć_ verbs of the type: _zgiąć (zgiąłem/zgięłam, zgiąłeś/zgięłaś, zgiął/zgięła/zgięło...)_
-- [x] Support for the past-tense forms of the _-piąć_ verbs of the type: _odpiąć (odpiąłem/odpięłam, odpiąłeś/odpięłaś, odpiął/odpięła/odpięło...)_
+- [x] Support for the past-tense forms of the _-(s)piąć_ verbs of the type: _odpiąć (odpiąłem/odpięłam, odpiąłeś/odpięłaś, odpiął/odpięła/odpięło...)_
 - [x] Support for the past-tense forms of the _-wziąć_ verbs of the type: _wziąć (wziąłem/wzięłam, wziąłeś/wzięłaś, wziął/wzięła/wzięło...)_
 - [x] Support for the past-tense forms of the _-zżąć_ verbs of the type: _zżąć (zżąłem/zżęłam, zżąłeś/zżęłaś, zżął/zżęła/zżęło...)_
 - [x] Support for the past-tense forms of the _-mieć_ verbs of the type: _mieć (miałem/miałam, miałeś/miałaś, miał/miała/miało...)_
@@ -66,6 +66,7 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of the _-trzeć_ verbs of the type: _patrzeć (patrzyłem/-łam, patrzyłeś/-łaś, patrzył/-ła/-ło...)_
 - [x] Support for the past-tense forms of the _-biec_ verbs of the type: _biec (biegłem/biegłam, biegłeś/biegłaś, biegł/biegła/biegło...)_
 - [x] Support for the past-tense forms of the _-pić_ verbs of the type: _wypić (wypiłem/wypiłam, wypiłeś/wypiłaś, wypił/wypiła/wypiło...)_
+- [x] Support for the past-tense forms of the _-śnić_ verbs of the type: _wyśnić (wyśniłem/wyśniłam, wyśniłeś/wyśniłaś, wyśnił/wyśniła/wyśniło...)_
 - [x] Support for the past-tense forms of the _-piec_ verbs of the type: _piec (piekłem/piekłam, piekłeś/piekłaś, piekł/piekła/piekło...)_
 - [x] Support for the past-tense forms of the _-żeć_ verbs of the type: _leżeć (leżałem/leżałam, leżałeś/leżałaś, leżał/leżała/leżało...)_
 - [x] Support for the past-tense forms of the _-ciec_/_biec_/_wlec_, _rzec_ verbs of the type: _wyrzec (wyrzekłem/wyrzekłam, wyrzekłeś/wyrzekłaś, wyrzekł/wyrzekła/wyrzekło...)_
