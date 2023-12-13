@@ -1359,11 +1359,17 @@ zapiac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
 
 
 def zapiac(word):
-    stop_letter = "w"
+    stop_letter_w = "w"
+    stop_letter_s = "s"
     print("Present tense:\n")
-    if stop_letter in word:
+    if stop_letter_w in word:
         for pronoun, suffix in enumerate(zapiac_suffix):
             stem = word[0] + "e" + word[1:3]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    elif stop_letter_s in word:
+        for pronoun, suffix in enumerate(zapiac_suffix):
+            stem = "zep"
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
     else:
