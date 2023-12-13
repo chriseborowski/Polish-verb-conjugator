@@ -166,9 +166,9 @@ stanac_past_suffix = [
     "ąłem/-ęłam",
     "ąłeś/-ęłaś",
     "ął/-ęła/-ęło",
-    "ęliśmy/-ęłyśmy",
-    "ęliście/-ęłyście",
-    "ęli/-ęły",
+    "ęliśmy/-łyśmy",
+    "ęliście/-łyście",
+    "ęli/-ły",
 ]
 
 
