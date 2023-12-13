@@ -1806,6 +1806,13 @@ elif (
     elif len(word) <= 4:
         if word.endswith("szyć") or word.endswith("szyc"):
             pic(word)  # szyć, szyję
+        elif (
+            word.endswith("śnić")
+            or word.endswith("snić")
+            or word.endswith("śnic")
+            or word.endswith("snic")
+        ):
+            robic(word)  # śnić, śnię
         elif word.endswith("nić") or word.endswith("nic"):
             pic(word)  # gnić, gniję
         elif word == "tlić" or word == "tlic":
