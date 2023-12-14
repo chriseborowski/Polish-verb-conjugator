@@ -1021,10 +1021,23 @@ def piac(word):
 # ciąć exception
 def ciac(word):
     print("Present tense:\n")
-    for pronoun, suffix in enumerate(wstac_suffix):
-        stem = "t"
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
+    if len(word) > 4:
+        if word[0] == "ś":
+            for pronoun, suffix in enumerate(wstac_suffix):
+                stem = "zet"
+                conjugated_form = stem + suffix
+                print(pronouns[pronoun] + " " + conjugated_form)
+        else:
+            for pronoun, suffix in enumerate(wstac_suffix):
+                stop_word_c = word.index("c")
+                stem = word[:stop_word_c] + "t"
+                conjugated_form = stem + suffix
+                print(pronouns[pronoun] + " " + conjugated_form)
+    else:
+        for pronoun, suffix in enumerate(wstac_suffix):
+            stem = "t"
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(stanac_past_suffix):
         stem = word[:-2]
