@@ -1047,8 +1047,8 @@ def ciac(word):
                 print(pronouns[pronoun] + " " + conjugated_form)
         else:
             for pronoun, suffix in enumerate(wstac_suffix):
-                stop_word_c = word.index("c")
-                stem = word[:stop_word_c] + "t"
+                stop_letter_c = word.index("c")
+                stem = word[:stop_letter_c] + "t"
                 conjugated_form = stem + suffix
                 print(pronouns[pronoun] + " " + conjugated_form)
     else:
