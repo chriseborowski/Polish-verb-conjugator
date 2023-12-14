@@ -185,6 +185,24 @@ def stanac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# -snąć category
+snac_suffix = ["snę", "śniesz", "śnie", "śniemy", "śniecie", "sną"]
+
+
+def snac(word):
+    print("Present tense:\n")
+    stop_letter_s = word.index("s")
+    prefix = word[:stop_letter_s]
+    for pronoun, suffix in enumerate(snac_suffix):
+        conjugated_form = prefix + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # pisać category
 pisac_suffix = ["zę", "zesz", "ze", "zemy", "zecie", "zą"]
 
@@ -1616,6 +1634,8 @@ if (
         stac(word)  # stać, stoję
     elif word.endswith("ynać") or word.endswith("ynac"):
         czytac(word)  # zaczynać, zaczynam
+    elif word.endswith("snąć") or word.endswith("snąc"):
+        snac(word)  # zasnąć, zasnę
     elif word.endswith("nąć") or word.endswith("nąc"):
         stanac(word)  # stanąć, stanę
     elif word.endswith("ssać") or word.endswith("ssac"):
