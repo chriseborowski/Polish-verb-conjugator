@@ -173,14 +173,13 @@ stanac_past_suffix = [
 
 
 def stanac(word):
+    stem = word[:-2]
     print("Present tense:\n")
     for pronoun, suffix in enumerate(stanac_suffix):
-        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(stanac_past_suffix):
-        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
@@ -386,14 +385,13 @@ jac_suffix = ["mę", "miesz", "mie", "miemy", "miecie", "mą"]
 
 
 def jac(word):
+    stem = word[:-2]
     print("Present tense:\n")
     for pronoun, suffix in enumerate(jac_suffix):
-        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(stanac_past_suffix):
-        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
@@ -418,26 +416,23 @@ def zdjac(word):
 
 
 def zac(word):
+    stem = word[:-2]
     if word == "zżąć":
         print("Present tense:\n")
         for pronoun, suffix in enumerate(zaczac_suffix):
-            stem = word[:-2]
             conjugated_form = stem[0] + "e" + stem[1] + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
         print("\nPast tense (masc/fem/neut):\n")
         for pronoun, suffix in enumerate(stanac_past_suffix):
-            stem = word[:-2]
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
     else:
         print("Present tense:\n")
         for pronoun, suffix in enumerate(zaczac_suffix):
-            stem = word[:-2]
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
         print("\nPast tense (masc/fem/neut):\n")
         for pronoun, suffix in enumerate(stanac_past_suffix):
-            stem = word[:-2]
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
 
@@ -456,14 +451,13 @@ patrzec_past_suffix = [
 
 
 def patrzec(word):
+    stem = word[:-2]
     print("Present tense:\n")
     for pronoun, suffix in enumerate(patrzec_suffix):
-        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(patrzec_past_suffix):
-        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
