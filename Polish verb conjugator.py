@@ -1425,7 +1425,7 @@ def zgiac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
-# -odpiąć category
+# odpiąć category
 odpiac_suffix = ["epnę", "epniesz", "epnie", "epniemy", "epniecie", "epną"]
 
 
