@@ -16,24 +16,33 @@ The latest version supports the following functionalities:
 
 - [x] Support for the most typical, regular -A- verbs of the type: _czytać_
 
-|   1sg    |    2sg    |     3sg      |    1pl    |    2pl     |    3pl    |
-| :------: | :-------: | :----------: | :-------: | :--------: | :-------: |
-|   _ja_   |   _ty_    | _on/ona/ono_ |   _my_    |    _wy_    | _oni/one_ |
-| _czytam_ | _czytasz_ |   _czyta_    | _czytamy_ | _czytacie_ | _czytają_ |
+| [gender] |    1sg     |    2sg     |     3sg      |     1pl      |      2pl      |    3pl    |
+| :------: | :--------: | :--------: | :----------: | :----------: | :-----------: | :-------: |
+|          |    _ja_    |    _ty_    | _on/ona/ono_ |     _my_     |     _wy_      | _oni/one_ |
+|          |  _czytam_  | _czytasz_  |   _czyta_    |  _czytamy_   |  _czytacie_   | _czytają_ |
+|  [masc]  | _czytałem_ | _czytałeś_ |   _czytał_   | _czytaliśmy_ | _czytaliście_ | _czytali_ |
+|  [fem]   | _czytałam_ | _czytałaś_ |  _czytała_   | _czytałyśmy_ | _czytałyście_ | _czytały_ |
+|  [neut]  |            |            |  _czytało_   |              |               |           |
 
 - [x] Support for the most typical, regular -E- verbs of the type: _chcieć_
 
-|  1sg   |   2sg    |     3sg      |   1pl    |    2pl    |    3pl    |
-| :----: | :------: | :----------: | :------: | :-------: | :-------: |
-|  _ja_  |   _ty_   | _on/ona/ono_ |   _my_   |   _wy_    | _oni/one_ |
-| _chcę_ | _chcesz_ |    _chce_    | _chcemy_ | _chcecie_ |  _chcą_   |
+| [gender] |    1sg     |    2sg     |     3sg      |     1pl      |      2pl      |    3pl    |
+| :------: | :--------: | :--------: | :----------: | :----------: | :-----------: | :-------: |
+|          |    _ja_    |    _ty_    | _on/ona/ono_ |     _my_     |     _wy_      | _oni/one_ |
+|          |   _chcę_   |  _chcesz_  |    _chce_    |   _chcemy_   |   _chcecie_   |  _chcą_   |
+|  [masc]  | _chciałem_ | _chciałam_ |   _chciał_   | _chcieliśmy_ | _chcieliście_ | _chcieli_ |
+|  [fem]   | _chciałam_ | _chciałaś_ |  _chciała_   | _chciałyśmy_ | _chciałyście_ | _chciały_ |
+|  [neut]  |            |            |  _chciało_   |              |               |           |
 
-- [x] Support for the most typical, regular -I- verbs of the type: _robić (robię, robisz, robi...)_
+- [x] Support for the most typical, regular -I- verbs of the type: _robić_
 
-|   1sg   |   2sg    |     3sg      |   1pl    |    2pl    |    3pl    |
-| :-----: | :------: | :----------: | :------: | :-------: | :-------: |
-|  _ja_   |   _ty_   | _on/ona/ono_ |   _my_   |   _wy_    | _oni/one_ |
-| _robię_ | _robisz_ |    _robi_    | _robimy_ | _robicie_ |  _robią_  |
+| [gender] |    1sg    |    2sg    |     3sg      |     1pl     |     2pl      |    3pl    |
+| :------: | :-------: | :-------: | :----------: | :---------: | :----------: | :-------: |
+|          |   _ja_    |   _ty_    | _on/ona/ono_ |    _my_     |     _wy_     | _oni/one_ |
+|          |  _robię_  | _robisz_  |    _robi_    |  _robimy_   |  _robicie_   |  _robią_  |
+|  [masc]  | _robiłem_ | _robiłeś_ |   _robił_    | _robiliśmy_ | _robiliście_ | _robili_  |
+|  [fem]   | _robiłam_ | _robiłaś_ |   _robiła_   | _robiłyśmy_ | _robiłyście_ | _robiły_  |
+|  [neut]  |           |           |   _robiło_   |             |              |           |
 
 - [x] Support for the _-iwać_ verbs of the type: _podskakiwać (podskakuję, podskakujesz, podskakuje...)_
 - [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
@@ -51,7 +60,6 @@ The latest version supports the following functionalities:
 - [x] Support for the _-mieć_ verbs of the type: _rozumieć (rozumiem, rozumiesz, rozumie...)_
 - [x] Support for the _-rzeć_ verbs of the type: _umrzeć (umrzeć, umrę, umrze...)_
 - [x] Support for the _-rzeć_ verbs of the type: _patrzeć (patrzę, patrzysz, patrzy...)_
-- [x] Support for the past-tense forms of the most typical, regular -A- verbs of the type: _czytać (czytam, czytasz, czyta...)_
 - [x] Support for the past-tense forms of most typical, regular -E- verbs of the type: _chcieć (chcę, chcesz, chce...)_
 - [x] Support for the past-tense forms of the most typical, regular -I- verbs of the type: _robić (robiłem/robiłam, robiłeś/robiłaś, robił/robiła/robiło...)_
 - [x] Support for the past-tense forms of the _(-)jeździć_ verbs of the type: _jeździć (jeździłem/jeździłam, jeździłeś/jeździłaś, jeździł/jeździła/jeździło...)_
