@@ -897,7 +897,7 @@ def piec(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
-# piec category
+# wlec category
 wlec_suffix = ["okę", "eczesz", "ecze", "eczemy", "eczecie", "oką"]
 wlec_past_suffix = [
     "okłem/-łam",
