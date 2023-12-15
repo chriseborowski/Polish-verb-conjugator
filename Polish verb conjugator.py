@@ -738,8 +738,6 @@ def trzasc(word):
 
 
 # siąść category
-
-
 def siasc(word):
     print("Present tense:\n")
     for pronoun, suffix in enumerate(isc_suffix):
@@ -978,7 +976,7 @@ def strzyc(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
-# << -I-/-Y- category starts here >>
+# << -I-/-Y- verbs category starts here >>
 
 # tworzyć category
 tworzyc_suffix = ["ę", "ysz", "y", "ymy", "ycie", "ą"]
