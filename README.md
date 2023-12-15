@@ -14,9 +14,27 @@ Personal pronouns are included in the brackets.
 
 The latest version supports the following functionalities:
 
-- [x] Support for the most typical, regular -A- verbs of the type: _czytać (czytam, czytasz, czyta...)_
-- [x] Support for the most typical, regular -E- verbs of the type: _chcieć (chcę, chcesz, chce...)_
+- [x] Support for the most typical, regular -A- verbs of the type: _czytać_
+
+|   1sg    |    2sg    |     3sg      |    1pl    |    2pl     |    3pl    |
+| :------: | :-------: | :----------: | :-------: | :--------: | :-------: |
+|   _ja_   |   _ty_    | _on/ona/ono_ |   _my_    |    _wy_    | _oni/one_ |
+| _czytam_ | _czytasz_ |   _czyta_    | _czytamy_ | _czytacie_ | _czytają_ |
+
+- [x] Support for the most typical, regular -E- verbs of the type: _chcieć_
+
+|  1sg   |   2sg    |     3sg      |   1pl    |    2pl    |    3pl    |
+| :----: | :------: | :----------: | :------: | :-------: | :-------: |
+|  _ja_  |   _ty_   | _on/ona/ono_ |   _my_   |   _wy_    | _oni/one_ |
+| _chcę_ | _chcesz_ |    _chce_    | _chcemy_ | _chcecie_ |  _chcą_   |
+
 - [x] Support for the most typical, regular -I- verbs of the type: _robić (robię, robisz, robi...)_
+
+|   1sg   |   2sg    |     3sg      |   1pl    |    2pl    |    3pl    |
+| :-----: | :------: | :----------: | :------: | :-------: | :-------: |
+|  _ja_   |   _ty_   | _on/ona/ono_ |   _my_   |   _wy_    | _oni/one_ |
+| _robię_ | _robisz_ |    _robi_    | _robimy_ | _robicie_ |  _robią_  |
+
 - [x] Support for the _-iwać_ verbs of the type: _podskakiwać (podskakuję, podskakujesz, podskakuje...)_
 - [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
 - [x] Support for the _-jechać_ verbs of the type: _-jechać (-jadę, -jedziesz, -jedzie...)_
