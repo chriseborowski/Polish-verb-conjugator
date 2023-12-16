@@ -21,24 +21,6 @@ def pracowac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
-
-# stawać category
-stawac_suffix = ["ję", "jesz", "je", "jemy", "jecie", "ją"]
-
-
-def stawac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(stawac_suffix):
-        stem = word[:-3]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
 # dać category
 def dac(word):
     stem = word[:-1]
@@ -50,24 +32,6 @@ def dac(word):
     for pronoun, suffix in enumerate(czytac_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# brać category
-brac_suffix = ["iorę", "ierzesz", "ierze", "ierzemy", "ierzecie", "iorą"]
-
-
-def brac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(brac_suffix):
-        stem = word[:-3]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
 
 # mieć exception
 miec_suffix = ["am", "asz", "a", "amy", "acie", "ają"]
@@ -94,200 +58,6 @@ def miec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
-
-# przebrać forms
-def przebrac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(brac_suffix):
-        stem = word[:-3]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# zebrać category
-zebrac_suffix = ["biorę", "bierzesz", "bierze", "bierzemy", "bierzecie", "biorą"]
-
-
-def zebrac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(zebrac_suffix):
-        stem = word[:-5]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# wezbrać category
-wezbrac_suffix = ["zbiorę", "zbierzesz", "zbierze", "zbierzemy", "zbierzecie", "zbiorą"]
-
-
-def wezbrac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(wezbrac_suffix):
-        stem = word[:-6]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# żebrać category
-zebrac_1_suffix = ["zę", "zesz", "ze", "zemy", "zecie", "zą"]
-
-
-def zebrac_1(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(zebrac_1_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# stanąć category
-stanac_suffix = ["ę", "iesz", "ie", "iemy", "iecie", "ą"]
-# this set of suffixes supports the ą:ę variation in the past tense
-stanac_past_suffix = [
-    "ąłem/-ęłam",
-    "ąłeś/-ęłaś",
-    "ął/-ęła/-ęło",
-    "ęliśmy/-łyśmy",
-    "ęliście/-łyście",
-    "ęli/-ły",
-]
-
-
-def stanac(word):
-    stem = word[:-2]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(stanac_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(stanac_past_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# -snąć category
-snac_suffix = ["snę", "śniesz", "śnie", "śniemy", "śniecie", "sną"]
-
-
-def snac(word):
-    print("Present tense:\n")
-    stop_letter_s = word.index("s")
-    prefix = word[:stop_letter_s]
-    for pronoun, suffix in enumerate(snac_suffix):
-        conjugated_form = prefix + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(stanac_past_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# pisać category
-pisac_suffix = ["zę", "zesz", "ze", "zemy", "zecie", "zą"]
-
-
-def pisac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(pisac_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# kazać category
-kazac_suffix = ["żę", "żesz", "że", "żemy", "żecie", "żą"]
-
-
-def kazac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(kazac_suffix):
-        stem = word[:-3]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# kłamać category
-klamac_suffix = ["ię", "iesz", "ie", "iemy", "iecie", "ią"]
-
-
-def klamac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(klamac_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# jechać category
-jechac_suffix = ["adę", "edziesz", "edzie", "edziemy", "edziecie", "adą"]
-
-
-def jechac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(jechac_suffix):
-        stem = word[:-5]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# płakać category
-plakac_suffix = ["czę", "czesz", "cze", "czemy", "czecie", "czą"]
-
-
-def plakac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(plakac_suffix):
-        stem = word[:-3]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
 # czytać category
 czytac_suffix = ["m", "sz", "", "my", "cie", "ją"]
 czytac_past_suffix = [
@@ -298,7 +68,6 @@ czytac_past_suffix = [
     "liście/-łyście",
     "li/-ły",
 ]
-
 
 def czytac(word):
     stem = word[:-1]
@@ -313,6 +82,362 @@ def czytac(word):
 
 
 # << -E- verbs category starts here >>
+
+# brać category
+brac_suffix = ["iorę", "ierzesz", "ierze", "ierzemy", "ierzecie", "iorą"]
+
+def brac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(brac_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# przebrać forms
+def przebrac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(brac_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# zebrać category
+zebrac_suffix = ["biorę", "bierzesz", "bierze", "bierzemy", "bierzecie", "biorą"]
+
+def zebrac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(zebrac_suffix):
+        stem = word[:-5]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# wezbrać category
+wezbrac_suffix = ["zbiorę", "zbierzesz", "zbierze", "zbierzemy", "zbierzecie", "zbiorą"]
+
+def wezbrac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(wezbrac_suffix):
+        stem = word[:-6]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# żebrać category
+zebrac_1_suffix = ["zę", "zesz", "ze", "zemy", "zecie", "zą"]
+
+def zebrac_1(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(zebrac_1_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# stanąć category
+stanac_suffix = ["ę", "iesz", "ie", "iemy", "iecie", "ą"]
+# this set of suffixes supports the ą:ę variation in the past tense
+stanac_past_suffix = [
+    "ąłem/-ęłam",
+    "ąłeś/-ęłaś",
+    "ął/-ęła/-ęło",
+    "ęliśmy/-łyśmy",
+    "ęliście/-łyście",
+    "ęli/-ły",
+]
+
+def stanac(word):
+    stem = word[:-2]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(stanac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# -snąć category
+snac_suffix = ["snę", "śniesz", "śnie", "śniemy", "śniecie", "sną"]
+
+def snac(word):
+    print("Present tense:\n")
+    stop_letter_s = word.index("s")
+    prefix = word[:stop_letter_s]
+    for pronoun, suffix in enumerate(snac_suffix):
+        conjugated_form = prefix + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# pisać category
+pisac_suffix = ["zę", "zesz", "ze", "zemy", "zecie", "zą"]
+
+def pisac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(pisac_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# kazać category
+kazac_suffix = ["żę", "żesz", "że", "żemy", "żecie", "żą"]
+
+def kazac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(kazac_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# kłamać category
+klamac_suffix = ["ię", "iesz", "ie", "iemy", "iecie", "ią"]
+
+def klamac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(klamac_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# jechać category
+jechac_suffix = ["adę", "edziesz", "edzie", "edziemy", "edziecie", "adą"]
+
+def jechac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(jechac_suffix):
+        stem = word[:-5]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# płakać category
+plakac_suffix = ["czę", "czesz", "cze", "czemy", "czecie", "czą"]
+
+def plakac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(plakac_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# piać exception
+piac_suffix = ["eję", "ejesz", "eje", "ejemy", "ejecie", "eją"]
+
+def piac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(piac_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(robic_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# ciąć exception
+def ciac(word):
+    print("Present tense:\n")
+    if len(word) > 4:
+        if word[0] == "ś":
+            for pronoun, suffix in enumerate(wstac_suffix):
+                stem = "zet"
+                conjugated_form = stem + suffix
+                print(pronouns[pronoun] + " " + conjugated_form)
+        else:
+            for pronoun, suffix in enumerate(wstac_suffix):
+                stop_letter_c = word.index("c")
+                stem = word[:stop_letter_c] + "t"
+                conjugated_form = stem + suffix
+                print(pronouns[pronoun] + " " + conjugated_form)
+    else:
+        for pronoun, suffix in enumerate(wstac_suffix):
+            stem = "t"
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# iść/-jść category
+
+isc_suffix = ["dę", "dziesz", "dzie", "dziemy", "dziecie", "dą"]
+isc_past_forms = [
+    "szedłem/szłam",
+    "szedłeś/szłaś",
+    "szedł/szła/szło",
+    "szliśmy/szłyśmy",
+    "szliście/szłyście",
+    "szli/szły",
+]
+
+isc_past_suffix = [
+    "szedłem/-szłam",
+    "szedłeś/-szłaś",
+    "szedł/-szła/-szło",
+    "szliśmy/-szłyśmy",
+    "szliście/-szłyście",
+    "szli/-szły",
+]
+
+isc_ej_past_suffix = [
+    "szedłem/-eszłam",
+    "szedłeś/-eszłaś",
+    "szedł/-eszła/-eszło",
+    "eszliśmy/-eszłyśmy",
+    "eszliście/-eszłyście",
+    "eszli/-eszły",
+]
+
+def isc(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(isc_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    stop_letter = "j"
+    pojsc_exception = "ój"
+    wejsc_exception = "ej"
+    ujsc_exception = "uj"
+    if stop_letter not in word:
+        for pronoun, form in enumerate(isc_past_forms):
+            print(pronouns[pronoun] + " " + form)
+    else:
+        if pojsc_exception in word:
+            for pronoun, suffix in enumerate(isc_past_suffix):
+                index_of_oj = word.index("ój")
+                prefix = word[:index_of_oj]
+                conjugated_form = prefix + "o" + suffix
+                print(pronouns[pronoun] + " " + conjugated_form)
+        elif wejsc_exception in word:
+            for pronoun, suffix in enumerate(isc_ej_past_suffix):
+                index_of_ej = word.index("ej")
+                prefix = word[:index_of_ej]
+                conjugated_form = prefix + suffix
+                print(pronouns[pronoun] + " " + conjugated_form)
+        else:
+            for pronoun, suffix in enumerate(isc_past_suffix):
+                index_of_j = word.index("j")
+                prefix = word[:index_of_j]
+                conjugated_form = prefix + suffix
+                print(pronouns[pronoun] + " " + conjugated_form)
+
+# kląć category
+
+def klac(word):
+    stem = word[:-2]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(wstac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# pić category
+pic_suffix = ["ję", "jesz", "je", "jemy", "jecie", "ją"]
+
+def pic(word):
+    stem = word[:-1]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(pic_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(robic_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# prząść exception
+przasc_suffix = ["ędę", "ędziesz", "ędzie", "ędziemy", "ędziecie", "ędą"]
+przasc_past_suffix = [
+    "ądłem/-ędłam",
+    "ądłeś/-ędłaś",
+    "ądł/-ędła/-ędło",
+    "ędliśmy/-łyśmy",
+    "ędliście/-łyście",
+    "ędli/-ły",
+]
+
+def przasc(word):
+    stem = word[:-3]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(bede_forms):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(przasc_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# stawać category
+stawac_suffix = ["ję", "jesz", "je", "jemy", "jecie", "ją"]
+
+def stawac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(stawac_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 # umrzeć category
 umrzec_suffix = ["ę", "zesz", "ze", "zemy", "zecie", "ą"]
@@ -338,6 +463,61 @@ def umrzec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+# wstać exception
+wstac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
+
+def wstac(word):
+    stem = word[:-1]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(wstac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(robic_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# zacząć category
+zaczac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
+
+def zaczac(word):
+    stem = word[:-2]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(zaczac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# zapiąć category
+zapiac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
+
+def zapiac(word):
+    stop_letter_w = "w"
+    stop_letter_s = "s"
+    print("Present tense:\n")
+    if stop_letter_w in word:
+        for pronoun, suffix in enumerate(zapiac_suffix):
+            stem = word[0] + "e" + word[1:3]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    elif stop_letter_s in word:
+        for pronoun, suffix in enumerate(zapiac_suffix):
+            stem = "zep"
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    else:
+        for pronoun, suffix in enumerate(zapiac_suffix):
+            stem = word[:-3]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 # jeść category
 jesc_suffix = ["m", "sz", "", "my", "cie", "dzą"]
@@ -380,6 +560,80 @@ def wziac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+# zgiąć category
+def zgiac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(zapiac_suffix):
+        stem = word[:-4]
+        conjugated_form = stem + "eg" + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
+# odpiąć category
+odpiac_suffix = ["epnę", "epniesz", "epnie", "epniemy", "epniecie", "epną"]
+
+
+def odpiac(word):
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(odpiac_suffix):
+        stem = word[:-4]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(stanac_past_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
+# uląc category
+ulac_suffix = ["ęknę", "ękniesz", "ęknie", "ękniemy", "ękniecie", "ękną"]
+ulac_past_suffix = [
+    "ąkłem/-ękłam",
+    "ąkłeś/-ękłaś",
+    "ąkł/-ękła/-ękło",
+    "ękliśmy/-łyśmy",
+    "ękliście/-łyśmy",
+    "ękli/-ły",
+]
+
+def ulac(word):
+    stem = word[:-2]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(ulac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(ulac_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+# gryźć category
+gryzc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
+gryzc_past_suffix = [
+    "złem/-łam",
+    "złeś/-łaś",
+    "zł/-ła/-ło",
+    "źliśmy/-złyśmy",
+    "źliście/-złyście",
+    "źli/-zły",
+]
+
+def gryzc(word):
+    stem = word[:-2]
+    print("Present tense:\n")
+    for pronoun, suffix in enumerate(gryzc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(gryzc_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 # -jąć category
 jac_suffix = ["mę", "miesz", "mie", "miemy", "miecie", "mą"]
@@ -986,67 +1240,6 @@ def zapomniec(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
-
-# pić category
-pic_suffix = ["ję", "jesz", "je", "jemy", "jecie", "ją"]
-
-
-def pic(word):
-    stem = word[:-1]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(pic_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(robic_past_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# piać exception
-piac_suffix = ["eję", "ejesz", "eje", "ejemy", "ejecie", "eją"]
-
-
-def piac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(piac_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(robic_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# ciąć exception
-def ciac(word):
-    print("Present tense:\n")
-    if len(word) > 4:
-        if word[0] == "ś":
-            for pronoun, suffix in enumerate(wstac_suffix):
-                stem = "zet"
-                conjugated_form = stem + suffix
-                print(pronouns[pronoun] + " " + conjugated_form)
-        else:
-            for pronoun, suffix in enumerate(wstac_suffix):
-                stop_letter_c = word.index("c")
-                stem = word[:stop_letter_c] + "t"
-                conjugated_form = stem + suffix
-                print(pronouns[pronoun] + " " + conjugated_form)
-    else:
-        for pronoun, suffix in enumerate(wstac_suffix):
-            stem = "t"
-            conjugated_form = stem + suffix
-            print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(stanac_past_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
 # chodzić category
 chodzic_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
 
@@ -1200,31 +1393,6 @@ def bede(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
-
-# prząść exception
-przasc_suffix = ["ędę", "ędziesz", "ędzie", "ędziemy", "ędziecie", "ędą"]
-przasc_past_suffix = [
-    "ądłem/-ędłam",
-    "ądłeś/-ędłaś",
-    "ądł/-ędła/-ędło",
-    "ędliśmy/-łyśmy",
-    "ędliście/-łyście",
-    "ędli/-ły",
-]
-
-
-def przasc(word):
-    stem = word[:-3]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(bede_forms):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(przasc_past_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
 # spać exception
 spac_forms = ["śpię", "śpisz", "śpi", "śpimy", "śpicie", "śpią"]
 
@@ -1238,72 +1406,6 @@ def spac(word):
     for pronoun, suffix in enumerate(robic_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# iść/-jść category
-
-isc_suffix = ["dę", "dziesz", "dzie", "dziemy", "dziecie", "dą"]
-isc_past_forms = [
-    "szedłem/szłam",
-    "szedłeś/szłaś",
-    "szedł/szła/szło",
-    "szliśmy/szłyśmy",
-    "szliście/szłyście",
-    "szli/szły",
-]
-isc_past_suffix = [
-    "szedłem/-szłam",
-    "szedłeś/-szłaś",
-    "szedł/-szła/-szło",
-    "szliśmy/-szłyśmy",
-    "szliście/-szłyście",
-    "szli/-szły",
-]
-
-isc_ej_past_suffix = [
-    "szedłem/-eszłam",
-    "szedłeś/-eszłaś",
-    "szedł/-eszła/-eszło",
-    "eszliśmy/-eszłyśmy",
-    "eszliście/-eszłyście",
-    "eszli/-eszły",
-]
-
-
-def isc(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(isc_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    stop_letter = "j"
-    pojsc_exception = "ój"
-    wejsc_exception = "ej"
-    ujsc_exception = "uj"
-    if stop_letter not in word:
-        for pronoun, form in enumerate(isc_past_forms):
-            print(pronouns[pronoun] + " " + form)
-    else:
-        if pojsc_exception in word:
-            for pronoun, suffix in enumerate(isc_past_suffix):
-                index_of_oj = word.index("ój")
-                prefix = word[:index_of_oj]
-                conjugated_form = prefix + "o" + suffix
-                print(pronouns[pronoun] + " " + conjugated_form)
-        elif wejsc_exception in word:
-            for pronoun, suffix in enumerate(isc_ej_past_suffix):
-                index_of_ej = word.index("ej")
-                prefix = word[:index_of_ej]
-                conjugated_form = prefix + suffix
-                print(pronouns[pronoun] + " " + conjugated_form)
-        else:
-            for pronoun, suffix in enumerate(isc_past_suffix):
-                index_of_j = word.index("j")
-                prefix = word[:index_of_j]
-                conjugated_form = prefix + suffix
-                print(pronouns[pronoun] + " " + conjugated_form)
-
 
 # jeździć exception
 jezdzic_suffix = ["żdżę", "ździsz", "ździ", "ździmy", "ździcie", "żdżą"]
@@ -1320,165 +1422,6 @@ def jezdzic(word):
         stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# wstać exception
-wstac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
-
-
-def wstac(word):
-    stem = word[:-1]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(wstac_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(robic_past_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# kląć category
-
-
-def klac(word):
-    stem = word[:-2]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(wstac_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(stanac_past_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# zacząć category
-zaczac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
-
-
-def zaczac(word):
-    stem = word[:-2]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(zaczac_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(stanac_past_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# zapiąć category
-zapiac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
-
-
-def zapiac(word):
-    stop_letter_w = "w"
-    stop_letter_s = "s"
-    print("Present tense:\n")
-    if stop_letter_w in word:
-        for pronoun, suffix in enumerate(zapiac_suffix):
-            stem = word[0] + "e" + word[1:3]
-            conjugated_form = stem + suffix
-            print(pronouns[pronoun] + " " + conjugated_form)
-    elif stop_letter_s in word:
-        for pronoun, suffix in enumerate(zapiac_suffix):
-            stem = "zep"
-            conjugated_form = stem + suffix
-            print(pronouns[pronoun] + " " + conjugated_form)
-    else:
-        for pronoun, suffix in enumerate(zapiac_suffix):
-            stem = word[:-3]
-            conjugated_form = stem + suffix
-            print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(stanac_past_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# zgiąć category
-
-
-def zgiac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(zapiac_suffix):
-        stem = word[:-4]
-        conjugated_form = stem + "eg" + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(stanac_past_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# odpiąć category
-odpiac_suffix = ["epnę", "epniesz", "epnie", "epniemy", "epniecie", "epną"]
-
-
-def odpiac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(odpiac_suffix):
-        stem = word[:-4]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(stanac_past_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# uląc category
-ulac_suffix = ["ęknę", "ękniesz", "ęknie", "ękniemy", "ękniecie", "ękną"]
-ulac_past_suffix = [
-    "ąkłem/-ękłam",
-    "ąkłeś/-ękłaś",
-    "ąkł/-ękła/-ękło",
-    "ękliśmy/-łyśmy",
-    "ękliście/-łyśmy",
-    "ękli/-ły",
-]
-
-
-def ulac(word):
-    stem = word[:-2]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(ulac_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(ulac_past_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
-
-# gryźć category
-gryzc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
-gryzc_past_suffix = [
-    "złem/-łam",
-    "złeś/-łaś",
-    "zł/-ła/-ło",
-    "źliśmy/-złyśmy",
-    "źliście/-złyście",
-    "źli/-zły",
-]
-
-
-def gryzc(word):
-    stem = word[:-2]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(gryzc_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(gryzc_past_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
 
 # << verb categories end here >>
 
