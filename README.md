@@ -44,7 +44,16 @@ The latest version supports the following functionalities:
 |  [fem]   | _robiłam_ | _robiłaś_ |   _robiła_   | _robiłyśmy_ | _robiłyście_ | _robiły_  |
 |  [neut]  |           |           |   _robiło_   |             |              |           |
 
-- [x] Support for the _-iwać_ verbs of the type: _podskakiwać (podskakuję, podskakujesz, podskakuje...)_
+- [x] Support for the _-iwać_ verbs of the type: _podskakiwać_
+
+| [gender] |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
+| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
+|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
+|          |   _poskakuję_   | _podskakujesz_  |  _podskakuje_  |  _podskakujemy_   |  _podskakujecie_   |  _podskakują_  |
+|  [masc]  | _podskakiwałem_ | _podskakiwałeś_ | _podskakiwał_  | _podskakiwaliśmy_ | _podskakiwaliście_ | _podskakiwali_ |
+|  [fem]   | _podskakiwałam_ | _podskakiwałaś_ | _podskakiwała_ | _podskakiwałyśmy_ | _podskakiwałyście_ | _podskakiwały_ |
+|  [neut]  |                 |                 | _podskakiwało_ |                   |                    |                |
+
 - [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
 - [x] Support for the _-jechać_ verbs of the type: _-jechać (-jadę, -jedziesz, -jedzie...)_
 - [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_, _mleć_, _strzyc_, _piać_, _ciec_, _rzec_, _ulec_, _ciąć_
