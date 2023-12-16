@@ -70,20 +70,12 @@ def brac(word):
 
 
 # przebrać forms
-przebrac_forms = [
-    "przebiorę",
-    "przebierzesz",
-    "przebierze",
-    "przebierzemy",
-    "przebierzecie",
-    "przebiorą",
-]
-
-
 def przebrac(word):
     print("Present tense:\n")
-    for pronoun, form in enumerate(przebrac_forms):
-        print(pronouns[pronoun] + " " + form)
+    for pronoun, suffix in enumerate(brac_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(czytac_past_suffix):
         stem = word[:-1]
