@@ -1808,7 +1808,7 @@ elif (
     or word.endswith("jśc")
     or word.endswith("jsć")
 ):
-    if len(word) <= 3:
+    if len(word) == 3:
         if (
             word.endswith("ić")
             or word.endswith("ic")
