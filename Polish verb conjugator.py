@@ -73,6 +73,7 @@ czytac_past_suffix = [
     "li/-ły",
 ]
 
+# This list include possible perfective prefixes for verbs
 perfective_prefixes = ["do", "od", "na", "po", "prze", "przy", "u", "wy", "za"]
 
 def czytac(word):
