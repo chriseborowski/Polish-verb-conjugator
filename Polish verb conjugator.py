@@ -73,18 +73,18 @@ czytac_past_suffix = [
     "li/-ły",
 ]
 
-perfective_prefixes = ["po", "prze", "wy"]
-perfective_form = False
-
-def perfective_verb(word):
-    for prefix in perfective_prefixes:
-        if word.startswith(prefix):
-            perfective_form = True
-            break
+perfective_prefixes = ["do", "od", "po", "prze", "wy", "za"]
 
 def czytac(word):
+    is_perfective = False
+    for prefix in perfective_prefixes:
+        if word.startswith(prefix):
+            is_perfective = True
+            break
+    
     stem = word[:-1]
-    if perfective_form == True:
+
+    if is_perfective:
         print("\nPast tense (masc/fem/neut):\n")
         for pronoun, suffix in enumerate(czytac_past_suffix):
             conjugated_form = stem + suffix
@@ -105,6 +105,7 @@ def czytac(word):
         print("\nFuture tense:\n")
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
+
 
 # << -E- verbs category starts here >>
 
