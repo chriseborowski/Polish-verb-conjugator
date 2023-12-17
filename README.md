@@ -49,7 +49,7 @@ The latest version supports the following functionalities:
 | |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
 | :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
 |          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
-| PRESENT |   _poskakuję_   | _podskakujesz_  |  _podskakuje_  |  _podskakujemy_   |  _podskakujecie_   |  _podskakują_  |
+| PRESENT |   _podskakuję_   | _podskakujesz_  |  _podskakuje_  |  _podskakujemy_   |  _podskakujecie_   |  _podskakują_  |
 | PAST (masc) | _podskakiwałem_ | _podskakiwałeś_ | _podskakiwał_  | _podskakiwaliśmy_ | _podskakiwaliście_ | _podskakiwali_ |
 | PAST (fem) | _podskakiwałam_ | _podskakiwałaś_ | _podskakiwała_ | _podskakiwałyśmy_ | _podskakiwałyście_ | _podskakiwały_ |
 | PAST (neut) |                 |                 | _podskakiwało_ |                   |                    |                |
