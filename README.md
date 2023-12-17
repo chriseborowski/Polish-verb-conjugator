@@ -55,6 +55,15 @@ The latest version supports the following functionalities:
 |  [neut]  |                 |                 | _podskakiwało_ |                   |                    |                |
 
 - [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
+
+| [gender] |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
+| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
+|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
+|          |   _pracuję_   | _pracujesz_  |  _pracuje_  |  _pracujemy_   |  _pracujecie_   |  _pracują_  |
+|  [masc]  | _pracowałem_ | _pracowałeś_ | _pracował_  | _pracowaliśmy_ | _pracowaliście_ | _pracowali_ |
+|  [fem]   | _pracowałam_ | _pracowałaś_ | _pracowała_ | _pracowałyśmy_ | _pracowałyście_ | _pracowały_ |
+|  [neut]  |                 |                 | _pracowało_ |                   |                    |                |
+
 - [x] Support for the _-jechać_ verbs of the type: _-jechać (-jadę, -jedziesz, -jedzie...)_
 - [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_, _mleć_, _strzyc_, _piać_, _ciec_, _rzec_, _ulec_, _ciąć_
 - [x] Support for the _-akać_ verbs of the type: _skakać (skaczę, skaczesz, skacze...)_
