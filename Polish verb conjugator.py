@@ -73,7 +73,7 @@ czytac_past_suffix = [
     "li/-ły",
 ]
 
-perfective_prefixes = ["do", "od", "po", "prze", "wy", "za"]
+perfective_prefixes = ["do", "od", "na", "po", "prze", "przy", "u", "wy", "za"]
 
 def czytac(word):
     is_perfective = False
