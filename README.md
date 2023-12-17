@@ -16,53 +16,53 @@ The latest version supports the following functionalities:
 
 - [x] Support for the most typical, regular -A- verbs of the type: _czytać_
 
-| [gender] |    1sg     |    2sg     |     3sg      |     1pl      |      2pl      |    3pl    |
+| |    1sg     |    2sg     |     3sg      |     1pl      |      2pl      |    3pl    |
 | :------: | :--------: | :--------: | :----------: | :----------: | :-----------: | :-------: |
 |          |    _ja_    |    _ty_    | _on/ona/ono_ |     _my_     |     _wy_      | _oni/one_ |
-|          |  _czytam_  | _czytasz_  |   _czyta_    |  _czytamy_   |  _czytacie_   | _czytają_ |
-|  [masc]  | _czytałem_ | _czytałeś_ |   _czytał_   | _czytaliśmy_ | _czytaliście_ | _czytali_ |
-|  [fem]   | _czytałam_ | _czytałaś_ |  _czytała_   | _czytałyśmy_ | _czytałyście_ | _czytały_ |
-|  [neut]  |            |            |  _czytało_   |              |               |           |
+| PRESENT |  _czytam_  | _czytasz_  |   _czyta_    |  _czytamy_   |  _czytacie_   | _czytają_ |
+| PAST (masc) | _czytałem_ | _czytałeś_ |   _czytał_   | _czytaliśmy_ | _czytaliście_ | _czytali_ |
+| PAST (fem) | _czytałam_ | _czytałaś_ |  _czytała_   | _czytałyśmy_ | _czytałyście_ | _czytały_ |
+| PAST (neut) |            |            |  _czytało_   |              |               |           |
 
 - [x] Support for the most typical, regular -E- verbs of the type: _chcieć_
 
-| [gender] |    1sg     |    2sg     |     3sg      |     1pl      |      2pl      |    3pl    |
+| |    1sg     |    2sg     |     3sg      |     1pl      |      2pl      |    3pl    |
 | :------: | :--------: | :--------: | :----------: | :----------: | :-----------: | :-------: |
 |          |    _ja_    |    _ty_    | _on/ona/ono_ |     _my_     |     _wy_      | _oni/one_ |
-|          |   _chcę_   |  _chcesz_  |    _chce_    |   _chcemy_   |   _chcecie_   |  _chcą_   |
-|  [masc]  | _chciałem_ | _chciałam_ |   _chciał_   | _chcieliśmy_ | _chcieliście_ | _chcieli_ |
-|  [fem]   | _chciałam_ | _chciałaś_ |  _chciała_   | _chciałyśmy_ | _chciałyście_ | _chciały_ |
-|  [neut]  |            |            |  _chciało_   |              |               |           |
+| PRESENT |   _chcę_   |  _chcesz_  |    _chce_    |   _chcemy_   |   _chcecie_   |  _chcą_   |
+| PAST (masc) | _chciałem_ | _chciałam_ |   _chciał_   | _chcieliśmy_ | _chcieliście_ | _chcieli_ |
+| PAST (fem) | _chciałam_ | _chciałaś_ |  _chciała_   | _chciałyśmy_ | _chciałyście_ | _chciały_ |
+| PAST (neut) |            |            |  _chciało_   |              |               |           |
 
 - [x] Support for the most typical, regular -I- verbs of the type: _robić_
 
-| [gender] |    1sg    |    2sg    |     3sg      |     1pl     |     2pl      |    3pl    |
+| |    1sg    |    2sg    |     3sg      |     1pl     |     2pl      |    3pl    |
 | :------: | :-------: | :-------: | :----------: | :---------: | :----------: | :-------: |
 |          |   _ja_    |   _ty_    | _on/ona/ono_ |    _my_     |     _wy_     | _oni/one_ |
-|          |  _robię_  | _robisz_  |    _robi_    |  _robimy_   |  _robicie_   |  _robią_  |
-|  [masc]  | _robiłem_ | _robiłeś_ |   _robił_    | _robiliśmy_ | _robiliście_ | _robili_  |
-|  [fem]   | _robiłam_ | _robiłaś_ |   _robiła_   | _robiłyśmy_ | _robiłyście_ | _robiły_  |
-|  [neut]  |           |           |   _robiło_   |             |              |           |
+| PRESENT |  _robię_  | _robisz_  |    _robi_    |  _robimy_   |  _robicie_   |  _robią_  |
+| PAST (masc) | _robiłem_ | _robiłeś_ |   _robił_    | _robiliśmy_ | _robiliście_ | _robili_  |
+| PAST (fem) | _robiłam_ | _robiłaś_ |   _robiła_   | _robiłyśmy_ | _robiłyście_ | _robiły_  |
+| PAST (neut) |           |           |   _robiło_   |             |              |           |
 
 - [x] Support for the _-iwać_ verbs of the type: _podskakiwać_
 
-| [gender] |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
+| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
 | :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
 |          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
-|          |   _poskakuję_   | _podskakujesz_  |  _podskakuje_  |  _podskakujemy_   |  _podskakujecie_   |  _podskakują_  |
-|  [masc]  | _podskakiwałem_ | _podskakiwałeś_ | _podskakiwał_  | _podskakiwaliśmy_ | _podskakiwaliście_ | _podskakiwali_ |
-|  [fem]   | _podskakiwałam_ | _podskakiwałaś_ | _podskakiwała_ | _podskakiwałyśmy_ | _podskakiwałyście_ | _podskakiwały_ |
-|  [neut]  |                 |                 | _podskakiwało_ |                   |                    |                |
+| PRESENT |   _poskakuję_   | _podskakujesz_  |  _podskakuje_  |  _podskakujemy_   |  _podskakujecie_   |  _podskakują_  |
+| PAST (masc) | _podskakiwałem_ | _podskakiwałeś_ | _podskakiwał_  | _podskakiwaliśmy_ | _podskakiwaliście_ | _podskakiwali_ |
+| PAST (fem) | _podskakiwałam_ | _podskakiwałaś_ | _podskakiwała_ | _podskakiwałyśmy_ | _podskakiwałyście_ | _podskakiwały_ |
+| PAST (neut) |                 |                 | _podskakiwało_ |                   |                    |                |
 
 - [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
 
-| [gender] |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
+| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
 | :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
 |          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
-|          |   _pracuję_   | _pracujesz_  |  _pracuje_  |  _pracujemy_   |  _pracujecie_   |  _pracują_  |
-|  [masc]  | _pracowałem_ | _pracowałeś_ | _pracował_  | _pracowaliśmy_ | _pracowaliście_ | _pracowali_ |
-|  [fem]   | _pracowałam_ | _pracowałaś_ | _pracowała_ | _pracowałyśmy_ | _pracowałyście_ | _pracowały_ |
-|  [neut]  |                 |                 | _pracowało_ |                   |                    |                |
+| PRESENT |   _pracuję_   | _pracujesz_  |  _pracuje_  |  _pracujemy_   |  _pracujecie_   |  _pracują_  |
+| PAST (masc) | _pracowałem_ | _pracowałeś_ | _pracował_  | _pracowaliśmy_ | _pracowaliście_ | _pracowali_ |
+| PAST (fem) | _pracowałam_ | _pracowałaś_ | _pracowała_ | _pracowałyśmy_ | _pracowałyście_ | _pracowały_ |
+| PAST (neut) |                 |                 | _pracowało_ |                   |                    |                |
 
 - [x] Support for the _-jechać_ verbs of the type: _-jechać (-jadę, -jedziesz, -jedzie...)_
 - [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_, _mleć_, _strzyc_, _piać_, _ciec_, _rzec_, _ulec_, _ciąć_
