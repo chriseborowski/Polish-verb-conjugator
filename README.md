@@ -130,6 +130,7 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of the _-dzić_ verbs of the type: _chodzić (chodziłem/chodziłam, chodziłeś/chodziłaś, chodził/chodziła/chodziło...)_
 - [x] Support for the past-tense forms of the _(-)czyścić_ verbs of the type: _czyścić (czyściłem/czyściłam, czyściłeś/czyściłaś, czyścił/czyściła/czyściło...)_
 - [x] Support for the past-tense forms of the _-sić_ verbs of the type: _nosić (nosiłem/nosiłam, nosiłeś/nosiłaś, nosił/nosiła/nosiło...)_
+- [x] Support for future-tense forms of most typical, regular -A- verbs of the type: _czytać (będę czytać, będziesz czytać, będzie czytać...)_
 
 ## License
 
