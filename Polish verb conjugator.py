@@ -1,6 +1,11 @@
 # personal pronouns
 pronouns = ["(ja)", "(ty)", "(on/ona/ono)", "(my)", "(wy)", "(oni/one)"]
+
+# composite future auxiliary forms
 auxiliaries = ["będę", "będziesz", "będzie", "będziemy", "będziecie", "będą"]
+
+# This list include possible perfective prefixes for verbs
+perfective_prefixes = ["do", "od", "na", "po", "prze", "przy", "u", "wy", "za"]
 
 # << verb categories start here >>
 
@@ -72,9 +77,6 @@ czytac_past_suffix = [
     "liście/-łyście",
     "li/-ły",
 ]
-
-# This list include possible perfective prefixes for verbs
-perfective_prefixes = ["do", "od", "na", "po", "prze", "przy", "u", "wy", "za"]
 
 def czytac(word):
     is_perfective = False
