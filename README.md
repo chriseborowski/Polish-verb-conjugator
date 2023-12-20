@@ -131,6 +131,11 @@ The latest version supports the following functionalities:
 - [x] Support for the past-tense forms of the _(-)czyścić_ verbs of the type: _czyścić (czyściłem/czyściłam, czyściłeś/czyściłaś, czyścił/czyściła/czyściło...)_
 - [x] Support for the past-tense forms of the _-sić_ verbs of the type: _nosić (nosiłem/nosiłam, nosiłeś/nosiłaś, nosił/nosiła/nosiło...)_
 - [x] Support for future-tense forms of most typical, regular -A- verbs of the type: _czytać (będę czytać, będziesz czytać, będzie czytać...)_
+- [x] Support for future-tense forms of most typical, prefixed regular -A- verbs of the type: _zamieszkać (zamieszkam, zamieszkasz, zamieszka...)_
+- [x] Support for future-tense forms of most typical, regular -E- verbs of the type: _chcieć (będę chcieć, będziesz chcieć, będzie chcieć...)_
+- [x] Support for future-tense forms of most typical, regular -I- verbs of the type: _pić (będę pić, będziesz pić, będzie pić...)_
+- [x] Support for future-tense forms of most typical, prefixed regular -I- verbs of the type: _pić (będę pić, będziesz pić, będzie pić...)_
+- [x] Support for future-tense forms of the prefixed _-robić_ verbs of the type: _dorobić (dorobię, dorobisz, dorobi...)_
 
 ## License
 
