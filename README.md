@@ -136,6 +136,8 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of most typical, regular -I- verbs of the type: _pić (będę pić, będziesz pić, będzie pić...)_
 - [x] Support for future-tense forms of most typical, prefixed regular -I- verbs of the type: _pić (będę pić, będziesz pić, będzie pić...)_
 - [x] Support for future-tense forms of the prefixed _-robić_ verbs of the type: _dorobić (dorobię, dorobisz, dorobi...)_
+- [x] Support for future-tense forms of the _-nosić_ verb category of the type: _odnosić (będę odnosić, będziesz odnosić, będzie odnosić...)_
+- [x] Support for future-tense forms of the _-cierpieć_ prefixed verb category of the type: _wycierpieć (wycierpię, wycierpisz, wycierpi...)_
 
 ## License
 
