@@ -78,13 +78,14 @@ czytac_past_suffix = [
     "li/-ły",
 ]
 
+
 def czytac(word):
     is_perfective = False
     for prefix in perfective_prefixes:
         if word.startswith(prefix):
             is_perfective = True
             break
-    
+
     stem = word[:-1]
 
     if is_perfective:
@@ -457,7 +458,7 @@ def pic(word):
         if word.startswith(prefix):
             is_perfective = True
             break
-    
+
     stem = word[:-1]
 
     if is_perfective:
@@ -894,7 +895,7 @@ def chciec(word):
         if word.startswith(prefix):
             is_perfective = True
             break
-    
+
     if is_perfective:
         print("\nPast tense (masc/fem/neut):\n")
         for pronoun, suffix in enumerate(chciec_past_suffix):
@@ -919,6 +920,7 @@ def chciec(word):
         print("\nFuture tense:\n")
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
+
 
 # kraść category
 krasc_suffix = ["dnę", "dniesz", "dnie", "dniemy", "dniecie", "dną"]
@@ -1395,16 +1397,19 @@ nosic_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
 
 
 def nosic(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(nosic_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(robic_past_suffix):
         stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPresent tense:\n")
+    for pronoun, suffix in enumerate(nosic_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nFuture tense:\n")
+    for pronoun, auxiliary in enumerate(auxiliaries):
+        print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 
 # zlecić category
@@ -1497,6 +1502,7 @@ def robic(word):
         print("\nFuture tense:\n")
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
+
 
 # być exception
 byc_forms = ["jestem", "jesteś", "jest", "jesteśmy", "jesteście", "są"]
