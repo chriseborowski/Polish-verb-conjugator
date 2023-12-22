@@ -23,7 +23,8 @@ The latest version supports the following functionalities:
 | PAST (masc) | _czytałem_ | _czytałeś_ |   _czytał_   | _czytaliśmy_ | _czytaliście_ | _czytali_ |
 | PAST (fem) | _czytałam_ | _czytałaś_ |  _czytała_   | _czytałyśmy_ | _czytałyście_ | _czytały_ |
 | PAST (neut) |            |            |  _czytało_   |              |               |           |
-| FUTURE | _będę czytać_ | _będziesz czytać_ | _będzie czytać_ | _będziemy czytać_ | _będziecie czytać_ | _będą czytać_ |
+| FUTURE SIMPLE |  _przeczytam_  | _przeczytasz_  |   _przeczyta_    |  _przeczytamy_   |  _przeczytacie_   | _przeczytają_ |
+| COMPOUND FUTURE | _będę czytać_ | _będziesz czytać_ | _będzie czytać_ | _będziemy czytać_ | _będziecie czytać_ | _będą czytać_ |
 
 - [x] Support for the most typical, regular -E- verbs of the type: _chcieć_
 
@@ -44,7 +45,8 @@ The latest version supports the following functionalities:
 | PAST (masc) | _robiłem_ | _robiłeś_ |   _robił_    | _robiliśmy_ | _robiliście_ | _robili_  |
 | PAST (fem) | _robiłam_ | _robiłaś_ |   _robiła_   | _robiłyśmy_ | _robiłyście_ | _robiły_  |
 | PAST (neut) |           |           |   _robiło_   |             |              |           |
-| FUTURE | _będę robić_ | _będziesz robić_ | _będzie robić_ | _będziemy robić_ | _będziecie robić_ | _będą robić_ |
+| FUTURE SIMPLE |  _zrobię_  | _zrobisz_  |    _zrobi_    |  _zrobimy_   |  _zrobicie_   |  _zrobią_  |
+| COMPOUND FUTURE | _będę robić_ | _będziesz robić_ | _będzie robić_ | _będziemy robić_ | _będziecie robić_ | _będą robić_ |
 
 - [x] Support for the _-iwać_ verbs of the type: _podskakiwać_
 
@@ -55,7 +57,7 @@ The latest version supports the following functionalities:
 | PAST (masc) | _podskakiwałem_ | _podskakiwałeś_ | _podskakiwał_  | _podskakiwaliśmy_ | _podskakiwaliście_ | _podskakiwali_ |
 | PAST (fem) | _podskakiwałam_ | _podskakiwałaś_ | _podskakiwała_ | _podskakiwałyśmy_ | _podskakiwałyście_ | _podskakiwały_ |
 | PAST (neut) |                 |                 | _podskakiwało_ |                   |                    |                |
-| FUTURE | _będę podskakiwać_ | _będziesz podskakiwać_ | _będzie podskakiwać_ | _będziemy podskakiwać_ | _będziecie podskakiwać_ | _będą podskakiwać_ |
+| COMPOUND FUTURE | _będę podskakiwać_ | _będziesz podskakiwać_ | _będzie podskakiwać_ | _będziemy podskakiwać_ | _będziecie podskakiwać_ | _będą podskakiwać_ |
 
 - [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
 
@@ -66,7 +68,8 @@ The latest version supports the following functionalities:
 | PAST (masc) | _pracowałem_ | _pracowałeś_ | _pracował_  | _pracowaliśmy_ | _pracowaliście_ | _pracowali_ |
 | PAST (fem) | _pracowałam_ | _pracowałaś_ | _pracowała_ | _pracowałyśmy_ | _pracowałyście_ | _pracowały_ |
 | PAST (neut) |                 |                 | _pracowało_ |                   |                    |                |
-| FUTURE | _będę pracować_ | _będziesz pracować_ | _będzie pracować_ | _będziemy pracować_ | _będziecie pracować_ | _będą pracować_ |
+| FUTURE SIMPLE |   _wypracuję_   | _wypracujesz_  |  _wypracuje_  |  _wypracujemy_   |  _wypracujecie_   |  _wypracują_  |
+| COMPOUND FUTURE | _będę pracować_ | _będziesz pracować_ | _będzie pracować_ | _będziemy pracować_ | _będziecie pracować_ | _będą pracować_ |
 
 - [x] Support for the _-jechać_ verbs of the type: _-jechać (-jadę, -jedziesz, -jedzie...)_
 - [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_, _mleć_, _strzyc_, _piać_, _ciec_, _rzec_, _ulec_, _ciąć_
