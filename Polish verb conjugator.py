@@ -16,17 +16,37 @@ pracowac_suffix = ["uję", "ujesz", "uje", "ujemy", "ujecie", "ują"]
 
 
 def pracowac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(pracowac_suffix):
-        stem = word[:-4]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
+    is_perfective = False
+    for prefix in perfective_prefixes:
+        if word.startswith(prefix):
+            is_perfective = True
+            break
 
+    if is_perfective:
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(czytac_past_suffix):
+            stem = word[:-1]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, suffix in enumerate(pracowac_suffix):
+            stem = word[:-4]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    else:
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(czytac_past_suffix):
+            stem = word[:-1]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nPresent tense:\n")
+        for pronoun, suffix in enumerate(pracowac_suffix):
+            stem = word[:-4]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, auxiliary in enumerate(auxiliaries):
+            print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 # dać category
 def dac(word):
@@ -39,6 +59,7 @@ def dac(word):
     for pronoun, suffix in enumerate(jesc_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
+
 
 # mieć exception
 miec_suffix = ["am", "asz", "a", "amy", "acie", "ają"]
