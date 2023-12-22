@@ -31,15 +31,14 @@ def pracowac(word):
 # dać category
 def dac(word):
     stem = word[:-1]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(jesc_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(czytac_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
-
+    print("\nFuture tense:\n")
+    for pronoun, suffix in enumerate(jesc_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 # mieć exception
 miec_suffix = ["am", "asz", "a", "amy", "acie", "ają"]
@@ -68,6 +67,7 @@ def miec(word):
     print("\nFuture tense:\n")
     for pronoun, auxiliary in enumerate(auxiliaries):
         print(pronouns[pronoun] + " " + auxiliary + " " + word)
+
 
 # czytać category
 czytac_suffix = ["m", "sz", "", "my", "cie", "ją"]
@@ -1412,6 +1412,7 @@ def cierpiec(word):
         print("\nFuture tense:\n")
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
+
 
 # nosić category
 nosic_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
