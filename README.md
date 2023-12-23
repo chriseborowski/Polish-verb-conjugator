@@ -144,6 +144,8 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of most typical, regular -I- verbs of the type: _pić (będę pić, będziesz pić, będzie pić...)_
 - [x] Support for future-tense forms of most typical, prefixed regular -I- verbs of the type: _pić (będę pić, będziesz pić, będzie pić...)_
 - [x] Support for future-tense forms of the _-dać_ verb category of the type: _wydać (wydam, wydasz, wyda...)_
+- [x] Support for future-tense forms of the _-brać_ verb category of the type: _zabrać (zabiorę, zabierzesz, zabierze...)_
+- [x] Support for future-tense forms of the _żebrać_ verb category of the type: _wyżebrać (wyżebrzę, wyżebrzesz, wyżebrze...)_
 - [x] Support for future-tense forms of the _-ować_ verb category of the type: _zapracować (zapracuję, zapracujesz, zapracuje...)_
 - [x] Support for future-tense forms of the prefixed _-robić_ verbs of the type: _dorobić (dorobię, dorobisz, dorobi...)_
 - [x] Support for future-tense forms of the _-nosić_ verb category of the type: _odnosić (będę odnosić, będziesz odnosić, będzie odnosić...)_
