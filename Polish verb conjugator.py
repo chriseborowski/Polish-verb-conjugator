@@ -209,17 +209,16 @@ wezbrac_suffix = ["zbiorę", "zbierzesz", "zbierze", "zbierzemy", "zbierzecie", 
 
 
 def wezbrac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(wezbrac_suffix):
-        stem = word[:-6]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(czytac_past_suffix):
         stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
-
+    print("\nFuture tense:\n")
+    for pronoun, suffix in enumerate(wezbrac_suffix):
+        stem = word[:-6]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 # żebrać category
 zebrac_1_suffix = ["zę", "zesz", "ze", "zemy", "zecie", "zą"]
