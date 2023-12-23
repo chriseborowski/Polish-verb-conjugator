@@ -48,6 +48,7 @@ def pracowac(word):
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
+
 # dać category
 def dac(word):
     stem = word[:-1]
@@ -146,7 +147,7 @@ def brac(word):
         if word.startswith(prefix):
             is_perfective = True
             break
-    
+
     if is_perfective:
         print("\nPast tense (masc/fem/neut):\n")
         for pronoun, suffix in enumerate(czytac_past_suffix):
@@ -204,6 +205,7 @@ def zebrac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # wezbrać category
 wezbrac_suffix = ["zbiorę", "zbierzesz", "zbierze", "zbierzemy", "zbierzecie", "zbiorą"]
 
@@ -220,22 +222,43 @@ def wezbrac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # żebrać category
 zebrac_1_suffix = ["zę", "zesz", "ze", "zemy", "zecie", "zą"]
 
 
 def zebrac_1(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(zebrac_1_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(czytac_past_suffix):
-        stem = word[:-1]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
+    is_perfective = False
+    for prefix in perfective_prefixes:
+        if word.startswith(prefix):
+            is_perfective = True
+            break
 
+    if is_perfective:
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(czytac_past_suffix):
+            stem = word[:-1]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, suffix in enumerate(zebrac_1_suffix):
+            stem = word[:-2]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    else:
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(czytac_past_suffix):
+            stem = word[:-1]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nPresent tense:\n")
+        for pronoun, suffix in enumerate(zebrac_1_suffix):
+            stem = word[:-2]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, auxiliary in enumerate(auxiliaries):
+            print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 # stanąć category
 stanac_suffix = ["ę", "iesz", "ie", "iemy", "iecie", "ą"]
