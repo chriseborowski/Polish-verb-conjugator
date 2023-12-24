@@ -148,7 +148,10 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _żebrać_ verb category of the type: _wyżebrać (wyżebrzę, wyżebrzesz, wyżebrze...)_
 - [x] Support for future-tense forms of the _-ować_ verb category of the type: _zapracować (zapracuję, zapracujesz, zapracuje...)_
 - [x] Support for future-tense forms of the prefixed _-robić_ verbs of the type: _dorobić (dorobię, dorobisz, dorobi...)_
+- [x] Support for future-tense forms of the _-jechać_ verb category of the type: _wyjechać (wyjadę, wyjedziesz, wyjedzie...)_
 - [x] Support for future-tense forms of the _-nosić_ verb category of the type: _odnosić (będę odnosić, będziesz odnosić, będzie odnosić...)_
+- [x] Support for future-tense forms of the _-kazać_ verb category of the type: _zakazać (zakażę, zakażesz, zakaże...)_
+- [x] Support for future-tense forms of the _-pisać_ verb category of the type: _zapisać (zapiszę, zapiszesz, zapisze...)_
 - [x] Support for future-tense forms of the _-cierpieć_ prefixed verb category of the type: _wycierpieć (wycierpię, wycierpisz, wycierpi...)_
 
 ## License
