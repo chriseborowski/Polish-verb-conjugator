@@ -1820,7 +1820,7 @@ if (
     elif word == "orać" or word == "orac":
         zebrac_1(word)  # orać, orzę
     elif (
-        word == "piać" or word == "piac" or word.endswith("lać") or word.endswith("lac")
+        word.endswith("piać") or word.endswith("piac") or word.endswith("lać") or word.endswith("lac")
     ):
         piac(word)  # piać, pieję
     elif word.endswith("dać") or word.endswith("dac"):
