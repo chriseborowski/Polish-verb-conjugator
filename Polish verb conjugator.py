@@ -5,7 +5,7 @@ pronouns = ["(ja)", "(ty)", "(on/ona/ono)", "(my)", "(wy)", "(oni/one)"]
 auxiliaries = ["będę", "będziesz", "będzie", "będziemy", "będziecie", "będą"]
 
 # This list include possible perfective prefixes for verbs
-perfective_prefixes = ["do", "od", "na", "po", "prze", "przy", "u", "wy", "za"]
+perfective_prefixes = ["do", "od", "na", "po", "pój", "prze", "przy", "u", "wy", "za"]
 
 # << verb categories start here >>
 
@@ -647,39 +647,81 @@ isc_ej_past_suffix = [
 
 
 def isc(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(isc_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    stop_letter = "j"
-    pojsc_exception = "ój"
-    wejsc_exception = "ej"
-    ujsc_exception = "uj"
-    if stop_letter not in word:
-        for pronoun, form in enumerate(isc_past_forms):
-            print(pronouns[pronoun] + " " + form)
-    else:
-        if pojsc_exception in word:
-            for pronoun, suffix in enumerate(isc_past_suffix):
-                index_of_oj = word.index("ój")
-                prefix = word[:index_of_oj]
-                conjugated_form = prefix + "o" + suffix
-                print(pronouns[pronoun] + " " + conjugated_form)
-        elif wejsc_exception in word:
-            for pronoun, suffix in enumerate(isc_ej_past_suffix):
-                index_of_ej = word.index("ej")
-                prefix = word[:index_of_ej]
-                conjugated_form = prefix + suffix
-                print(pronouns[pronoun] + " " + conjugated_form)
+    is_perfective = False
+    for prefix in perfective_prefixes:
+        if word.startswith(prefix):
+            is_perfective = True
+            break
+    
+    if is_perfective:
+        print("\nPast tense (masc/fem/neut):\n")
+        stop_letter = "j"
+        pojsc_exception = "ój"
+        wejsc_exception = "ej"
+        ujsc_exception = "uj"
+        if stop_letter not in word:
+            for pronoun, form in enumerate(isc_past_forms):
+                print(pronouns[pronoun] + " " + form)
         else:
-            for pronoun, suffix in enumerate(isc_past_suffix):
-                index_of_j = word.index("j")
-                prefix = word[:index_of_j]
-                conjugated_form = prefix + suffix
-                print(pronouns[pronoun] + " " + conjugated_form)
-
+            if pojsc_exception in word:
+                for pronoun, suffix in enumerate(isc_past_suffix):
+                    index_of_oj = word.index("ój")
+                    prefix = word[:index_of_oj]
+                    conjugated_form = prefix + "o" + suffix
+                    print(pronouns[pronoun] + " " + conjugated_form)
+            elif wejsc_exception in word:
+                for pronoun, suffix in enumerate(isc_ej_past_suffix):
+                    index_of_ej = word.index("ej")
+                    prefix = word[:index_of_ej]
+                    conjugated_form = prefix + suffix
+                    print(pronouns[pronoun] + " " + conjugated_form)
+            else:
+                for pronoun, suffix in enumerate(isc_past_suffix):
+                    index_of_j = word.index("j")
+                    prefix = word[:index_of_j]
+                    conjugated_form = prefix + suffix
+                    print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, suffix in enumerate(isc_suffix):
+            stem = word[:-2]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    else:
+        print("\nPast tense (masc/fem/neut):\n")
+        stop_letter = "j"
+        pojsc_exception = "ój"
+        wejsc_exception = "ej"
+        ujsc_exception = "uj"
+        if stop_letter not in word:
+            for pronoun, form in enumerate(isc_past_forms):
+                print(pronouns[pronoun] + " " + form)
+        else:
+            if pojsc_exception in word:
+                for pronoun, suffix in enumerate(isc_past_suffix):
+                    index_of_oj = word.index("ój")
+                    prefix = word[:index_of_oj]
+                    conjugated_form = prefix + "o" + suffix
+                    print(pronouns[pronoun] + " " + conjugated_form)
+            elif wejsc_exception in word:
+                for pronoun, suffix in enumerate(isc_ej_past_suffix):
+                    index_of_ej = word.index("ej")
+                    prefix = word[:index_of_ej]
+                    conjugated_form = prefix + suffix
+                    print(pronouns[pronoun] + " " + conjugated_form)
+            else:
+                for pronoun, suffix in enumerate(isc_past_suffix):
+                    index_of_j = word.index("j")
+                    prefix = word[:index_of_j]
+                    conjugated_form = prefix + suffix
+                    print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nPresent tense:\n")
+        for pronoun, suffix in enumerate(isc_suffix):
+            stem = word[:-2]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, auxiliary in enumerate(auxiliaries):
+            print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 # kląć category
 
