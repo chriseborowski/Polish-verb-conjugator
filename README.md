@@ -83,8 +83,20 @@ The latest version supports the following functionalities:
 | FUTURE SIMPLE |   _wyjadę_   | _wyjedziesz_  |  _wyjedzie_  |  _wyjedziemy_   |  _wyjedziecie_   |  _wyjadą_  |
 | COMPOUND FUTURE | _będę jechać_ | _będziesz jechać_ | _będzie jechać_ | _będziemy jechać_ | _będziecie jechać_ | _będą jechać_ |
 
+- [x] Support for the _iść/-jść_ verbs of the type: _iść/-jść_
+
+| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
+| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
+|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
+| PRESENT |   _idę_   | _idziesz_  |  _idzie_  |  _idziemy_   |  _idziecie_   |  _idą_  |
+| PAST (masc) | _szedłem_ | _szedłeś_ | _szedł_  | _szliśmy_ | _szliście_ | _szli_ |
+| PAST (fem) | _szłam_ | _szłaś_ | _szła_ | _szłyśmy_ | _szłyście_ | _szły_ |
+| PAST (neut) |                 |                 | _szło_ |                   |                    |                |
+| FUTURE SIMPLE |   _wyjdę_   | _wyjdziesz_  |  _wyjdzie_  |  _wyjdziemy_   |  _wyjdziecie_   |  _wyjdą_  |
+| COMPOUND FUTURE | _będę iść_ | _będziesz iść_ | _będzie iść_ | _będziemy iść_ | _będziecie iść_ | _będą iść_ |
+
 - [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_, _mleć_, _strzyc_, _piać_, _ciec_, _rzec_, _ulec_, _ciąć_
-- [x] Support for the _-akać_ verbs of the type: _skakać (skaczę, skaczesz, skacze...)_
+- [x] Support for the _-akać_ verbs of the type: _skakać_
 
 | |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
 | :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
@@ -175,6 +187,10 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-kazać_ verb category of the type: _zakazać (zakażę, zakażesz, zakaże...)_
 - [x] Support for future-tense forms of the _-pisać_ verb category of the type: _zapisać (zapiszę, zapiszesz, zapisze...)_
 - [x] Support for future-tense forms of the _-cierpieć_ prefixed verb category of the type: _wycierpieć (wycierpię, wycierpisz, wycierpi...)_
+- [x] Support for the past-tense forms of the _-piać_ verbs of the type: _zapiać (zapieję, zapiejesz, zapieje...)_
+- [x] Support for the past-tense forms of the _-ciąć_ verbs of the type: _wyciąć (wytnę, wytniesz, wytnie...)_
+- [x] Support for the past-tense forms of the _-płakać_ verbs of the type: _zapłakać (zapłaczę, zapłaczesz, zapłacze...)_
+
 
 ## License
 
