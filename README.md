@@ -81,10 +81,21 @@ The latest version supports the following functionalities:
 | PAST (fem) | _jechałam_ | _jechałaś_ | _jechała_ | _jechałyśmy_ | _jechałyście_ | _jechały_ |
 | PAST (neut) |                 |                 | _jechało_ |                   |                    |                |
 | FUTURE SIMPLE |   _wyjadę_   | _wyjedziesz_  |  _wyjedzie_  |  _wyjedziemy_   |  _wyjedziecie_   |  _wyjadą_  |
-| COMPOUND FUTURE | _będę pracować_ | _będziesz pracować_ | _będzie pracować_ | _będziemy pracować_ | _będziecie pracować_ | _będą pracować_ |
+| COMPOUND FUTURE | _będę jechać_ | _będziesz jechać_ | _będzie jechać_ | _będziemy jechać_ | _będziecie jechać_ | _będą jechać_ |
 
 - [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_, _mleć_, _strzyc_, _piać_, _ciec_, _rzec_, _ulec_, _ciąć_
 - [x] Support for the _-akać_ verbs of the type: _skakać (skaczę, skaczesz, skacze...)_
+
+| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
+| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
+|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
+| PRESENT |   _skaczę_   | _skaczesz_  |  _skacze_  |  _skaczemy_   |  _skaczecie_   |  _skaczą_  |
+| PAST (masc) | _skakałem_ | _skakałeś_ | _skakał_  | _skakaliśmy_ | _skakaliście_ | _skakali_ |
+| PAST (fem) | _skakałam_ | _skakałaś_ | _skakała_ | _skakałyśmy_ | _skakałyście_ | _skakały_ |
+| PAST (neut) |                 |                 | _skakało_ |                   |                    |                |
+| FUTURE SIMPLE | | | | | | |
+| COMPOUND FUTURE | _będę skakać_ | _będziesz skakać_ | _będzie skakać_ | _będziemy skakać_ | _będziecie skakać_ | _będą skakać_ |
+
 - [x] Support for the _-amać_ verbs of the type: _kłamać (kłamię, kłamiesz, kłamie...)_
 - [x] Support for the _-awać_ verbs of the type: _stawać (staję, stajesz, staje...)_
 - [x] Support for the _-azać_ verbs of the type: _kazać (każę, każesz, każe...)_
