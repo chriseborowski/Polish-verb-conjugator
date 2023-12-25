@@ -275,15 +275,14 @@ stanac_past_suffix = [
 
 def stanac(word):
     stem = word[:-2]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(stanac_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(stanac_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
-
+    print("\nFuture tense:\n")
+    for pronoun, suffix in enumerate(stanac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 # -snąć category
 snac_suffix = ["snę", "śniesz", "śnie", "śniemy", "śniecie", "sną"]
