@@ -96,6 +96,17 @@ The latest version supports the following functionalities:
 | COMPOUND FUTURE | _będę iść_ | _będziesz iść_ | _będzie iść_ | _będziemy iść_ | _będziecie iść_ | _będą iść_ |
 
 - [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_, _mleć_, _strzyc_, _piać_, _ciec_, _rzec_, _ulec_, _ciąć_
+
+| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
+| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
+|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
+| PRESENT |   _piszę_   | _piszesz_  |  _pisze_  |  _piszemy_   |  _piszecie_   |  _piszą_  |
+| PAST (masc) | _pisałem_ | _pisałeś_ | _pisał_  | _pisaliśmy_ | _pisaliście_ | _pisali_ |
+| PAST (fem) | _pisałam_ | _pisałaś_ | _pisała_ | _pisałyśmy_ | _pisałyście_ | _pisały_ |
+| PAST (neut) |                 |                 | _pisało_ |                   |                    |                |
+| FUTURE SIMPLE | _napiszę_ | _napiszesz_ | _napisze_ | _napiszemy_ | _napiszecie_ | _napiszą_ |
+| COMPOUND FUTURE | _będę pisać_ | _będziesz pisać_ | _będzie pisać_ | _będziemy pisać_ | _będziecie pisać_ | _będą pisać_ |
+
 - [x] Support for the _-akać_ verbs of the type: _skakać_
 
 | |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
