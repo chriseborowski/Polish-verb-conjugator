@@ -190,6 +190,7 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of most typical, prefixed regular -I- verbs of the type: _pić (będę pić, będziesz pić, będzie pić...)_
 - [x] Support for future-tense forms of the _-dać_ verb category of the type: _wydać (wydam, wydasz, wyda...)_
 - [x] Support for future-tense forms of the _-brać_ verb category of the type: _zabrać (zabiorę, zabierzesz, zabierze...)_
+- [x] Support for future-tense forms of the _-stawać_ verb category of the type: _wystawać (będę wystawać, będziesz wystawać, będzie wystawać...)_
 - [x] Support for future-tense forms of the _żebrać_ verb category of the type: _wyżebrać (wyżebrzę, wyżebrzesz, wyżebrze...)_
 - [x] Support for future-tense forms of the _-ować_ verb category of the type: _zapracować (zapracuję, zapracujesz, zapracuje...)_
 - [x] Support for future-tense forms of the prefixed _-robić_ verbs of the type: _dorobić (dorobię, dorobisz, dorobi...)_
@@ -198,8 +199,10 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-kazać_ verb category of the type: _zakazać (zakażę, zakażesz, zakaże...)_
 - [x] Support for future-tense forms of the _-pisać_ verb category of the type: _zapisać (zapiszę, zapiszesz, zapisze...)_
 - [x] Support for future-tense forms of the _-cierpieć_ prefixed verb category of the type: _wycierpieć (wycierpię, wycierpisz, wycierpi...)_
-- [x] Support for the past-tense forms of the _-piać_ verbs of the type: _zapiać (zapieję, zapiejesz, zapieje...)_
 - [x] Support for the past-tense forms of the _-ciąć_ verbs of the type: _wyciąć (wytnę, wytniesz, wytnie...)_
+- [x] Support for the past-tense forms of the _-kląć_ verbs of the type: _zakląć (zaklnę, zaklniesz, zaklnie...)_
+- [x] Support for the past-tense forms of the _-piać_ verbs of the type: _zapiać (zapieję, zapiejesz, zapieje...)_
+- [x] Support for the past-tense forms of the _-prząść_ verbs of the type: _zaprząść (zaprzędę, zaprzędziesz, zaprzędzie...)_
 - [x] Support for the past-tense forms of the _-płakać_ verbs of the type: _zapłakać (zapłaczę, zapłaczesz, zapłacze...)_
 
 
