@@ -922,15 +922,14 @@ zaczac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
 
 def zaczac(word):
     stem = word[:-2]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(zaczac_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(stanac_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
-
+    print("\nFuture tense:\n")
+    for pronoun, suffix in enumerate(zaczac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 # zapiąć category
 zapiac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
