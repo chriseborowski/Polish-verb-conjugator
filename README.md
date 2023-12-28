@@ -119,7 +119,18 @@ The latest version supports the following functionalities:
 | FUTURE SIMPLE | | | | | | |
 | COMPOUND FUTURE | _będę skakać_ | _będziesz skakać_ | _będzie skakać_ | _będziemy skakać_ | _będziecie skakać_ | _będą skakać_ |
 
-- [x] Support for the _-amać_ verbs of the type: _kłamać (kłamię, kłamiesz, kłamie...)_
+- [x] Support for the _-amać_ verbs of the type: _skłamać (skłamię, skłamiesz, skłamie...)_
+
+| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
+| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
+|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
+| PRESENT |   _kłamię_   | _kłamiesz_  |  _kłamie_  | _kłamiemy_  | _kłamiecie_ |  _kłamią_  |
+| PAST (masc) | _kłamałem_ | _kłamałeś_ | _kłamał_  | _kłamaliśmy_ | _kłamaliście_ | _kłamali_ |
+| PAST (fem) | _kłamałam_ | _kłamałaś_ | _kłamała_ | _kłamałyśmy_ | _kłamałyście_ | _kłamały_ |
+| PAST (neut) |                 |                 | _kłamało_ |                   |                    |                |
+| FUTURE SIMPLE | _skłamię_ | _skłamiesz_ | _skłamie_ | _skłamiemy_ | _skłamiecie_ | _skłamią_ |
+| COMPOUND FUTURE | _będę kłamać_ | _będziesz kłamać_ | _będzie kłamać_ | _będziemy kłamać_ | _będziecie kłamać_ | _będą kłamać_ |
+
 - [x] Support for the _-awać_ verbs of the type: _stawać (staję, stajesz, staje...)_
 - [x] Support for the _-azać_ verbs of the type: _kazać (każę, każesz, każe...)_
 - [x] Support for the _-azać_ verbs of the type: _kazać (każę, każesz, każe...)_
