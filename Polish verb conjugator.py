@@ -907,15 +907,14 @@ wstac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
 
 def wstac(word):
     stem = word[:-1]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(wstac_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(robic_past_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
-
+    print("\nFuture tense:\n")
+    for pronoun, suffix in enumerate(wstac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 # zacząć category
 zaczac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
