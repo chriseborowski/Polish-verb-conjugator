@@ -5,7 +5,7 @@ pronouns = ["(ja)", "(ty)", "(on/ona/ono)", "(my)", "(wy)", "(oni/one)"]
 auxiliaries = ["będę", "będziesz", "będzie", "będziemy", "będziecie", "będą"]
 
 # This list include possible perfective prefixes for verbs
-perfective_prefixes = ["do", "od", "na", "po", "pój", "prze", "przy", "u", "wy", "za"]
+perfective_prefixes = ["do", "od", "na", "po", "pój", "prze", "przy", "u", "wy", "za", "zjeś"]
 
 # << verb categories start here >>
 
