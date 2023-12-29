@@ -652,7 +652,7 @@ def isc(word):
         if word.startswith(prefix):
             is_perfective = True
             break
-    
+
     if is_perfective:
         print("\nPast tense (masc/fem/neut):\n")
         stop_letter = "j"
@@ -723,6 +723,7 @@ def isc(word):
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
+
 # kląć category
 
 
@@ -732,7 +733,7 @@ def klac(word):
         if word.startswith(prefix):
             is_perfective = True
             break
-    
+
     stem = word[:-2]
 
     if is_perfective:
@@ -756,6 +757,7 @@ def klac(word):
         print("\nFuture tense:\n")
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
+
 
 # pić category
 pic_suffix = ["ję", "jesz", "je", "jemy", "jecie", "ją"]
@@ -813,7 +815,7 @@ def przasc(word):
             break
 
     stem = word[:-3]
-    
+
     if is_perfective:
         print("\nPast tense (masc/fem/neut):\n")
         for pronoun, suffix in enumerate(przasc_past_suffix):
@@ -855,6 +857,7 @@ def stawac(word):
     print("\nFuture tense:\n")
     for pronoun, auxiliary in enumerate(auxiliaries):
         print(pronouns[pronoun] + " " + auxiliary + " " + word)
+
 
 # umrzeć category
 umrzec_suffix = ["ę", "zesz", "ze", "zemy", "zecie", "ą"]
@@ -901,6 +904,7 @@ def umrzec(word):
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
+
 # wstać exception
 wstac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
 
@@ -916,6 +920,7 @@ def wstac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # zacząć category
 zaczac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
 
@@ -930,6 +935,7 @@ def zaczac(word):
     for pronoun, suffix in enumerate(zaczac_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
+
 
 # zapiąć category
 zapiac_suffix = ["nę", "niesz", "nie", "niemy", "niecie", "ną"]
@@ -960,6 +966,7 @@ def zapiac(word):
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # jeść category
 jesc_suffix = ["m", "sz", "", "my", "cie", "dzą"]
 jesc_past_suffix = [
@@ -973,17 +980,37 @@ jesc_past_suffix = [
 
 
 def jesc(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(jesc_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(jesc_past_suffix):
-        stem = word[:-3]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-
+    is_perfective = False
+    for prefix in perfective_prefixes:
+        if word.startswith(prefix):
+            is_perfective = True
+            break
+    
+    if is_perfective:
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(jesc_past_suffix):
+            stem = word[:-3]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, suffix in enumerate(jesc_suffix):
+            stem = word[:-2]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    else:
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(jesc_past_suffix):
+            stem = word[:-3]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nPresent tense:\n")
+        for pronoun, suffix in enumerate(jesc_suffix):
+            stem = word[:-2]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, auxiliary in enumerate(auxiliaries):
+            print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 # wziąć category
 wziac_suffix = ["ezmę", "eźmiesz", "eźmie", "eźmiemy", "eźmiecie", "ezmą"]
