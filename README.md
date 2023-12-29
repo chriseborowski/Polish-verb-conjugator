@@ -210,14 +210,14 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-kazać_ verb category of the type: _zakazać (zakażę, zakażesz, zakaże...)_
 - [x] Support for future-tense forms of the _-pisać_ verb category of the type: _zapisać (zapiszę, zapiszesz, zapisze...)_
 - [x] Support for future-tense forms of the _-cierpieć_ prefixed verb category of the type: _wycierpieć (wycierpię, wycierpisz, wycierpi...)_
-- [x] Support for the past-tense forms of the _-ciąć_ verbs of the type: _wyciąć (wytnę, wytniesz, wytnie...)_
-- [x] Support for the past-tense forms of the _-zacząć_ verbs of the type: _zacząć (zacznę, zaczniesz, zacznie...)_
-- [x] Support for the past-tense forms of the _-kląć_ verbs of the type: _zakląć (zaklnę, zaklniesz, zaklnie...)_
-- [x] Support for the past-tense forms of the _-piać_ verbs of the type: _zapiać (zapieję, zapiejesz, zapieje...)_
-- [x] Support for the past-tense forms of the _-wstać_ verbs of the type: _powstać (powstanę, powstaniesz, powstanie...)_
-- [x] Support for the past-tense forms of the _-prząść_ verbs of the type: _zaprząść (zaprzędę, zaprzędziesz, zaprzędzie...)_
-- [x] Support for the past-tense forms of the _-płakać_ verbs of the type: _zapłakać (zapłaczę, zapłaczesz, zapłacze...)_
-- [x] Support for the past-tense forms of the _-mrzeć_ verbs of the type: _wymrzeć (wymrę, wymrzesz, wymrze...)_
+- [x] Support for future-tense forms of the _-ciąć_ verbs of the type: _wyciąć (wytnę, wytniesz, wytnie...)_
+- [x] Support for future-tense forms of the _-zacząć_ verbs of the type: _zacząć (zacznę, zaczniesz, zacznie...)_
+- [x] Support for future-tense forms of the _-kląć_ verbs of the type: _zakląć (zaklnę, zaklniesz, zaklnie...)_
+- [x] Support for future-tense forms of the _-piać_ verbs of the type: _zapiać (zapieję, zapiejesz, zapieje...)_
+- [x] Support for future-tense forms of the _-wstać_ verbs of the type: _powstać (powstanę, powstaniesz, powstanie...)_
+- [x] Support for future-tense forms of the _-prząść_ verbs of the type: _zaprząść (zaprzędę, zaprzędziesz, zaprzędzie...)_
+- [x] Support for future-tense forms of the _-płakać_ verbs of the type: _zapłakać (zapłaczę, zapłaczesz, zapłacze...)_
+- [x] Support for future-tense forms of the _-mrzeć_ verbs of the type: _wymrzeć (wymrę, wymrzesz, wymrze...)_
 
 
 ## License
