@@ -15,7 +15,7 @@ perfective_prefixes = [
     "przy",
     "u",
     "wy",
-    "za",
+    "za", "zg", 
     "zjeś",
 ]
 
