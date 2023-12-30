@@ -1041,9 +1041,8 @@ def wziac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
-
-# zgiąć category
-def zgiac(word):
+# -giąć category
+def giac(word):
     is_perfective = False
     for prefix in perfective_prefixes:
         if word.startswith(prefix):
@@ -2112,12 +2111,10 @@ if (
         brac(word)  # brać, biorę
     elif word.endswith("odpiąć") or word.endswith("odpiąc"):
         odpiac(word)  # odpiąć, odepnę
-    elif word.endswith("zgiąć") or word.endswith("zgiąc"):
-        zgiac(word)  # zgiąć, zegnę
+    elif word.endswith("giąć") or word.endswith("giąc"):
+        giac(word)  # zgiąć, zegnę
     elif (
-        word.endswith("giąć")
-        or word.endswith("giąc")
-        or word.endswith("miąć")
+        word.endswith("miąć")
         or word.endswith("miąc")
         or word.endswith("piąć")
         or word.endswith("piąc")
