@@ -1080,17 +1080,16 @@ odpiac_suffix = ["epnę", "epniesz", "epnie", "epniemy", "epniecie", "epną"]
 
 
 def odpiac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(odpiac_suffix):
-        stem = word[:-4]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(stanac_past_suffix):
         stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
-
+    print("\nFuture tense:\n")
+    for pronoun, suffix in enumerate(odpiac_suffix):
+        stem = word[:-4]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
 
 # uląc category
 ulac_suffix = ["ęknę", "ękniesz", "ęknie", "ękniemy", "ękniecie", "ękną"]
