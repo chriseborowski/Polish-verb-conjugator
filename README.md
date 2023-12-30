@@ -218,7 +218,9 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-prząść_ verbs of the type: _zaprząść (zaprzędę, zaprzędziesz, zaprzędzie...)_
 - [x] Support for future-tense forms of the _-płakać_ verbs of the type: _zapłakać (zapłaczę, zapłaczesz, zapłacze...)_
 - [x] Support for future-tense forms of the _-mrzeć_ verbs of the type: _wymrzeć (wymrę, wymrzesz, wymrze...)_
-
+- [x] Support for future-tense forms of the _-wziąć_ verbs of the type: _powziąć (powezmę, poweźmiesz, poweźmie...)_
+- [x] Support for future-tense forms of the _-piąć_ verbs of the type: _zapiąć (zapnę, zapniesz, zapnie...)_
+- [x] Support for future-tense forms of the _-jeść_ verbs of the type: _zjeść (zjem, zjesz, zje...)_
 
 ## License
 
