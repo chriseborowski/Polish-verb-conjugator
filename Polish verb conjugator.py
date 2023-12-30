@@ -2137,7 +2137,7 @@ if (
         or word.endswith("czać")
     ):
         zaczac(word)  # zacząć, zacznę
-    elif word.endswith("ląć") or word.endswith("ląc"):
+    elif word.endswith("ląć"):
         klac(word)  # kląć, klnę
     elif (
         word.endswith("wstać")
