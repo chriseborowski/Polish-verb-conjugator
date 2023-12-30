@@ -222,6 +222,8 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-giąć_ verbs of the type: _zgiąć (zegnę, zegniesz, zegnie...)_
 - [x] Support for future-tense forms of the _-piąć_ verbs of the type: _zapiąć (zapnę, zapniesz, zapnie...)_
 - [x] Support for future-tense forms of the _-jeść_ verbs of the type: _zjeść (zjem, zjesz, zje...)_
+- [x] Support for future-tense forms of the _uląc_ verbs of the type: _uląc (ulęknę, ulękniesz, ulęknie...)_
+- [x] Support for future-tense forms of the _-gryźć_ verbs of the type: _ugryźć (ugryzę, ugryziesz, ugryzie...)_
 
 ## License
 
