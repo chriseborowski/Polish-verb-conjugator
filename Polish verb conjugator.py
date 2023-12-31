@@ -6,7 +6,7 @@ auxiliaries = ["będę", "będziesz", "będzie", "będziemy", "będziecie", "bę
 
 # This list include possible perfective prefixes for verbs
 perfective_prefixes = [
-    "do",
+    "do", "ob", 
     "od",
     "na",
     "po",
