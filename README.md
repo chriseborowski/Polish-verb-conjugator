@@ -16,119 +16,119 @@ The latest version supports the following functionalities:
 
 - [x] Support for the most typical, regular -A- verbs of the type: _czytać_
 
-| |    1sg     |    2sg     |     3sg      |     1pl      |      2pl      |    3pl    |
-| :------: | :--------: | :--------: | :----------: | :----------: | :-----------: | :-------: |
-|          |    _ja_    |    _ty_    | _on/ona/ono_ |     _my_     |     _wy_      | _oni/one_ |
-| PRESENT |  _czytam_  | _czytasz_  |   _czyta_    |  _czytamy_   |  _czytacie_   | _czytają_ |
-| PAST (masc) | _czytałem_ | _czytałeś_ |   _czytał_   | _czytaliśmy_ | _czytaliście_ | _czytali_ |
-| PAST (fem) | _czytałam_ | _czytałaś_ |  _czytała_   | _czytałyśmy_ | _czytałyście_ | _czytały_ |
-| PAST (neut) |            |            |  _czytało_   |              |               |           |
-| FUTURE SIMPLE |  _przeczytam_  | _przeczytasz_  |   _przeczyta_    |  _przeczytamy_   |  _przeczytacie_   | _przeczytają_ |
+|                 |      1sg      |        2sg        |       3sg       |        1pl        |        2pl         |      3pl      |
+| :-------------: | :-----------: | :---------------: | :-------------: | :---------------: | :----------------: | :-----------: |
+|                 |     _ja_      |       _ty_        |  _on/ona/ono_   |       _my_        |        _wy_        |   _oni/one_   |
+|     PRESENT     |   _czytam_    |     _czytasz_     |     _czyta_     |     _czytamy_     |     _czytacie_     |   _czytają_   |
+|   PAST (masc)   |  _czytałem_   |    _czytałeś_     |    _czytał_     |   _czytaliśmy_    |   _czytaliście_    |   _czytali_   |
+|   PAST (fem)    |  _czytałam_   |    _czytałaś_     |    _czytała_    |   _czytałyśmy_    |   _czytałyście_    |   _czytały_   |
+|   PAST (neut)   |               |                   |    _czytało_    |                   |                    |               |
+|  FUTURE SIMPLE  | _przeczytam_  |   _przeczytasz_   |   _przeczyta_   |   _przeczytamy_   |   _przeczytacie_   | _przeczytają_ |
 | COMPOUND FUTURE | _będę czytać_ | _będziesz czytać_ | _będzie czytać_ | _będziemy czytać_ | _będziecie czytać_ | _będą czytać_ |
 
 - [x] Support for the most typical, regular -E- verbs of the type: _chcieć_
 
-| |    1sg     |    2sg     |     3sg      |     1pl      |      2pl      |    3pl    |
-| :------: | :--------: | :--------: | :----------: | :----------: | :-----------: | :-------: |
-|          |    _ja_    |    _ty_    | _on/ona/ono_ |     _my_     |     _wy_      | _oni/one_ |
-| PRESENT |   _chcę_   |  _chcesz_  |    _chce_    |   _chcemy_   |   _chcecie_   |  _chcą_   |
+|             |    1sg     |    2sg     |     3sg      |     1pl      |      2pl      |    3pl    |
+| :---------: | :--------: | :--------: | :----------: | :----------: | :-----------: | :-------: |
+|             |    _ja_    |    _ty_    | _on/ona/ono_ |     _my_     |     _wy_      | _oni/one_ |
+|   PRESENT   |   _chcę_   |  _chcesz_  |    _chce_    |   _chcemy_   |   _chcecie_   |  _chcą_   |
 | PAST (masc) | _chciałem_ | _chciałam_ |   _chciał_   | _chcieliśmy_ | _chcieliście_ | _chcieli_ |
-| PAST (fem) | _chciałam_ | _chciałaś_ |  _chciała_   | _chciałyśmy_ | _chciałyście_ | _chciały_ |
+| PAST (fem)  | _chciałam_ | _chciałaś_ |  _chciała_   | _chciałyśmy_ | _chciałyście_ | _chciały_ |
 | PAST (neut) |            |            |  _chciało_   |              |               |           |
 
 - [x] Support for the most typical, regular -I- verbs of the type: _robić_
 
-| |    1sg    |    2sg    |     3sg      |     1pl     |     2pl      |    3pl    |
-| :------: | :-------: | :-------: | :----------: | :---------: | :----------: | :-------: |
-|          |   _ja_    |   _ty_    | _on/ona/ono_ |    _my_     |     _wy_     | _oni/one_ |
-| PRESENT |  _robię_  | _robisz_  |    _robi_    |  _robimy_   |  _robicie_   |  _robią_  |
-| PAST (masc) | _robiłem_ | _robiłeś_ |   _robił_    | _robiliśmy_ | _robiliście_ | _robili_  |
-| PAST (fem) | _robiłam_ | _robiłaś_ |   _robiła_   | _robiłyśmy_ | _robiłyście_ | _robiły_  |
-| PAST (neut) |           |           |   _robiło_   |             |              |           |
-| FUTURE SIMPLE |  _zrobię_  | _zrobisz_  |    _zrobi_    |  _zrobimy_   |  _zrobicie_   |  _zrobią_  |
+|                 |     1sg      |       2sg        |      3sg       |       1pl        |        2pl        |     3pl      |
+| :-------------: | :----------: | :--------------: | :------------: | :--------------: | :---------------: | :----------: |
+|                 |     _ja_     |       _ty_       |  _on/ona/ono_  |       _my_       |       _wy_        |  _oni/one_   |
+|     PRESENT     |   _robię_    |     _robisz_     |     _robi_     |     _robimy_     |     _robicie_     |   _robią_    |
+|   PAST (masc)   |  _robiłem_   |    _robiłeś_     |    _robił_     |   _robiliśmy_    |   _robiliście_    |   _robili_   |
+|   PAST (fem)    |  _robiłam_   |    _robiłaś_     |    _robiła_    |   _robiłyśmy_    |   _robiłyście_    |   _robiły_   |
+|   PAST (neut)   |              |                  |    _robiło_    |                  |                   |              |
+|  FUTURE SIMPLE  |   _zrobię_   |    _zrobisz_     |    _zrobi_     |    _zrobimy_     |    _zrobicie_     |   _zrobią_   |
 | COMPOUND FUTURE | _będę robić_ | _będziesz robić_ | _będzie robić_ | _będziemy robić_ | _będziecie robić_ | _będą robić_ |
 
 - [x] Support for the _-iwać_ verbs of the type: _podskakiwać_
 
-| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
-| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
-|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
-| PRESENT |   _podskakuję_   | _podskakujesz_  |  _podskakuje_  |  _podskakujemy_   |  _podskakujecie_   |  _podskakują_  |
-| PAST (masc) | _podskakiwałem_ | _podskakiwałeś_ | _podskakiwał_  | _podskakiwaliśmy_ | _podskakiwaliście_ | _podskakiwali_ |
-| PAST (fem) | _podskakiwałam_ | _podskakiwałaś_ | _podskakiwała_ | _podskakiwałyśmy_ | _podskakiwałyście_ | _podskakiwały_ |
-| PAST (neut) |                 |                 | _podskakiwało_ |                   |                    |                |
+|                 |        1sg         |          2sg           |         3sg          |          1pl           |           2pl           |        3pl         |
+| :-------------: | :----------------: | :--------------------: | :------------------: | :--------------------: | :---------------------: | :----------------: |
+|                 |        _ja_        |          _ty_          |     _on/ona/ono_     |          _my_          |          _wy_           |     _oni/one_      |
+|     PRESENT     |    _podskakuję_    |     _podskakujesz_     |     _podskakuje_     |     _podskakujemy_     |     _podskakujecie_     |    _podskakują_    |
+|   PAST (masc)   |  _podskakiwałem_   |    _podskakiwałeś_     |    _podskakiwał_     |   _podskakiwaliśmy_    |   _podskakiwaliście_    |   _podskakiwali_   |
+|   PAST (fem)    |  _podskakiwałam_   |    _podskakiwałaś_     |    _podskakiwała_    |   _podskakiwałyśmy_    |   _podskakiwałyście_    |   _podskakiwały_   |
+|   PAST (neut)   |                    |                        |    _podskakiwało_    |                        |                         |                    |
 | COMPOUND FUTURE | _będę podskakiwać_ | _będziesz podskakiwać_ | _będzie podskakiwać_ | _będziemy podskakiwać_ | _będziecie podskakiwać_ | _będą podskakiwać_ |
 
 - [x] Support for the _-ować_ verbs of the type: _pracować (pracuję, pracujesz, pracuje...)_
 
-| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
-| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
-|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
-| PRESENT |   _pracuję_   | _pracujesz_  |  _pracuje_  |  _pracujemy_   |  _pracujecie_   |  _pracują_  |
-| PAST (masc) | _pracowałem_ | _pracowałeś_ | _pracował_  | _pracowaliśmy_ | _pracowaliście_ | _pracowali_ |
-| PAST (fem) | _pracowałam_ | _pracowałaś_ | _pracowała_ | _pracowałyśmy_ | _pracowałyście_ | _pracowały_ |
-| PAST (neut) |                 |                 | _pracowało_ |                   |                    |                |
-| FUTURE SIMPLE |   _wypracuję_   | _wypracujesz_  |  _wypracuje_  |  _wypracujemy_   |  _wypracujecie_   |  _wypracują_  |
+|                 |       1sg       |         2sg         |        3sg        |         1pl         |         2pl          |       3pl       |
+| :-------------: | :-------------: | :-----------------: | :---------------: | :-----------------: | :------------------: | :-------------: |
+|                 |      _ja_       |        _ty_         |   _on/ona/ono_    |        _my_         |         _wy_         |    _oni/one_    |
+|     PRESENT     |    _pracuję_    |     _pracujesz_     |     _pracuje_     |     _pracujemy_     |     _pracujecie_     |    _pracują_    |
+|   PAST (masc)   |  _pracowałem_   |    _pracowałeś_     |    _pracował_     |   _pracowaliśmy_    |   _pracowaliście_    |   _pracowali_   |
+|   PAST (fem)    |  _pracowałam_   |    _pracowałaś_     |    _pracowała_    |   _pracowałyśmy_    |   _pracowałyście_    |   _pracowały_   |
+|   PAST (neut)   |                 |                     |    _pracowało_    |                     |                      |                 |
+|  FUTURE SIMPLE  |   _wypracuję_   |    _wypracujesz_    |    _wypracuje_    |    _wypracujemy_    |    _wypracujecie_    |   _wypracują_   |
 | COMPOUND FUTURE | _będę pracować_ | _będziesz pracować_ | _będzie pracować_ | _będziemy pracować_ | _będziecie pracować_ | _będą pracować_ |
 
 - [x] Support for the _-jechać_ verbs of the type: _-jechać (-jadę, -jedziesz, -jedzie...)_
 
-| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
-| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
-|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
-| PRESENT |   _jadę_   | _jedziesz_  |  _jedzie_  |  _jedziemy_   |  _jedziecie_   |  _jadą_  |
-| PAST (masc) | _jechałem_ | _jechałeś_ | _jechał_  | _jechaliśmy_ | _jechaliście_ | _jechali_ |
-| PAST (fem) | _jechałam_ | _jechałaś_ | _jechała_ | _jechałyśmy_ | _jechałyście_ | _jechały_ |
-| PAST (neut) |                 |                 | _jechało_ |                   |                    |                |
-| FUTURE SIMPLE |   _wyjadę_   | _wyjedziesz_  |  _wyjedzie_  |  _wyjedziemy_   |  _wyjedziecie_   |  _wyjadą_  |
+|                 |      1sg      |        2sg        |       3sg       |        1pl        |        2pl         |      3pl      |
+| :-------------: | :-----------: | :---------------: | :-------------: | :---------------: | :----------------: | :-----------: |
+|                 |     _ja_      |       _ty_        |  _on/ona/ono_   |       _my_        |        _wy_        |   _oni/one_   |
+|     PRESENT     |    _jadę_     |    _jedziesz_     |    _jedzie_     |    _jedziemy_     |    _jedziecie_     |    _jadą_     |
+|   PAST (masc)   |  _jechałem_   |    _jechałeś_     |    _jechał_     |   _jechaliśmy_    |   _jechaliście_    |   _jechali_   |
+|   PAST (fem)    |  _jechałam_   |    _jechałaś_     |    _jechała_    |   _jechałyśmy_    |   _jechałyście_    |   _jechały_   |
+|   PAST (neut)   |               |                   |    _jechało_    |                   |                    |               |
+|  FUTURE SIMPLE  |   _wyjadę_    |   _wyjedziesz_    |   _wyjedzie_    |   _wyjedziemy_    |   _wyjedziecie_    |   _wyjadą_    |
 | COMPOUND FUTURE | _będę jechać_ | _będziesz jechać_ | _będzie jechać_ | _będziemy jechać_ | _będziecie jechać_ | _będą jechać_ |
 
 - [x] Support for the _iść/-jść_ verbs of the type: _iść/-jść_
 
-| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
-| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
-|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
-| PRESENT |   _idę_   | _idziesz_  |  _idzie_  |  _idziemy_   |  _idziecie_   |  _idą_  |
-| PAST (masc) | _szedłem_ | _szedłeś_ | _szedł_  | _szliśmy_ | _szliście_ | _szli_ |
-| PAST (fem) | _szłam_ | _szłaś_ | _szła_ | _szłyśmy_ | _szłyście_ | _szły_ |
-| PAST (neut) |                 |                 | _szło_ |                   |                    |                |
-| FUTURE SIMPLE |   _wyjdę_   | _wyjdziesz_  |  _wyjdzie_  |  _wyjdziemy_   |  _wyjdziecie_   |  _wyjdą_  |
+|                 |    1sg     |      2sg       |     3sg      |      1pl       |       2pl       |    3pl     |
+| :-------------: | :--------: | :------------: | :----------: | :------------: | :-------------: | :--------: |
+|                 |    _ja_    |      _ty_      | _on/ona/ono_ |      _my_      |      _wy_       | _oni/one_  |
+|     PRESENT     |   _idę_    |   _idziesz_    |   _idzie_    |   _idziemy_    |   _idziecie_    |   _idą_    |
+|   PAST (masc)   | _szedłem_  |   _szedłeś_    |   _szedł_    |   _szliśmy_    |   _szliście_    |   _szli_   |
+|   PAST (fem)    |  _szłam_   |    _szłaś_     |    _szła_    |   _szłyśmy_    |   _szłyście_    |   _szły_   |
+|   PAST (neut)   |            |                |    _szło_    |                |                 |            |
+|  FUTURE SIMPLE  |  _wyjdę_   |  _wyjdziesz_   |  _wyjdzie_   |  _wyjdziemy_   |  _wyjdziecie_   |  _wyjdą_   |
 | COMPOUND FUTURE | _będę iść_ | _będziesz iść_ | _będzie iść_ | _będziemy iść_ | _będziecie iść_ | _będą iść_ |
 
 - [x] Support for irregular verbs such as _mieć_, _być_, _brać_, _chcieć_, _musieć_, _móc_, _spać_, _pisać_, _jeść_, _mleć_, _strzyc_, _piać_, _ciec_, _rzec_, _ulec_, _ciąć_
 
-| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
-| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
-|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
-| PRESENT |   _piszę_   | _piszesz_  |  _pisze_  |  _piszemy_   |  _piszecie_   |  _piszą_  |
-| PAST (masc) | _pisałem_ | _pisałeś_ | _pisał_  | _pisaliśmy_ | _pisaliście_ | _pisali_ |
-| PAST (fem) | _pisałam_ | _pisałaś_ | _pisała_ | _pisałyśmy_ | _pisałyście_ | _pisały_ |
-| PAST (neut) |                 |                 | _pisało_ |                   |                    |                |
-| FUTURE SIMPLE | _napiszę_ | _napiszesz_ | _napisze_ | _napiszemy_ | _napiszecie_ | _napiszą_ |
+|                 |     1sg      |       2sg        |      3sg       |       1pl        |        2pl        |     3pl      |
+| :-------------: | :----------: | :--------------: | :------------: | :--------------: | :---------------: | :----------: |
+|                 |     _ja_     |       _ty_       |  _on/ona/ono_  |       _my_       |       _wy_        |  _oni/one_   |
+|     PRESENT     |   _piszę_    |    _piszesz_     |    _pisze_     |    _piszemy_     |    _piszecie_     |   _piszą_    |
+|   PAST (masc)   |  _pisałem_   |    _pisałeś_     |    _pisał_     |   _pisaliśmy_    |   _pisaliście_    |   _pisali_   |
+|   PAST (fem)    |  _pisałam_   |    _pisałaś_     |    _pisała_    |   _pisałyśmy_    |   _pisałyście_    |   _pisały_   |
+|   PAST (neut)   |              |                  |    _pisało_    |                  |                   |              |
+|  FUTURE SIMPLE  |  _napiszę_   |   _napiszesz_    |   _napisze_    |   _napiszemy_    |   _napiszecie_    |  _napiszą_   |
 | COMPOUND FUTURE | _będę pisać_ | _będziesz pisać_ | _będzie pisać_ | _będziemy pisać_ | _będziecie pisać_ | _będą pisać_ |
 
 - [x] Support for the _-akać_ verbs of the type: _skakać_
 
-| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
-| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
-|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
-| PRESENT |   _skaczę_   | _skaczesz_  |  _skacze_  |  _skaczemy_   |  _skaczecie_   |  _skaczą_  |
-| PAST (masc) | _skakałem_ | _skakałeś_ | _skakał_  | _skakaliśmy_ | _skakaliście_ | _skakali_ |
-| PAST (fem) | _skakałam_ | _skakałaś_ | _skakała_ | _skakałyśmy_ | _skakałyście_ | _skakały_ |
-| PAST (neut) |                 |                 | _skakało_ |                   |                    |                |
-| FUTURE SIMPLE | | | | | | |
+|                 |      1sg      |        2sg        |       3sg       |        1pl        |        2pl         |      3pl      |
+| :-------------: | :-----------: | :---------------: | :-------------: | :---------------: | :----------------: | :-----------: |
+|                 |     _ja_      |       _ty_        |  _on/ona/ono_   |       _my_        |        _wy_        |   _oni/one_   |
+|     PRESENT     |   _skaczę_    |    _skaczesz_     |    _skacze_     |    _skaczemy_     |    _skaczecie_     |   _skaczą_    |
+|   PAST (masc)   |  _skakałem_   |    _skakałeś_     |    _skakał_     |   _skakaliśmy_    |   _skakaliście_    |   _skakali_   |
+|   PAST (fem)    |  _skakałam_   |    _skakałaś_     |    _skakała_    |   _skakałyśmy_    |   _skakałyście_    |   _skakały_   |
+|   PAST (neut)   |               |                   |    _skakało_    |                   |                    |               |
+|  FUTURE SIMPLE  |               |                   |                 |                   |                    |               |
 | COMPOUND FUTURE | _będę skakać_ | _będziesz skakać_ | _będzie skakać_ | _będziemy skakać_ | _będziecie skakać_ | _będą skakać_ |
 
 - [x] Support for the _-amać_ verbs of the type: _skłamać (skłamię, skłamiesz, skłamie...)_
 
-| |       1sg       |       2sg       |      3sg       |        1pl        |        2pl         |      3pl       |
-| :------: | :-------------: | :-------------: | :------------: | :---------------: | :----------------: | :------------: |
-|          |      _ja_       |      _ty_       |  _on/ona/ono_  |       _my_        |        _wy_        |   _oni/one_    |
-| PRESENT |   _kłamię_   | _kłamiesz_  |  _kłamie_  | _kłamiemy_  | _kłamiecie_ |  _kłamią_  |
-| PAST (masc) | _kłamałem_ | _kłamałeś_ | _kłamał_  | _kłamaliśmy_ | _kłamaliście_ | _kłamali_ |
-| PAST (fem) | _kłamałam_ | _kłamałaś_ | _kłamała_ | _kłamałyśmy_ | _kłamałyście_ | _kłamały_ |
-| PAST (neut) |                 |                 | _kłamało_ |                   |                    |                |
-| FUTURE SIMPLE | _skłamię_ | _skłamiesz_ | _skłamie_ | _skłamiemy_ | _skłamiecie_ | _skłamią_ |
+|                 |      1sg      |        2sg        |       3sg       |        1pl        |        2pl         |      3pl      |
+| :-------------: | :-----------: | :---------------: | :-------------: | :---------------: | :----------------: | :-----------: |
+|                 |     _ja_      |       _ty_        |  _on/ona/ono_   |       _my_        |        _wy_        |   _oni/one_   |
+|     PRESENT     |   _kłamię_    |    _kłamiesz_     |    _kłamie_     |    _kłamiemy_     |    _kłamiecie_     |   _kłamią_    |
+|   PAST (masc)   |  _kłamałem_   |    _kłamałeś_     |    _kłamał_     |   _kłamaliśmy_    |   _kłamaliście_    |   _kłamali_   |
+|   PAST (fem)    |  _kłamałam_   |    _kłamałaś_     |    _kłamała_    |   _kłamałyśmy_    |   _kłamałyście_    |   _kłamały_   |
+|   PAST (neut)   |               |                   |    _kłamało_    |                   |                    |               |
+|  FUTURE SIMPLE  |   _skłamię_   |    _skłamiesz_    |    _skłamie_    |    _skłamiemy_    |    _skłamiecie_    |   _skłamią_   |
 | COMPOUND FUTURE | _będę kłamać_ | _będziesz kłamać_ | _będzie kłamać_ | _będziemy kłamać_ | _będziecie kłamać_ | _będą kłamać_ |
 
 - [x] Support for the _-awać_ verbs of the type: _stawać (staję, stajesz, staje...)_
@@ -223,6 +223,8 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-piąć_ verbs of the type: _zapiąć (zapnę, zapniesz, zapnie...)_
 - [x] Support for future-tense forms of the _-jeść_ verbs of the type: _zjeść (zjem, zjesz, zje...)_
 - [x] Support for future-tense forms of the _uląc_ verbs of the type: _uląc (ulęknę, ulękniesz, ulęknie...)_
+- [x] Support for future-tense forms of the _jąc_ verbs of the type: _wyjąć (wyjmę, wyjmiesz, wyjmie...)_
+- [x] Support for future-tense forms of the _żąć_ verbs of the type: _pożąć (pożnę, pożniesz, pożnie...)_
 - [x] Support for future-tense forms of the _-gryźć_ verbs of the type: _ugryźć (ugryzę, ugryziesz, ugryzie...)_
 
 ## License
