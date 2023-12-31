@@ -6,7 +6,8 @@ auxiliaries = ["będę", "będziesz", "będzie", "będziemy", "będziecie", "bę
 
 # This list include possible perfective prefixes for verbs
 perfective_prefixes = [
-    "do", "ob", 
+    "do",
+    "ob",
     "od",
     "na",
     "po",
@@ -15,7 +16,8 @@ perfective_prefixes = [
     "przy",
     "u",
     "wy",
-    "za", "zg", 
+    "za",
+    "zg",
     "zjeś",
 ]
 
@@ -1041,6 +1043,7 @@ def wziac(word):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
+
 # -giąć category
 def giac(word):
     is_perfective = False
@@ -1075,6 +1078,7 @@ def giac(word):
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
+
 # odpiąć category
 odpiac_suffix = ["epnę", "epniesz", "epnie", "epniemy", "epniecie", "epną"]
 
@@ -1090,6 +1094,7 @@ def odpiac(word):
         stem = word[:-4]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
+
 
 # uląc category
 ulac_suffix = ["ęknę", "ękniesz", "ęknie", "ękniemy", "ękniecie", "ękną"]
@@ -1113,6 +1118,7 @@ def ulac(word):
     for pronoun, suffix in enumerate(ulac_suffix):
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
+
 
 # gryźć category
 gryzc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
@@ -1157,6 +1163,7 @@ def gryzc(word):
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
+
 # -jąć category
 jac_suffix = ["mę", "miesz", "mie", "miemy", "miecie", "mą"]
 
@@ -1192,19 +1199,20 @@ def jac(word):
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
+
 # -djąć category
 
 
 def zdjac(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(jac_suffix):
-        stem = word[:-3]
-        conjugated_form = stem + "ej" + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(stanac_past_suffix):
         stem = word[:-2]
         conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nFuture tense:\n")
+    for pronoun, suffix in enumerate(jac_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + "ej" + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
