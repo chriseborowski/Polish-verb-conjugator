@@ -1652,15 +1652,35 @@ plesc_past_suffix = [
 
 
 def plesc(word):
+    is_perfective = False
+    for prefix in perfective_prefixes:
+        if word.startswith(prefix):
+            is_perfective = True
+            break
+
     stem = word[:-3]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(plesc_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(plesc_past_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
+
+    if is_perfective:
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(plesc_past_suffix):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, suffix in enumerate(plesc_suffix):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    else:
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(plesc_past_suffix):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nPresent tense:\n")
+        for pronoun, suffix in enumerate(plesc_suffix):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, auxiliary in enumerate(auxiliaries):
+            print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 
 # wleźć category
