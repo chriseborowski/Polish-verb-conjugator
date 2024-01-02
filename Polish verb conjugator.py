@@ -16,6 +16,7 @@ perfective_prefixes = [
     "prze",
     "przy",
     "u",
+    "wleź",
     "wy",
     "za",
     "zg",
