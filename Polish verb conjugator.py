@@ -2536,7 +2536,7 @@ elif (
         wiedziec(word)  # wiedzieć, wiem
     elif word.endswith("siedzieć") or word.endswith("siedziec"):
         zapomniec(word)  # siedzieć, siedzę
-    elif word == "wleźć" or word == "wlezc":
+    elif word.endswith("leźć") or word.endswith("lezc"):
         wlezc(word)  # wleźć, wlezę
     elif word.endswith("ecieć") or word.endswith("eciec"):
         zapomniec(word)  # lecieć, lecę
