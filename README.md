@@ -221,9 +221,16 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-wziąć_ verbs of the type: _powziąć (powezmę, poweźmiesz, poweźmie...)_
 - [x] Support for future-tense forms of the _-giąć_ verbs of the type: _zgiąć (zegnę, zegniesz, zegnie...)_
 - [x] Support for future-tense forms of the _-piąć_ verbs of the type: _zapiąć (zapnę, zapniesz, zapnie...)_
+- [x] Support for future-tense forms of the _-trząść_ verbs of the type: _zatrząść (zatrzęsę, zatrzęsiesz, zatrzęsie...)_
+- [x] Support for future-tense forms of the _-rozumieć_ verbs of the type: _zrozumieć (zrozumiem, zrozumiesz, zrozumie...)_
+- [x] Support for future-tense forms of the _-kraść_ verbs of the type: _ukraść (ukradnę, ukradniesz, ukradnie...)_
 - [x] Support for future-tense forms of the _-jeść_ verbs of the type: _zjeść (zjem, zjesz, zje...)_
+- [x] Support for future-tense forms of the _-nieść_ verbs of the type: _przynieść (przyniosę, przyniesiesz, przyniesie...)_
+- [x] Support for future-tense forms of the _-wiedzieć_ verbs of the type: _powiedzieć (powiem, powiesz, powie...)_
+- [x] Support for future-tense forms of the _-wieść_ verbs of the type: _powieść (powiodę, powiedziesz, powiedzie...)_
+- [x] Support for future-tense forms of the _-wieźć_ verbs of the type: _przywieźć (przywiozę, przywieziesz, przywiezie...)_
 - [x] Support for future-tense forms of the _uląc_ verbs of the type: _uląc (ulęknę, ulękniesz, ulęknie...)_
-- [x] Support for future-tense forms of the _jąc_ verbs of the type: _wyjąć (wyjmę, wyjmiesz, wyjmie...)_
+- [x] Support for future-tense forms of the _jąć_ verbs of the type: _wyjąć (wyjmę, wyjmiesz, wyjmie...)_
 - [x] Support for future-tense forms of the _żąć_ verbs of the type: _pożąć (pożnę, pożniesz, pożnie...)_
 - [x] Support for future-tense forms of the _-gryźć_ verbs of the type: _ugryźć (ugryzę, ugryziesz, ugryzie...)_
 
