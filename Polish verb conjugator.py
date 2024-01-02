@@ -1627,14 +1627,14 @@ def trzasc(word):
 
 # siąść category
 def siasc(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(isc_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(jesc_past_suffix):
         stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nFuture tense:\n")
+    for pronoun, suffix in enumerate(isc_suffix):
+        stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
 
