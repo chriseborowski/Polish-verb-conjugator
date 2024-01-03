@@ -11,6 +11,7 @@ perfective_prefixes = [
     "od",
     "ople",
     "ostrzy",
+    "otwo",
     "na",
     "po",
     "pój",
