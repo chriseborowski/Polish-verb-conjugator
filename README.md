@@ -217,10 +217,14 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-wstać_ verbs of the type: _powstać (powstanę, powstaniesz, powstanie...)_
 - [x] Support for future-tense forms of the _-prząść_ verbs of the type: _zaprząść (zaprzędę, zaprzędziesz, zaprzędzie...)_
 - [x] Support for future-tense forms of the _-płakać_ verbs of the type: _zapłakać (zapłaczę, zapłaczesz, zapłacze...)_
+- [x] Support for future-tense forms of the _-drzeć_ verbs of the type: _wydrzeć (wydrę, wydrzesz, wydrze...)_
 - [x] Support for future-tense forms of the _-mrzeć_ verbs of the type: _wymrzeć (wymrę, wymrzesz, wymrze...)_
+- [x] Support for future-tense forms of the _-myśleć_ verbs of the type: _wymyśleć (wymyślę, wymyślisz, wymyśli...)_
+- [x] Support for future-tense forms of the _-patrzeć_ verbs of the type: _wypatrzeć (wypatrzę, wypatrzysz, wypatrzy...)_
 - [x] Support for future-tense forms of the _-wziąć_ verbs of the type: _powziąć (powezmę, poweźmiesz, poweźmie...)_
 - [x] Support for future-tense forms of the _-biec_ verbs of the type: _pobiec (pobiegnę, pobiegniesz, pobiegnie...)_
 - [x] Support for future-tense forms of the _-giąć_ verbs of the type: _zgiąć (zegnę, zegniesz, zegnie...)_
+- [x] Support for future-tense forms of the _-wlec_ verbs of the type: _zawlec (zawlekę, zawleczesz, zawlecze...)_
 - [x] Support for future-tense forms of the _-piąć_ verbs of the type: _zapiąć (zapnę, zapniesz, zapnie...)_
 - [x] Support for future-tense forms of the _-piec_ verbs of the type: _upiec (upiekę, upieczesz, upiecze...)_
 - [x] Support for future-tense forms of the _-trząść_ verbs of the type: _zatrząść (zatrzęsę, zatrzęsiesz, zatrzęsie...)_
@@ -232,10 +236,13 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-pleść_ verbs of the type: _upleść (uplotę, upleciesz, uplecie...)_
 - [x] Support for future-tense forms of the _-wieść_ verbs of the type: _powieść (powiodę, powiedziesz, powiedzie...)_
 - [x] Support for future-tense forms of the _-wieźć_ verbs of the type: _przywieźć (przywiozę, przywieziesz, przywiezie...)_
+- [x] Support for future-tense forms of the _-tworzyć_ verbs of the type: _stworzyć (stworzę, stworzysz, stworzy...)_
+- [x] Support for future-tense forms of the _-móc_ verbs of the type: _pomóc (pomogę, pomożesz, pomoże...)_
 - [x] Support for future-tense forms of the _uląc_ verbs of the type: _uląc (ulęknę, ulękniesz, ulęknie...)_
 - [x] Support for future-tense forms of the _jąć_ verbs of the type: _wyjąć (wyjmę, wyjmiesz, wyjmie...)_
 - [x] Support for future-tense forms of the _żąć_ verbs of the type: _pożąć (pożnę, pożniesz, pożnie...)_
 - [x] Support for future-tense forms of the _-gryźć_ verbs of the type: _ugryźć (ugryzę, ugryziesz, ugryzie...)_
+- [x] Support for future-tense forms of the _-strzyc_ verbs of the type: _ostrzyc (ostrzygę, ostrzyżesz, ostrzyże...)_
 - [x] Support for future-tense forms of the _-grząźć_ verbs of the type: _ugrząźć (ugrzęzę, ugrzęziesz, ugrzęzie...)_
 - [x] Support for future-tense forms of the _-siąść_ verbs of the type: _usiąść (usiądę, usiądziesz, usiądzie...)_
 
