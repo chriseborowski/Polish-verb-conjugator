@@ -2863,7 +2863,6 @@ elif (
             robic(word)  # bawić, bawię
         elif (
             word.endswith("żyć")
-            # or word.endswith("zyc")
             or word.endswith("myć")
             or word.endswith("myc")
             or word.endswith("ryć")
