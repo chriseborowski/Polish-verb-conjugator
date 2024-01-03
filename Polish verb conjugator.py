@@ -2017,15 +2017,35 @@ strzyc_suffix = ["gę", "żesz", "że", "żemy", "żecie", "gą"]
 
 
 def strzyc(word):
+    is_perfective = False
+    for prefix in perfective_prefixes:
+        if word.startswith(prefix):
+            is_perfective = True
+            break
+
     stem = word[:-1]
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(strzyc_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
-    print("\nPast tense (masc/fem/neut):\n")
-    for pronoun, suffix in enumerate(biec_past_suffix):
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
+
+    if is_perfective:
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(biec_past_suffix):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, suffix in enumerate(strzyc_suffix):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+    else:
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(biec_past_suffix):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("Present tense:\n")
+        for pronoun, suffix in enumerate(strzyc_suffix):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, auxiliary in enumerate(auxiliaries):
+            print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 
 # << -I-/-Y- verbs category starts here >>
@@ -2843,7 +2863,7 @@ elif (
             robic(word)  # bawić, bawię
         elif (
             word.endswith("żyć")
-            or word.endswith("zyc")
+            # or word.endswith("zyc")
             or word.endswith("myć")
             or word.endswith("myc")
             or word.endswith("ryć")
