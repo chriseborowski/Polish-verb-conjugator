@@ -17,6 +17,7 @@ perfective_prefixes = [
     "pój",
     "prze",
     "przy",
+    "stwo",
     "u",
     "wleź",
     "wy",
