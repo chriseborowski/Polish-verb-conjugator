@@ -10,6 +10,7 @@ perfective_prefixes = [
     "ob",
     "od",
     "ople",
+    "ostrzy",
     "na",
     "po",
     "pój",
