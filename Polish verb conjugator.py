@@ -2039,7 +2039,7 @@ def strzyc(word):
         for pronoun, suffix in enumerate(biec_past_suffix):
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
-        print("Present tense:\n")
+        print("\nPresent tense:\n")
         for pronoun, suffix in enumerate(strzyc_suffix):
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
