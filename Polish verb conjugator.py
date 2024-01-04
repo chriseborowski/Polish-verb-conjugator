@@ -2267,16 +2267,19 @@ chodzic_suffix = ["ę", "isz", "i", "imy", "icie", "ą"]
 
 
 def chodzic(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(chodzic_suffix):
-        stem = word[:-2]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(robic_past_suffix):
         stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPresent tense:\n")
+    for pronoun, suffix in enumerate(chodzic_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nFuture tense:\n")
+    for pronoun, auxiliary in enumerate(auxiliaries):
+        print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 
 # cierpieć exception
