@@ -3014,7 +3014,7 @@ elif (
             or word.endswith("usić")
             or word.endswith("usic")
         ):
-            nosic(word)  # biesić, bieszę
+            nosic(word)  # wymusić, wymuszę
         elif word.endswith("strzyc"):
             strzyc(word)  # strzyc, strzygę
         elif (
