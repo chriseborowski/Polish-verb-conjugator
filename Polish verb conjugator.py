@@ -24,6 +24,7 @@ perfective_prefixes = [
     "za",
     "zg",
     "zjeś",
+    "zl",
     "zr",
 ]
 
