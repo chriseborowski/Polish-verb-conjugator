@@ -2319,6 +2319,25 @@ def cierpiec(word):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 
+# nosić category
+
+
+def nosic(word):
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(robic_past_suffix):
+        stem = word[:-1]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPresent tense:\n")
+    for pronoun, suffix in enumerate(sic_suffix):
+        stem = word[:-2]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nFuture tense:\n")
+    for pronoun, auxiliary in enumerate(auxiliaries):
+        print(pronouns[pronoun] + " " + auxiliary + " " + word)
+
+
 # -sić category
 sic_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
 
@@ -3007,12 +3026,12 @@ elif (
             or word.endswith("esic")
             or word.endswith("isić")
             or word.endswith("isic")
-            or word.endswith("osić")
-            or word.endswith("osic")
             or word.endswith("usić")
             or word.endswith("usic")
         ):
             sic(word)  # wymusić, wymuszę
+        elif word.endswith("nosić") or word.endswith("nosic"):
+            nosic(word)  # nosić, noszę
         elif word.endswith("strzyc"):
             strzyc(word)  # strzyc, strzygę
         elif (
