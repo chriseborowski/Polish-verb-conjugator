@@ -2319,8 +2319,8 @@ def cierpiec(word):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 
-# nosić category
-nosic_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
+# -sić category
+sic_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
 
 
 def sic(word):
@@ -2337,7 +2337,7 @@ def sic(word):
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
         print("\nFuture tense:\n")
-        for pronoun, suffix in enumerate(nosic_suffix):
+        for pronoun, suffix in enumerate(sic_suffix):
             stem = word[:-2]
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
@@ -2348,7 +2348,7 @@ def sic(word):
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
         print("\nPresent tense:\n")
-        for pronoun, suffix in enumerate(nosic_suffix):
+        for pronoun, suffix in enumerate(sic_suffix):
             stem = word[:-2]
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
