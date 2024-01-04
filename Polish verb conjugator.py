@@ -3041,8 +3041,6 @@ elif (
             or word.endswith("rzyc")
             or word.endswith("czyć")
             or word.endswith("czyc")
-            or word.endswith("szyć")
-            or word.endswith("szyc")
         ):
             tworzyc(word)
         elif word.endswith("odzić") or word.endswith("odzic"):
