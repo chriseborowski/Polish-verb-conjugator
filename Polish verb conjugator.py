@@ -2984,7 +2984,18 @@ elif (
             pic(word)  # żyć, żyję
         elif word.endswith("być") or word.endswith("byc"):
             bede(word)  # zdobyć, zdobędę
-        elif word.endswith("esić") or word.endswith("esic"):
+        elif (
+            word.endswith("asić")
+            or word.endswith("asic")
+            or word.endswith("esić")
+            or word.endswith("esic")
+            or word.endswith("isić")
+            or word.endswith("isic")
+            or word.endswith("osić")
+            or word.endswith("osic")
+            or word.endswith("usić")
+            or word.endswith("usic")
+        ):
             nosic(word)  # biesić, bieszę
         elif word.endswith("strzyc"):
             strzyc(word)  # strzyc, strzygę
@@ -3006,10 +3017,6 @@ elif (
             or word.endswith("zdzić")
         ):
             jezdzic(word)
-        elif word.endswith("osić") or word.endswith("osic"):
-            nosic(word)  # nosić, noszę
-        elif word.endswith("isić") or word.endswith("isic"):
-            nosic(word)  # kisić, kiszę
         elif word.endswith("ścić") or word.endswith("scic"):
             czyscic(word)  # czyścić, czyszczę
         elif (
