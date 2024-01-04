@@ -2323,7 +2323,7 @@ def cierpiec(word):
 nosic_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
 
 
-def nosic(word):
+def sic(word):
     is_perfective = False
     for prefix in perfective_prefixes:
         if word.startswith(prefix):
@@ -3012,7 +3012,7 @@ elif (
             or word.endswith("usić")
             or word.endswith("usic")
         ):
-            nosic(word)  # wymusić, wymuszę
+            sic(word)  # wymusić, wymuszę
         elif word.endswith("strzyc"):
             strzyc(word)  # strzyc, strzygę
         elif (
@@ -3066,7 +3066,7 @@ elif (
                 word
             )  # dzielić, dzielę / tulić, tulę / chwalić, chwalę / solić, solę / modlić, modlę
         elif word.endswith("czcić") or word.endswith("czcic"):
-            nosic(word)  # czcić, czczę
+            sic(word)  # czcić, czczę
         elif (
             word.endswith("cić")
             or word.endswith("cic")
