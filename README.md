@@ -233,6 +233,7 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-jeść_ verbs of the type: _zjeść (zjem, zjesz, zje...)_
 - [x] Support for future-tense forms of the _-nieść_ verbs of the type: _przynieść (przyniosę, przyniesiesz, przyniesie...)_
 - [x] Support for future-tense forms of the _-wiedzieć_ verbs of the type: _powiedzieć (powiem, powiesz, powie...)_
+- [x] Support for future-tense forms of the _-pomnieć_ verbs of the type: _przypomnieć (przypomnę, przypomnisz, przypomni...)_
 - [x] Support for future-tense forms of the _-pleść_ verbs of the type: _upleść (uplotę, upleciesz, uplecie...)_
 - [x] Support for future-tense forms of the _-wieść_ verbs of the type: _powieść (powiodę, powiedziesz, powiedzie...)_
 - [x] Support for future-tense forms of the _-wieźć_ verbs of the type: _przywieźć (przywiozę, przywieziesz, przywiezie...)_
@@ -241,10 +242,13 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _uląc_ verbs of the type: _uląc (ulęknę, ulękniesz, ulęknie...)_
 - [x] Support for future-tense forms of the _jąć_ verbs of the type: _wyjąć (wyjmę, wyjmiesz, wyjmie...)_
 - [x] Support for future-tense forms of the _żąć_ verbs of the type: _pożąć (pożnę, pożniesz, pożnie...)_
+- [x] Support for future-tense forms of the _-nosić_ verbs of the type: _podnosić (będę podnosić, będziesz podnosić, będzie podnosić...)_
+- [x] Support for future-tense forms of the _-chodzić_ verbs of the type: _pochodzić (pochodzę, pochodzisz, pochodzi...)_
 - [x] Support for future-tense forms of the _-gryźć_ verbs of the type: _ugryźć (ugryzę, ugryziesz, ugryzie...)_
 - [x] Support for future-tense forms of the _-strzyc_ verbs of the type: _ostrzyc (ostrzygę, ostrzyżesz, ostrzyże...)_
 - [x] Support for future-tense forms of the _-grząźć_ verbs of the type: _ugrząźć (ugrzęzę, ugrzęziesz, ugrzęzie...)_
 - [x] Support for future-tense forms of the _-siąść_ verbs of the type: _usiąść (usiądę, usiądziesz, usiądzie...)_
+- [x] Support for future-tense forms of the _-węszyć_ verbs of the type: _zwęszyć (zwęszę, zwęszysz, zwęszy...)_
 
 ## License
 
