@@ -9,6 +9,13 @@ perfective_prefixes = [
     "do",
     "ob",
     "od",
+    "omd",
+    "omie",
+    "omin",
+    "oml",
+    "omot",
+    "omów",
+    "omy",
     "ople",
     "ostrzy",
     "otwo",
@@ -1415,20 +1422,26 @@ def mlec(word):
             is_perfective = True
             break
 
+    stem = word[:-3]
+
     if is_perfective:
         print("\nPast tense (masc/fem/neut):\n")
-        for pronoun, form in enumerate(mlec_past_forms):
-            print(pronouns[pronoun] + " " + form)
+        for pronoun, suffix in enumerate(mlec_past_forms):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
         print("\nFuture tense:\n")
-        for pronoun, form in enumerate(mlec_forms):
-            print(pronouns[pronoun] + " " + form)
+        for pronoun, suffix in enumerate(mlec_forms):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
     else:
         print("\nPast tense (masc/fem/neut):\n")
-        for pronoun, form in enumerate(mlec_past_forms):
-            print(pronouns[pronoun] + " " + form)
+        for pronoun, suffix in enumerate(mlec_past_forms):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
         print("\nPresent tense:\n")
-        for pronoun, form in enumerate(mlec_forms):
-            print(pronouns[pronoun] + " " + form)
+        for pronoun, suffix in enumerate(mlec_forms):
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
         print("\nFuture tense:\n")
         for pronoun, auxiliary in enumerate(auxiliaries):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
