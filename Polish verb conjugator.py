@@ -2942,7 +2942,7 @@ elif (
         mlec(word)  # mleć, mielę
     elif word.endswith("śleć"):
         myslec(word)  # myśleć, myślę
-    elif word.endswith("lec"):
+    elif word.endswith("wlec"):
         wlec(word)  # wlec, wlokę
     elif word == "chcieć" or word == "chciec":
         chciec(word)  # chcieć, chcę
