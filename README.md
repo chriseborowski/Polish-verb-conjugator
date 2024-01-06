@@ -201,10 +201,12 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of most typical, prefixed regular -I- verbs of the type: _pić (będę pić, będziesz pić, będzie pić...)_
 - [x] Support for future-tense forms of the _-dać_ verb category of the type: _wydać (wydam, wydasz, wyda...)_
 - [x] Support for future-tense forms of the _-brać_ verb category of the type: _zabrać (zabiorę, zabierzesz, zabierze...)_
+- [x] Support for future-tense forms of the _przebrać_ verb category of the type: _przebrać (przebiorę, przebierzesz, przebierze...)_
 - [x] Support for future-tense forms of the _-stawać_ verb category of the type: _wystawać (będę wystawać, będziesz wystawać, będzie wystawać...)_
 - [x] Support for future-tense forms of the _żebrać_ verb category of the type: _wyżebrać (wyżebrzę, wyżebrzesz, wyżebrze...)_
 - [x] Support for future-tense forms of the _-ować_ verb category of the type: _zapracować (zapracuję, zapracujesz, zapracuje...)_
 - [x] Support for future-tense forms of the prefixed _-robić_ verbs of the type: _dorobić (dorobię, dorobisz, dorobi...)_
+- [x] Support for future-tense forms of the model verbs _chcieć_, _móc_, _musieć_ verbs
 - [x] Support for future-tense forms of the _-jechać_ verb category of the type: _wyjechać (wyjadę, wyjedziesz, wyjedzie...)_
 - [x] Support for future-tense forms of the _-nosić_ verb category of the type: _odnosić (będę odnosić, będziesz odnosić, będzie odnosić...)_
 - [x] Support for future-tense forms of the _-kazać_ verb category of the type: _zakazać (zakażę, zakażesz, zakaże...)_
@@ -214,10 +216,12 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-zacząć_ verbs of the type: _zacząć (zacznę, zaczniesz, zacznie...)_
 - [x] Support for future-tense forms of the _-kląć_ verbs of the type: _zakląć (zaklnę, zaklniesz, zaklnie...)_
 - [x] Support for future-tense forms of the _-piać_ verbs of the type: _zapiać (zapieję, zapiejesz, zapieje...)_
+- [x] Support for future-tense forms of the _-spać_ verbs of the type: _wyspać (wyśpię, wyśpisz, wyśpi...)_
 - [x] Support for future-tense forms of the _-wstać_ verbs of the type: _powstać (powstanę, powstaniesz, powstanie...)_
 - [x] Support for future-tense forms of the _-prząść_ verbs of the type: _zaprząść (zaprzędę, zaprzędziesz, zaprzędzie...)_
 - [x] Support for future-tense forms of the _-płakać_ verbs of the type: _zapłakać (zapłaczę, zapłaczesz, zapłacze...)_
 - [x] Support for future-tense forms of the _-drzeć_ verbs of the type: _wydrzeć (wydrę, wydrzesz, wydrze...)_
+- [x] Support for future-tense forms of the _-mleć_ verbs of the type: _zemleć (zmielę, zmielesz, zmiele...)_
 - [x] Support for future-tense forms of the _-mrzeć_ verbs of the type: _wymrzeć (wymrę, wymrzesz, wymrze...)_
 - [x] Support for future-tense forms of the _-myśleć_ verbs of the type: _wymyśleć (wymyślę, wymyślisz, wymyśli...)_
 - [x] Support for future-tense forms of the _-patrzeć_ verbs of the type: _wypatrzeć (wypatrzę, wypatrzysz, wypatrzy...)_
@@ -245,6 +249,8 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-nosić_ verbs of the type: _podnosić (będę podnosić, będziesz podnosić, będzie podnosić...)_
 - [x] Support for future-tense forms of the _-chodzić_ verbs of the type: _pochodzić (pochodzę, pochodzisz, pochodzi...)_
 - [x] Support for future-tense forms of the _-gryźć_ verbs of the type: _ugryźć (ugryzę, ugryziesz, ugryzie...)_
+- [x] Support for future-tense forms of the _-być_ verbs of the type: _zdobyć (zdobędę, zdobędziesz, zdobędzie...)_
+- [x] Support for future-tense forms of the _-czyścić_ verbs of the type: _wyczyścić (wyczyszczę, wyczyścisz, wyczyści...)_
 - [x] Support for future-tense forms of the _-strzyc_ verbs of the type: _ostrzyc (ostrzygę, ostrzyżesz, ostrzyże...)_
 - [x] Support for future-tense forms of the _-grząźć_ verbs of the type: _ugrząźć (ugrzęzę, ugrzęziesz, ugrzęzie...)_
 - [x] Support for future-tense forms of the _-siąść_ verbs of the type: _usiąść (usiądę, usiądziesz, usiądzie...)_
