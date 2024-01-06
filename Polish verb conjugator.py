@@ -1459,14 +1459,15 @@ def chciec(word):
             print(pronouns[pronoun] + " " + conjugated_form)
         print("\nFuture tense:\n")
         for pronoun, auxiliary in enumerate(auxiliaries):
+            stem = word[:-2]
             if pronoun < 2:
-                participle = word[:-2] + "ał/chciała"
+                participle = stem + "ał/chciała"
                 print(pronouns[pronoun] + " " + auxiliary + " " + participle)
             elif pronoun == 2:
-                participle = word[:-2] + "ał/chciała/chciało"
+                participle = stem + "ał/chciała/chciało"
                 print(pronouns[pronoun] + " " + auxiliary + " " + participle)
             else:
-                participle = word[:-2] + "eli/chciały"
+                participle = stem + "eli/chciały"
                 print(pronouns[pronoun] + " " + auxiliary + " " + participle)
 
 
