@@ -2450,14 +2450,15 @@ def musiec(word):
         print(pronouns[pronoun] + " " + conjugated_form)
     print("\nFuture tense:\n")
     for pronoun, auxiliary in enumerate(auxiliaries):
+        stem = word[:-2]
         if pronoun < 2:
-            participle = word[:-2] + "ał/musiała"
+            participle = stem + "ał/musiała"
             print(pronouns[pronoun] + " " + auxiliary + " " + participle)
         elif pronoun == 2:
-            participle = word[:-2] + "ał/musiała/musiało"
+            participle = stem + "ał/musiała/musiało"
             print(pronouns[pronoun] + " " + auxiliary + " " + participle)
         else:
-            participle = word[:-2] + "eli/musiały"
+            participle = stem + "eli/musiały"
             print(pronouns[pronoun] + " " + auxiliary + " " + participle)
 
 
