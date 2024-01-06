@@ -2026,10 +2026,6 @@ def moc(word):
                 participle = stem + "ogli/mogły"
                 print(pronouns[pronoun] + " " + auxiliary + " " + participle)
 
-        # print("\nFuture tense:\n")
-        # for pronoun, auxiliary in enumerate(auxiliaries):
-        #     print(pronouns[pronoun] + " " + auxiliary + " " + word)
-
 
 # kłóć exception
 kloc_suffix = ["olę", "olesz", "ole", "olemy", "olecie", "olą"]
