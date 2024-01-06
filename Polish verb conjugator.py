@@ -2417,16 +2417,27 @@ musiec_suffix = ["zę", "isz", "i", "imy", "icie", "zą"]
 
 
 def musiec(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(musiec_suffix):
-        stem = word[:-3]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(chciec_past_suffix):
         stem = word[:-2]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPresent tense:\n")
+    for pronoun, suffix in enumerate(musiec_suffix):
+        stem = word[:-3]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nFuture tense:\n")
+    for pronoun, auxiliary in enumerate(auxiliaries):
+        if pronoun < 2:
+            participle = word[:-2] + "ał/-ła"
+            print(pronouns[pronoun] + " " + auxiliary + " " + participle)
+        elif pronoun == 2:
+            participle = word[:-2] + "ał/-ła/-ło"
+            print(pronouns[pronoun] + " " + auxiliary + " " + participle)
+        else:
+            participle = word[:-2] + "eli/-ały"
+            print(pronouns[pronoun] + " " + auxiliary + " " + participle)
 
 
 # czyścić category
