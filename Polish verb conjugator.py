@@ -2723,7 +2723,7 @@ if (
     elif word.endswith("akać") or word.endswith("akac"):
         plakac(word)  # płakać, płaczę
     elif word == "przebrać" or word == "przebrac":
-        przebrac(word)
+        przebrac(word)  # przebrać, przebiorę
     elif word.endswith("żebrać") or word.endswith("żebrac"):
         zebrac_1(word)  # żebrać, żebrzę
     elif word.endswith("zabrać") or word.endswith("zabrac"):
