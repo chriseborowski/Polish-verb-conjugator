@@ -1985,14 +1985,15 @@ def moc(word):
             print(pronouns[pronoun] + " " + conjugated_form)
         print("\nFuture tense:\n")
         for pronoun, auxiliary in enumerate(auxiliaries):
+            stem = word[:-2]
             if pronoun < 2:
-                participle = word[:-2] + "ógł/mogła"
+                participle = stem + "ógł/mogła"
                 print(pronouns[pronoun] + " " + auxiliary + " " + participle)
             elif pronoun == 2:
-                participle = word[:-2] + "ógł/mogła/mogło"
+                participle = stem + "ógł/mogła/mogło"
                 print(pronouns[pronoun] + " " + auxiliary + " " + participle)
             else:
-                participle = word[:-2] + "ogli/mogły"
+                participle = stem + "ogli/mogły"
                 print(pronouns[pronoun] + " " + auxiliary + " " + participle)
 
         # print("\nFuture tense:\n")
