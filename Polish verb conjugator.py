@@ -2594,16 +2594,19 @@ jezdzic_suffix = ["żdżę", "ździsz", "ździ", "ździmy", "ździcie", "żdżą
 
 
 def jezdzic(word):
-    print("Present tense:\n")
-    for pronoun, suffix in enumerate(jezdzic_suffix):
-        stem = word[:-5]
-        conjugated_form = stem + suffix
-        print(pronouns[pronoun] + " " + conjugated_form)
     print("\nPast tense (masc/fem/neut):\n")
     for pronoun, suffix in enumerate(robic_past_suffix):
         stem = word[:-1]
         conjugated_form = stem + suffix
         print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPresent tense:\n")
+    for pronoun, suffix in enumerate(jezdzic_suffix):
+        stem = word[:-5]
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nFuture tense:\n")
+    for pronoun, auxiliary in enumerate(auxiliaries):
+        print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 
 # << verb categories end here >>
