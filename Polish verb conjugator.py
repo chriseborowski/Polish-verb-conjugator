@@ -1452,14 +1452,22 @@ def chciec(word):
             stem = word[:-2]
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
-        print("Present tense:\n")
+        print("\nPresent tense:\n")
         for pronoun, suffix in enumerate(chciec_suffix):
             stem = word[:-3]
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
         print("\nFuture tense:\n")
         for pronoun, auxiliary in enumerate(auxiliaries):
-            print(pronouns[pronoun] + " " + auxiliary + " " + word)
+            if pronoun < 2:
+                participle = word[:-2] + "ał/-ła"
+                print(pronouns[pronoun] + " " + auxiliary + " " + participle)
+            elif pronoun == 2:
+                participle = word[:-2] + "ał/-ła/-ło"
+                print(pronouns[pronoun] + " " + auxiliary + " " + participle)
+            else:
+                participle = word[:-2] + "eli/-ały"
+                print(pronouns[pronoun] + " " + auxiliary + " " + participle)
 
 
 # kraść category
