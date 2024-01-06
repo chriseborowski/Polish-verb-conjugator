@@ -1984,7 +1984,19 @@ def moc(word):
             print(pronouns[pronoun] + " " + conjugated_form)
         print("\nFuture tense:\n")
         for pronoun, auxiliary in enumerate(auxiliaries):
-            print(pronouns[pronoun] + " " + auxiliary + " " + word)
+            if pronoun < 2:
+                participle = word[:-2] + "ógł/-ogła"
+                print(pronouns[pronoun] + " " + auxiliary + " " + participle)
+            elif pronoun == 2:
+                participle = word[:-2] + "ógł/-ogła/-ogło"
+                print(pronouns[pronoun] + " " + auxiliary + " " + participle)
+            else:
+                participle = word[:-2] + "ogli/-ogły"
+                print(pronouns[pronoun] + " " + auxiliary + " " + participle)
+
+        # print("\nFuture tense:\n")
+        # for pronoun, auxiliary in enumerate(auxiliaries):
+        #     print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 
 # kłóć exception
