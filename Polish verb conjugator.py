@@ -1397,14 +1397,14 @@ def wiezc(word):
 
 
 # mleć category
-mlec_forms = ["mielę", "mielesz", "miele", "mielemy", "mielecie", "mielą"]
+mlec_forms = ["ielę", "ielesz", "iele", "ielemy", "ielecie", "ielą"]
 mlec_past_forms = [
-    "mełłem/-am",
-    "mełłeś/-aś",
-    "mełł/-a/-o",
-    "mełliśmy/-łyśmy",
-    "mełliscie/-łyście",
-    "mełli/-ły",
+    "ełłem/-am",
+    "ełłeś/-aś",
+    "ełł/-a/-o",
+    "ełliśmy/-łyśmy",
+    "ełliscie/-łyście",
+    "ełli/-ły",
 ]
 
 
