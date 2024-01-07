@@ -26,6 +26,7 @@ perfective_prefixes = [
     "przy",
     "stwo",
     "u",
+    "wlać",
     "wleź",
     "wy",
     "za",
