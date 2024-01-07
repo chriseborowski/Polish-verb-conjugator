@@ -17,6 +17,7 @@ perfective_prefixes = [
     "omów",
     "omy",
     "ople",
+    "ostrzec",
     "ostrzy",
     "otwo",
     "na",
