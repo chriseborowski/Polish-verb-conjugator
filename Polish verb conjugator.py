@@ -36,6 +36,7 @@ perfective_prefixes = [
     "zl",
     "zr",
     "zwę",
+    "zwię",
 ]
 
 # << verb categories start here >>
