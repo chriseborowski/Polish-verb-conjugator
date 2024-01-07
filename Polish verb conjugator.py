@@ -2981,6 +2981,8 @@ elif (
         plesc(word)  # pleść, plotę
     elif word.endswith("mnieć") or word.endswith("mniec"):
         zapomniec(word)  # zapomnieć, zapomnę
+    elif word.endswith("dleć") or word.endswith("dlec"):
+        mdlec(word)  # mdleć, mdleję
     elif word.endswith("mleć") or word.endswith("mlec"):
         mlec(word)  # mleć, mielę
     elif word.endswith("śleć"):
