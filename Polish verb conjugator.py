@@ -2933,7 +2933,7 @@ elif (
         or word.endswith("wrzec")
     ):
         umrzec(word)  # umrzeć, umrę / podrzeć, podrę
-    elif word.endswith("trzeć") or word.endswith("trzec"):
+    elif word.endswith("trzeć"):
         patrzec(word)  # patrzeć, patrzę
     elif word.endswith("wiedzieć") or word.endswith("wiedziec"):
         wiedziec(word)  # powiedzieć, powiem
@@ -2945,12 +2945,7 @@ elif (
         biec(word)  # biec, biegnę
     elif word == "kupiec":
         print("You entered a noun. Please enter a verb.")
-    elif (
-        word.endswith("piec")
-        or word.endswith("rzec")
-        or word.endswith("ciec")
-        or word.endswith("siec")
-    ):
+    elif word.endswith("piec") or word.endswith("ciec") or word.endswith("siec"):
         piec(word)  # piec, piekę
     elif (
         word.endswith("musieć")
@@ -2959,7 +2954,7 @@ elif (
         or word.endswith("isiec")
     ):
         musiec(word)  # musieć, muszę / wisieć, wiszę
-    elif word.endswith("strzec"):
+    elif word.endswith("trzec"):
         strzyc(word)  # ustrzec, ustrzegę
     elif (
         word.endswith("czeć")
