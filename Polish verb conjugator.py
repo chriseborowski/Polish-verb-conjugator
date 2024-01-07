@@ -3105,6 +3105,8 @@ elif (
             robic(word)  # chybić, chybię
         elif word.endswith("ęszyć") or word.endswith("ęszyc"):
             tworzyc(word)  # węszyć, węszę
+        elif word.endswith("kszyć"):
+            patrzec(word)  # powiększyć, powiększę
         elif word.endswith("szyć") or word.endswith("szyc"):
             pic(word)  # szyć, szyję
         elif (
