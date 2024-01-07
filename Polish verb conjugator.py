@@ -2928,6 +2928,8 @@ elif (
         or word.endswith("mrzec")
         or word.endswith("przeć")
         or word.endswith("przec")
+        or word.endswith("wrzeć")
+        or word.endswith("wrzec")
     ):
         umrzec(word)  # umrzeć, umrę / podrzeć, podrę
     elif word.endswith("trzeć") or word.endswith("trzec"):
