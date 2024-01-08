@@ -1035,7 +1035,7 @@ def zapiac(word):
     print("\nFuture tense:\n")
     if stop_letter_w in word:
         for pronoun, suffix in enumerate(zapiac_suffix):
-            stem = word[0] + "e" + word[1:3]
+            stem = word[0] + "e" + word[1:2]
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
     elif stop_letter_s in word:
