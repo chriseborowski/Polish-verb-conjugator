@@ -3264,6 +3264,7 @@ elif (
     or word.endswith("kuc")
     or word.endswith("luć")
     or word.endswith("luc")
+    or word.endswith("łuć")
     or word.endswith("nuć")
     or word.endswith("nuc")
     or word.endswith("ruć")
