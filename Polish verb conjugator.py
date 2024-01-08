@@ -2904,8 +2904,6 @@ if (
         klamac(word)  # klepać, klepię
     elif word.endswith("jechać") or word.endswith("jechac"):
         jechac(word)  # jechać, jadę, jedziesz
-    elif word.endswith("szać") or word.endswith("szac"):
-        czytac(word)  # powiększać, powiększam
     elif (
         word.endswith("żąć")
         or word.endswith("żać")
