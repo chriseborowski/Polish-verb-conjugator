@@ -2875,6 +2875,8 @@ if (
         or word.endswith("ijac")
         or word.endswith("inać")
         or word.endswith("inac")
+        or word.endswith("szać")
+        or word.endswith("szac")
         or word.endswith("ynać")
         or word.endswith("ynac")
     ):
