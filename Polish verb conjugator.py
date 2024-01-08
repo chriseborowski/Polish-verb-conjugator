@@ -2981,6 +2981,8 @@ elif (
         niesc(word)  # nieść, niosę
     elif word.endswith("pleść") or word.endswith("plesc"):
         plesc(word)  # pleść, plotę
+    elif word.endswith("mieść") or word.endswith("mieśc") or word.endswith("miesć"):
+        plesc(word)  # mieść, miotę
     elif word.endswith("mnieć") or word.endswith("mniec"):
         zapomniec(word)  # zapomnieć, zapomnę
     elif word.endswith("dleć") or word.endswith("dlec"):
