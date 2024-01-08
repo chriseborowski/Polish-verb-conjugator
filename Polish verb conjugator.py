@@ -168,6 +168,22 @@ def czytac(word):
             print(pronouns[pronoun] + " " + auxiliary + " " + word)
 
 
+def bywac(word):
+    stem = word[:-1]
+
+    print("\nPast tense (masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(czytac_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nPresent tense:\n")
+    for pronoun, suffix in enumerate(czytac_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nFuture tense:\n")
+    for pronoun, auxiliary in enumerate(auxiliaries):
+        print(pronouns[pronoun] + " " + auxiliary + " " + word)
+
+
 # << -E- verbs category starts here >>
 
 # brać category
@@ -2749,8 +2765,6 @@ if (
     elif (
         word.endswith("azywać")
         or word.endswith("azywac")
-        or word.endswith("bywać")
-        or word.endswith("bywac")
         or word.endswith("czywać")
         or word.endswith("czywac")
         or word.endswith("dzywać")
