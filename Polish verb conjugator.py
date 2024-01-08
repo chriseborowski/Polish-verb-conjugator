@@ -2867,7 +2867,7 @@ if (
     elif word.endswith("stać") or word.endswith("stac"):
         stac(word)  # stać, stoję
     elif word.endswith("ynać") or word.endswith("ynac"):
-        czytac(word)  # zaczynać, zaczynam
+        bywac(word)  # zaczynać, zaczynam
     elif word.endswith("snąć") or word.endswith("snąc"):
         snac(word)  # zasnąć, zasnę
     elif word.endswith("nąć") or word.endswith("nąc"):
