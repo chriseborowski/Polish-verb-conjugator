@@ -37,6 +37,7 @@ perfective_prefixes = [
     "zr",
     "zwę",
     "zwię",
+    "zż",
 ]
 
 # << verb categories start here >>
@@ -2879,8 +2880,11 @@ if (
         or word.endswith("zać")
     ):
         zac(word)  # użąć, użnę
-    elif (word.endswith("bjąć") or word.endswith("bjąc") or word.endswith("bjać") or
-        word.endswith("djąć")
+    elif (
+        word.endswith("bjąć")
+        or word.endswith("bjąc")
+        or word.endswith("bjać")
+        or word.endswith("djąć")
         or word.endswith("djać")
         or word.endswith("djąc")
         or word.endswith("djac")
