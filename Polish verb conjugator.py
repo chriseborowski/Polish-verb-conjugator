@@ -2748,6 +2748,8 @@ if (
         stac(word)  # bać (się), boję (się)
     elif word.endswith("spać") or word.endswith("spac"):
         spac(word)  # spać, śpię
+    elif word.endswith("wierać") or word.endswith("wierac"):
+        bywac(word)  # zawierać, zawieram
     elif word.endswith("prać") or word.endswith("prac"):
         brac(word)  # prać, piorę
     elif word == "orać" or word == "orac":
