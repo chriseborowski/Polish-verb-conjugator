@@ -2762,6 +2762,8 @@ if (
         or word.endswith("mazywac")
     ):
         pracowac(word)  # pokazywać, pokazuję
+    elif word.endswith("bywać") or word.endswith("bywac"):
+        bywac(word)  # bywać, bywam
     elif (
         word.endswith("azywać")
         or word.endswith("azywac")
