@@ -2869,7 +2869,9 @@ if (
     elif word.endswith("stać") or word.endswith("stac"):
         stac(word)  # stać, stoję
     elif (
-        word.endswith("inać")
+        word.endswith("ijać")
+        or word.endswith("ijac")
+        or word.endswith("inać")
         or word.endswith("inac")
         or word.endswith("ynać")
         or word.endswith("ynac")
