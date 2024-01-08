@@ -2879,7 +2879,7 @@ if (
         or word.endswith("zać")
     ):
         zac(word)  # użąć, użnę
-    elif (
+    elif (word.endswith("bjąć") or word.endswith("bjąc") or word.endswith("bjać") or
         word.endswith("djąć")
         or word.endswith("djać")
         or word.endswith("djąc")
