@@ -2789,7 +2789,7 @@ if (
         or word.endswith("mazywać")
         or word.endswith("mazywac")
     ):
-        pracowac(word)  # pokazywać, pokazuję
+        zezowac(word)  # pokazywać, pokazuję
     elif word.endswith("bywać") or word.endswith("bywac"):
         bywac(word)  # bywać, bywam
     elif (
