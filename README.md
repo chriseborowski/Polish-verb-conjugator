@@ -217,6 +217,9 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-kląć_ verbs of the type: _zakląć (zaklnę, zaklniesz, zaklnie...)_
 - [x] Support for future-tense forms of the _-piać_ verbs of the type: _zapiać (zapieję, zapiejesz, zapieje...)_
 - [x] Support for future-tense forms of the _-spać_ verbs of the type: _wyspać (wyśpię, wyśpisz, wyśpi...)_
+- [x] Support for future-tense forms of the _-agać_ verbs of the type: _pomagać (pomagam, pomagasz, pomaga...)_
+- [x] Support for future-tense forms of the _-szać_ verbs of the type: _powiększać (powiększam, powiększasz, powiększa...)_
+- [x] Support for future-tense forms of the _-bywać_ verbs of the type: _przebywać (przebywam, przebywasz, przebywa...)_
 - [x] Support for future-tense forms of the _-wstać_ verbs of the type: _powstać (powstanę, powstaniesz, powstanie...)_
 - [x] Support for future-tense forms of the _-prząść_ verbs of the type: _zaprząść (zaprzędę, zaprzędziesz, zaprzędzie...)_
 - [x] Support for future-tense forms of the _-płakać_ verbs of the type: _zapłakać (zapłaczę, zapłaczesz, zapłacze...)_
@@ -228,9 +231,12 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-wziąć_ verbs of the type: _powziąć (powezmę, poweźmiesz, poweźmie...)_
 - [x] Support for future-tense forms of the _-biec_ verbs of the type: _pobiec (pobiegnę, pobiegniesz, pobiegnie...)_
 - [x] Support for future-tense forms of the _-giąć_ verbs of the type: _zgiąć (zegnę, zegniesz, zegnie...)_
+- [x] Support for future-tense forms of the _-ijać_ verbs of the type: _wymijać (wymijam, wymijasz, wymija...)_
 - [x] Support for future-tense forms of the _-wlec_ verbs of the type: _zawlec (zawlekę, zawleczesz, zawlecze...)_
 - [x] Support for future-tense forms of the _-piąć_ verbs of the type: _zapiąć (zapnę, zapniesz, zapnie...)_
 - [x] Support for future-tense forms of the _-piec_ verbs of the type: _upiec (upiekę, upieczesz, upiecze...)_
+- [x] Support for future-tense forms of the _-pinać_ verbs of the type: _zapinać (zapinam, zapinasz, zapina...)_
+- [x] Support for future-tense forms of the _-wierać_ verbs of the type: _-wierać (zapinam, zapinasz, zapina...)_
 - [x] Support for future-tense forms of the _-trząść_ verbs of the type: _zatrząść (zatrzęsę, zatrzęsiesz, zatrzęsie...)_
 - [x] Support for future-tense forms of the _-rozumieć_ verbs of the type: _zrozumieć (zrozumiem, zrozumiesz, zrozumie...)_
 - [x] Support for future-tense forms of the _-kraść_ verbs of the type: _ukraść (ukradnę, ukradniesz, ukradnie...)_
