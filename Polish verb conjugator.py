@@ -2828,7 +2828,7 @@ if (
         or word.endswith("żywać")
         or word.endswith("żywac")
     ):
-        czytac(word)
+        nazywac(word)
     elif word.endswith("ezować") or word.endswith("ezowac"):
         zezowac(word)  # zezować, zezuję
     elif (
