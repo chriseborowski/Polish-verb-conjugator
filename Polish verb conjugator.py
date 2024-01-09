@@ -31,6 +31,7 @@ perfective_prefixes = [
     "wleź",
     "wy",
     "za",
+    "zbu",
     "zg",
     "zjeś",
     "zl",
