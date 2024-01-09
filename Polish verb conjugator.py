@@ -1571,6 +1571,7 @@ def chciec(word):
             print(pronouns[pronoun] + " " + conjugated_form)
         print("\nFuture tense:\n")
         for pronoun, suffix in enumerate(chciec_suffix):
+            stem = word[:-3]
             conjugated_form = stem + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
     else:
@@ -3069,7 +3070,7 @@ elif (
         myslec(word)  # myśleć, myślę
     elif word.endswith("wlec"):
         wlec(word)  # wlec, wlokę
-    elif word == "chcieć" or word == "chciec":
+    elif word.endswith("chcieć") or word.endswith("chciec"):
         chciec(word)  # chcieć, chcę
     elif word == "mieć" or word == "miec":
         miec(word)  # mieć, mam
