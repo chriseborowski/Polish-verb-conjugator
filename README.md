@@ -26,15 +26,17 @@ The latest version supports the following functionalities:
 |  FUTURE SIMPLE  | _przeczytam_  |   _przeczytasz_   |   _przeczyta_   |   _przeczytamy_   |   _przeczytacie_   | _przeczytają_ |
 | COMPOUND FUTURE | _będę czytać_ | _będziesz czytać_ | _będzie czytać_ | _będziemy czytać_ | _będziecie czytać_ | _będą czytać_ |
 
-- [x] Support for the most typical, regular -E- verbs of the type: _chcieć_
+- [x] Support for the most typical, regular -E- verbs of the type: _-chcieć_
 
-|             |    1sg     |    2sg     |     3sg      |     1pl      |      2pl      |    3pl    |
-| :---------: | :--------: | :--------: | :----------: | :----------: | :-----------: | :-------: |
-|             |    _ja_    |    _ty_    | _on/ona/ono_ |     _my_     |     _wy_      | _oni/one_ |
-|   PRESENT   |   _chcę_   |  _chcesz_  |    _chce_    |   _chcemy_   |   _chcecie_   |  _chcą_   |
-| PAST (masc) | _chciałem_ | _chciałam_ |   _chciał_   | _chcieliśmy_ | _chcieliście_ | _chcieli_ |
-| PAST (fem)  | _chciałam_ | _chciałaś_ |  _chciała_   | _chciałyśmy_ | _chciałyście_ | _chciały_ |
-| PAST (neut) |            |            |  _chciało_   |              |               |           |
+|                 |          1sg          |            2sg            |               3sg               |            1pl             |             2pl             |          3pl           |
+| :-------------: | :-------------------: | :-----------------------: | :-----------------------------: | :------------------------: | :-------------------------: | :--------------------: |
+|                 |         _ja_          |           _ty_            |          _on/ona/ono_           |            _my_            |            _wy_             |       _oni/one_        |
+|     PRESENT     |        _chcę_         |         _chcesz_          |             _chce_              |          _chcemy_          |          _chcecie_          |         _chcą_         |
+|   PAST (masc)   |      _chciałem_       |        _chciałam_         |            _chciał_             |        _chcieliśmy_        |        _chcieliście_        |       _chcieli_        |
+|   PAST (fem)    |      _chciałam_       |        _chciałaś_         |            _chciała_            |        _chciałyśmy_        |        _chciałyście_        |       _chciały_        |
+|   PAST (neut)   |                       |                           |            _chciało_            |                            |                             |                        |
+|  FUTURE SIMPLE  |       _zechcę_        |        _zechcesz_         |            _zechce_             |         _zechcemy_         |         _zechcemy_          |        _zechcą_        |
+| COMPOUND FUTURE | _będę chciał/chciała_ | _będziesz chciał/chciała_ | _będzie chciał/chciała/chciało_ | _będziemy chcieli/chciały_ | _będziecie chcieli/chciały_ | _będą chcieli/chciały_ |
 
 - [x] Support for the most typical, regular -I- verbs of the type: _robić_
 
