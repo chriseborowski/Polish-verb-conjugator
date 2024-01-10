@@ -36,6 +36,7 @@ perfective_prefixes = [
     "zg",
     "zjeś",
     "zl",
+    "zo",
     "zr",
     "zwę",
     "zwię",
