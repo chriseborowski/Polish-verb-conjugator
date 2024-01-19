@@ -3122,6 +3122,8 @@ elif (
         or word.endswith("zec")
     ):
         drzec(word)  # drżę, drżysz
+    elif word.endswith("ciec"):
+        uciec(word)  # uciec, ucieknę
     else:
         chciec(word)  # chcieć, chcę
 
