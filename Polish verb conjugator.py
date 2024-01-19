@@ -1249,6 +1249,22 @@ def ulac(word):
         print(pronouns[pronoun] + " " + conjugated_form)
 
 
+# uciec category
+uciec_suffix = ["knę", "kniesz", "knie", "kniemy", "kniecie", "kną"]
+
+
+def uciec(word):
+    stem = word[:-1]
+    print("\nPast tense(masc/fem/neut):\n")
+    for pronoun, suffix in enumerate(piec_past_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+    print("\nFuture tense:\n")
+    for pronoun, suffix in enumerate(uciec_suffix):
+        conjugated_form = stem + suffix
+        print(pronouns[pronoun] + " " + conjugated_form)
+
+
 # gryźć category
 gryzc_suffix = ["zę", "ziesz", "zie", "ziemy", "ziecie", "zą"]
 gryzc_past_suffix = [
