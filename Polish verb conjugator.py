@@ -3033,8 +3033,6 @@ elif (
         or word.endswith("otrzec")
     ):
         umrzec(word)  # umrzeć, umrę / podrzeć, podrę
-    elif word.endswith("trzeć"):
-        patrzec(word)  # patrzeć, patrzę
     elif word.endswith("wiedzieć") or word.endswith("wiedziec"):
         wiedziec(word)  # powiedzieć, powiem
     elif word.endswith("jeść") or word.endswith("jesc"):
