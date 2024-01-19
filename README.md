@@ -230,10 +230,12 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-mrzeć_ verbs of the type: _wymrzeć (wymrę, wymrzesz, wymrze...)_
 - [x] Support for future-tense forms of the _-myśleć_ verbs of the type: _wymyśleć (wymyślę, wymyślisz, wymyśli...)_
 - [x] Support for future-tense forms of the _-patrzeć_ verbs of the type: _wypatrzeć (wypatrzę, wypatrzysz, wypatrzy...)_
+- [x] Support for future-tense forms of the _-otrzeć_ verbs of the type: _dotrzeć (dotrę, dotrzesz, dotrze...)_
 - [x] Support for future-tense forms of the _-wziąć_ verbs of the type: _powziąć (powezmę, poweźmiesz, poweźmie...)_
 - [x] Support for future-tense forms of the _-biec_ verbs of the type: _pobiec (pobiegnę, pobiegniesz, pobiegnie...)_
 - [x] Support for future-tense forms of the _-giąć_ verbs of the type: _zgiąć (zegnę, zegniesz, zegnie...)_
 - [x] Support for future-tense forms of the _-ijać_ verbs of the type: _wymijać (wymijam, wymijasz, wymija...)_
+- [x] Support for future-tense forms of the _-ciec_ verbs of the type: _uciec (ucieknę, uciekniesz, ucieknie...)_
 - [x] Support for future-tense forms of the _-wlec_ verbs of the type: _zawlec (zawlekę, zawleczesz, zawlecze...)_
 - [x] Support for future-tense forms of the _-piąć_ verbs of the type: _zapiąć (zapnę, zapniesz, zapnie...)_
 - [x] Support for future-tense forms of the _-piec_ verbs of the type: _upiec (upiekę, upieczesz, upiecze...)_
