@@ -1172,7 +1172,7 @@ def giac(word):
             stem = word[:1]
             conjugated_form = stem + "eg" + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
-    elif word.endswith("dgiąć"):
+    elif word.endswith("dgiąć") or word.endswith("bgiąć") or word.endswith("zgiąć"):
         print("\nPast tense (masc/fem/neut):\n")
         for pronoun, suffix in enumerate(stanac_past_suffix):
             stem = word[:-2]
