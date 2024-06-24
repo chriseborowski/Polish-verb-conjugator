@@ -1170,7 +1170,7 @@ def giac(word):
     if is_perfective:
         stop_letter_y = "y"
         stop_letter_a = "a"
-        if word == "wgiąć" or "zgiąć":
+        if word.startswith("wgiąć") or word.startswith("zgiąć"):
             print("\nPast tense (masc/fem/neut):\n")
             for pronoun, suffix in enumerate(stanac_past_suffix):
                 stem = word[:-2]
