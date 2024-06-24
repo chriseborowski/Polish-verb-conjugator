@@ -1160,7 +1160,7 @@ def wziac(word):
 
 
 # -giąć category
-def giac(word):    
+def giac(word):
     stop_letter_y = "y"
     stop_letter_a = "a"
     if word.startswith("wgiąć") or word.startswith("zgiąć"):
@@ -1174,18 +1174,7 @@ def giac(word):
             stem = word[:1]
             conjugated_form = stem + "eg" + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
-    elif stop_letter_y or stop_letter_a in word:
-        print("\nPast tense (masc/fem/neut):\n")
-        for pronoun, suffix in enumerate(stanac_past_suffix):
-            stem = word[:-2]
-            conjugated_form = stem + suffix
-            print(pronouns[pronoun] + " " + conjugated_form)
-        print("\nFuture tense:\n")
-        for pronoun, suffix in enumerate(zapiac_suffix):
-            stem = word[:-3]
-            conjugated_form = stem + suffix
-            print(pronouns[pronoun] + " " + conjugated_form)
-    else:
+    elif word.endswith("dgiąć"):
         print("\nPast tense (masc/fem/neut):\n")
         for pronoun, suffix in enumerate(stanac_past_suffix):
             stem = word[:-2]
@@ -1196,6 +1185,18 @@ def giac(word):
             stem = word[:-4]
             conjugated_form = stem + "eg" + suffix
             print(pronouns[pronoun] + " " + conjugated_form)
+    else:
+        print("\nPast tense (masc/fem/neut):\n")
+        for pronoun, suffix in enumerate(stanac_past_suffix):
+            stem = word[:-2]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+        print("\nFuture tense:\n")
+        for pronoun, suffix in enumerate(zapiac_suffix):
+            stem = word[:-3]
+            conjugated_form = stem + suffix
+            print(pronouns[pronoun] + " " + conjugated_form)
+
 
 # odpiąć category
 odpiac_suffix = ["epnę", "epniesz", "epnie", "epniemy", "epniecie", "epną"]
