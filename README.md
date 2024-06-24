@@ -233,7 +233,7 @@ The latest version supports the following functionalities:
 - [x] Support for future-tense forms of the _-otrzeć_ verbs of the type: _dotrzeć (dotrę, dotrzesz, dotrze...)_
 - [x] Support for future-tense forms of the _-wziąć_ verbs of the type: _powziąć (powezmę, poweźmiesz, poweźmie...)_
 - [x] Support for future-tense forms of the _-biec_ verbs of the type: _pobiec (pobiegnę, pobiegniesz, pobiegnie...)_
-- [x] Support for future-tense forms of the _-giąć_ verbs of the type: _zgiąć (zegnę, zegniesz, zegnie...)_
+- [x] Support for future-tense forms of the _-giąć_ verbs of the type: _zgiąć (zegnę, zegniesz, zegnie...)_, including with epenthetic _e_ of the type: _wgiąć (wegnę, wegniesz, wegnie...)_ / _podgiąć (podegnę, podegniesz, podegnie...)_
 - [x] Support for future-tense forms of the _-ijać_ verbs of the type: _wymijać (wymijam, wymijasz, wymija...)_
 - [x] Support for future-tense forms of the _-ciec_ verbs of the type: _uciec (ucieknę, uciekniesz, ucieknie...)_
 - [x] Support for future-tense forms of the _-wlec_ verbs of the type: _zawlec (zawlekę, zawleczesz, zawlecze...)_
