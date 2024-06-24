@@ -1161,8 +1161,6 @@ def wziac(word):
 
 # -giąć category
 def giac(word):
-    stop_letter_y = "y"
-    stop_letter_a = "a"
     if word.startswith("wgiąć") or word.startswith("zgiąć"):
         print("\nPast tense (masc/fem/neut):\n")
         for pronoun, suffix in enumerate(stanac_past_suffix):
