@@ -268,4 +268,6 @@ The latest version supports the following functionalities:
 
 ## License
 
+Distributed under the Creative Commons Attribution-NonCommercial-NoDerivs (CC BY-NC-ND) license. See license.txt for more information.
+
 ## Contact
